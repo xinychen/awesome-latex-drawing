@@ -44,6 +44,8 @@ Our Examples
 
 - Open [AuTF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex) in your overleaf project, you will see the following picture:
 
+![autf](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.png)
+
   > Augmented tensor factorization (AuTF) model in our recent study.
 
 Official Links
