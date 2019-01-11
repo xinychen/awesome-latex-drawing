@@ -40,6 +40,12 @@ Our Examples
 
   > Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
 
+### Tensor Factorization
+
+- Open [AuTF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex) in your overleaf project, you will see the following picture:
+
+  > Augmented tensor factorization (AuTF) model in our recent study.
+
 Official Links
 --------------
 
