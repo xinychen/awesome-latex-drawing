@@ -29,7 +29,7 @@ Official Links
 Usage
 --------------
 
-> It is not necessary to install any package or even LaTeX in your personal computer because the online system like *overleaf* supports all what you want.
+> It is not necessary to install any package or even LaTeX in your personal computer because the online system like *overleaf* supports all that you want.
 
 Open [*overleaf.com*](https://www.overleaf.com/) in your Chrome.
 
@@ -46,17 +46,11 @@ Tools
 Our Examples
 --------------
 
-.. figure:: https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.png
-   :align: center
-   :alt: Bayesian network.
+Open [BCPF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex) in your overleaf project, you will have:
 
-   BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
+![framework](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.png)
 
-.. figure:: http://i.imgur.com/CBZqL.png
-   :align: center
-   :alt: Citation influence model
-
-   Directed factor graph of the citation influence model.
+  > BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
 
 Libraries
 --------------
