@@ -6,27 +6,13 @@ This project contains a lot of awesome LaTeX documents for drawing Bayesian netw
 Contents
 --------
 
--   [Official Links](#official-links)
 -   [Usage](#usage)
--   [Tools](#tools)
 -   [Our Examples](#our-examples)
     -   [Bayesian Networks](#bayesian-networks)
     -   [Research Frameworks](#research-frameworks)
+    -   [Official Links](#official-links)
 -   [Libraries](#libraries)
 -   [Related Projects](#related-projects)
-
-Official Links
---------------
-
-### PGF/TikZ
-
--   [SourceForge](https://sourceforge.net/projects/pgf/) - Code, releases, support and bug reports.
--   [CTAN](https://www.ctan.org/pkg/pgf) - Latest version release.
-
-### PGFPlots
-
--   [SourceForge](http://pgfplots.sourceforge.net/) - Code, releases, support and bug reports.
--   [CTAN](https://www.ctan.org/pkg/pgfplots) - Latest version release.
 
 Usage
 --------------
@@ -34,16 +20,6 @@ Usage
 > It is not necessary to install any package or even LaTeX in your personal computer because the online system like *overleaf* supports all that you want.
 
 Open [*overleaf.com*](https://www.overleaf.com/) in your Chrome.
-
-Tools
---------------
-
--   [tikzedt](http://www.tikzedt.org/) - A combined WYSIWYG/text editor designed for editing Tikz code.
--   [ktikz](https://github.com/fhackenberger/ktikz) - Provides a nice user interface for making pictures using TikZ.
--   [gratex](https://sourceforge.net/projects/gratex/) - Visual graph creator for LaTeX (PGF & TikZ).
--   [itikz](https://github.com/jbn/itikz) - Cell and line magic for PGF/TikZ-to-SVG rendering in Jupyter notebooks.
--   [matlab2tikz](https://github.com/matlab2tikz/matlab2tikz) - Converts MATLAB®/Octave figures to TikZ/pgfplots figures.
--   [matplotlib2tikz](https://github.com/nschloe/matplotlib2tikz) - Convert matplotlib figure and spits out a TikZ/PGFplots figure.
 
 Our Examples
 --------------
@@ -63,6 +39,19 @@ Our Examples
 ![framework](https://github.com/xinychen/transdim/blob/master/images/framework.png)
 
   > Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
+
+Official Links
+--------------
+
+  ### PGF/TikZ
+
+  -   [SourceForge](https://sourceforge.net/projects/pgf/) - Code, releases, support and bug reports.
+  -   [CTAN](https://www.ctan.org/pkg/pgf) - Latest version release.
+
+  ### PGFPlots
+
+  -   [SourceForge](http://pgfplots.sourceforge.net/) - Code, releases, support and bug reports.
+  -   [CTAN](https://www.ctan.org/pkg/pgfplots) - Latest version release.
 
 Libraries
 --------------
