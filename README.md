@@ -46,15 +46,17 @@ Tools
 Our Examples
 --------------
 
-- **Open [BCPF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex) in your overleaf project, you will see the following picture:**
+- Open [BCPF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex) in your overleaf project, you will see the following picture:
 
 ![BCPF](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.png)
 
   > BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
 
-- **Open [tc_framework.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex) and upload [curve1](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve1.pdf) and [curve2](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve2.pdf) in your overleaf project, you will see the following picture:**
+- Open [tc_framework.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex) and upload [curve1](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve1.pdf) and [curve2](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve2.pdf) in your overleaf project, you will see the following picture:
 
 ![framework](https://github.com/xinychen/transdim/blob/master/images/framework.png)
+
+  > Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
 
 Libraries
 --------------
