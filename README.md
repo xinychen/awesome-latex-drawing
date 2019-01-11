@@ -10,6 +10,8 @@ Contents
 -   [Usage](#usage)
 -   [Tools](#tools)
 -   [Our Examples](#our-examples)
+  -   [Bayesian Networks](#bayesian-networks)
+  -   [Research Frameworks](#research-frameworks)
 -   [Libraries](#libraries)
 -   [Related Projects](#related-projects)
 
@@ -46,11 +48,15 @@ Tools
 Our Examples
 --------------
 
+### Bayesian Networks
+
 - Open [BCPF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex) in your overleaf project, you will see the following picture:
 
 ![BCPF](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.png)
 
   > BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
+
+### Research Frameworks
 
 - Open [tc_framework.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex) and upload [curve1.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve1.pdf) and [curve2.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve2.pdf) in your overleaf project, you will see the following picture:
 
@@ -137,7 +143,5 @@ Related Projects
 --------------
 
 - [tikz-bayesnet](https://github.com/jluttine/tikz-bayesnet)
-
 - [awesome-tikz](https://github.com/xiaohanyu/awesome-tikz)
-
 - [transdim](https://github.com/xinychen/transdim)
