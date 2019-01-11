@@ -10,7 +10,7 @@ Contents
 -   [Our Examples](#our-examples)
     -   [Bayesian Networks](#bayesian-networks)
     -   [Research Frameworks](#research-frameworks)
-    -   [Official Links](#official-links)
+-   [Official Links](#official-links)
 -   [Libraries](#libraries)
 -   [Related Projects](#related-projects)
 
