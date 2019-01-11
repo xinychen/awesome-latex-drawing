@@ -10,8 +10,8 @@ Contents
 -   [Usage](#usage)
 -   [Tools](#tools)
 -   [Our Examples](#our-examples)
-  -   [Bayesian Networks](#bayesian-networks)
-  -   [Research Frameworks](#research-frameworks)
+    -   [Bayesian Networks](#bayesian-networks)
+    -   [Research Frameworks](#research-frameworks)
 -   [Libraries](#libraries)
 -   [Related Projects](#related-projects)
 
