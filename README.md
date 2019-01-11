@@ -9,8 +9,8 @@ Contents
 -   [Official Links](#official-links)
 -   [Usage](#usage)
 -   [Tools](#tools)
--   [Libraries](#libraries)
 -   [Our Examples](#our-examples)
+-   [Libraries](#libraries)
 -   [Videos](#related-projects)
 
 Official Links
@@ -42,6 +42,21 @@ Tools
 -   [itikz](https://github.com/jbn/itikz) - Cell and line magic for PGF/TikZ-to-SVG rendering in Jupyter notebooks.
 -   [matlab2tikz](https://github.com/matlab2tikz/matlab2tikz) - Converts MATLAB®/Octave figures to TikZ/pgfplots figures.
 -   [matplotlib2tikz](https://github.com/nschloe/matplotlib2tikz) - Convert matplotlib figure and spits out a TikZ/PGFplots figure.
+
+Our Examples
+--------------
+
+.. figure:: https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.png
+   :align: center
+   :alt: Bayesian network.
+
+   BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
+
+.. figure:: http://i.imgur.com/CBZqL.png
+   :align: center
+   :alt: Citation influence model
+
+   Directed factor graph of the citation influence model.
 
 Libraries
 --------------
@@ -117,11 +132,6 @@ From [CTAN](http://www.ctan.org/tex-archive/graphics/pgf/contrib/):
 -   [tkz-berge](https://www.ctan.org/pkg/tkz-berge) - Macros for drawing graphs of graph theory.
 -   [tkz-orm](http://www.ctan.org/tex-archive/graphics/pgf/contrib/tkz-orm) - Create Object-Role Model (ORM) diagrams.
 -   [xebaposter](http://www.ctan.org/tex-archive/graphics/pgf/contrib/xebaposter) - Create beautiful scientific Persian/Latin posters using TikZ.
-
-Our Examples
---------------
-
-
 
 Related Projects
 --------------
