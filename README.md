@@ -11,7 +11,7 @@ Contents
 -   [Tools](#tools)
 -   [Our Examples](#our-examples)
 -   [Libraries](#libraries)
--   [Videos](#related-projects)
+-   [Related Projects](#related-projects)
 
 Official Links
 --------------
@@ -139,3 +139,5 @@ Related Projects
 - [tikz-bayesnet](https://github.com/jluttine/tikz-bayesnet)
 
 - [awesome-tikz](https://github.com/xiaohanyu/awesome-tikz)
+
+- [transdim](https://github.com/xinychen/transdim)
