@@ -1,0 +1,303 @@
+\documentclass[tikz,border=0.1cm]{standalone}
+\usepackage{tikz,tikz-3dplot}
+\usepackage{amsmath,amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{xcolor}
+
+\begin{document}
+\newcommand{\Depth}{2}
+\newcommand{\Height}{2}
+\newcommand{\Width}{2}
+\newcommand{\xx}{1}
+\newcommand{\yy}{1}
+\newcommand{\zz}{1}
+\newcommand{\xxx}{3.6}
+\newcommand{\yyy}{0.8}
+\newcommand{\zzz}{1}
+\newcommand{\xa}{5}
+\newcommand{\ya}{-0.2}
+\newcommand{\za}{1}
+\newcommand{\xb}{6.4}
+\newcommand{\yb}{-0.2}
+\newcommand{\zb}{1}
+\newcommand{\xc}{7.8}
+\newcommand{\yc}{-0.2}
+\newcommand{\zc}{1}
+\newcommand{\xd}{9.2}
+\newcommand{\yd}{-0.3}
+\newcommand{\ye}{1.1}
+\newcommand{\zd}{1}
+
+\begin{tikzpicture}
+\coordinate (O) at (0,0,0);
+\coordinate (A) at (0,\Width,0);
+\coordinate (B) at (0,\Width,\Height);
+\coordinate (C) at (0,0,\Height);
+\coordinate (D) at (\Depth,0,0);
+\coordinate (E) at (\Depth,\Width,0);
+\coordinate (F) at (\Depth,\Width,\Height);
+\coordinate (G) at (\Depth,0,\Height);
+\draw[red!60!black,fill=red!5] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[red!60!black,fill=red!5] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[red!60!black,fill=red!5] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[red!60!black,fill=red!5,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[red!60!black,fill=red!5,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[red!60!black,fill=red!5,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\coordinate (O) at (0+\xx,0+\yy,0+\zz);
+\coordinate (A) at (0+\xx,0.25\Width+\yy,0+\zz);
+\coordinate (B) at (0+\xx,0.25\Width+\yy,0.25\Height+\zz);
+\coordinate (C) at (0+\xx,0+\yy,0.25\Height+\zz);
+\coordinate (D) at (0.25\Depth+\xx,0+\yy,0+\zz);
+\coordinate (E) at (0.25\Depth+\xx,0.25\Width+\yy,0+\zz);
+\coordinate (F) at (0.25\Depth+\xx,0.25\Width+\yy,0.25\Height+\zz);
+\coordinate (G) at (0.25\Depth+\xx,0+\yy,0.25\Height+\zz);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+\draw (0.2,-1.2,0) node {\scriptsize{\color{gray}$n$}};
+\draw (0.2,-0.95,0) node[rotate = 0] {{\color{gray!65}$\underbrace{\hspace{2cm}}$}};
+\draw (-0.4,1,2) node[rotate = 90] {\scriptsize{\color{gray}$m$}};
+\draw (-0.15,1,2) node[rotate = 270] {{\color{gray!65}$\underbrace{\hspace{2cm}}$}};
+\draw (2.5,-0.2,1.4) node[rotate = 45] {\scriptsize{\color{gray}$f$}};
+\draw (2.2,0,1.2) node[rotate = 45] {{\color{gray!65}$\underbrace{\hspace{1.1cm}}$}};
+\draw [draw=gray!75,thick,->] (0.8,0.1,1) -- (1,0.8,1) node [right] {{\color{green!50!black}$y_{ijt}$}};
+\draw (0.8,0,1) node {\scriptsize{\color{gray}$(i,j,t)$-th}};
+\draw (1,-1.2,1) node {\color{black}$\mathcal{Y}\in\mathbb{R}^{m\times n\times f}$};
+
+\draw (2.6,0.5,0) node[rotate = 0] {{\color{black}\large{$\approx$}}};
+
+\coordinate (O) at (0+\xxx,0+\yyy,0+\zzz);
+\coordinate (A) at (0+\xxx,0.25\Width+\yyy,0+\zzz);
+\coordinate (B) at (0+\xxx,0.25\Width+\yyy,0.25\Height+\zzz);
+\coordinate (C) at (0+\xxx,0+\yyy,0.25\Height+\zzz);
+\coordinate (D) at (0.25\Depth+\xxx,0+\yyy,0+\zzz);
+\coordinate (E) at (0.25\Depth+\xxx,0.25\Width+\yyy,0+\zzz);
+\coordinate (F) at (0.25\Depth+\xxx,0.25\Width+\yyy,0.25\Height+\zzz);
+\coordinate (G) at (0.25\Depth+\xxx,0+\yyy,0.25\Height+\zzz);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\draw (\xxx,\yyy-0.5,\zzz) node {\color{black}$\mu\in\mathbb{R}$};
+\draw (4,0.5,0) node[rotate = 0] {{\color{black}\large{$+$}}};
+
+\coordinate (O) at (0+\xa,0+\ya,0+\za);
+\coordinate (A) at (0+\xa,\Width+\ya,0+\za);
+\coordinate (B) at (0+\xa,\Width+\ya,0.25\Height+\za);
+\coordinate (C) at (0+\xa,0+\ya,0.25\Height+\za);
+\coordinate (D) at (0.25\Depth+\xa,0+\ya,0+\za);
+\coordinate (E) at (0.25\Depth+\xa,\Width+\ya,0+\za);
+\coordinate (F) at (0.25\Depth+\xa,\Width+\ya,0.25\Height+\za);
+\coordinate (G) at (0.25\Depth+\xa,0+\ya,0.25\Height+\za);
+\draw[red!60,fill=yellow!25] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[red!60,fill=yellow!25] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[red!60,fill=yellow!25] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[red!60,fill=yellow!25,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[red!60,fill=yellow!25,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[red!60,fill=yellow!25,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\coordinate (O) at (0+\xa,0+\yy,0+\za);
+\coordinate (A) at (0+\xa,0.25\Width+\yy,0+\za);
+\coordinate (B) at (0+\xa,0.25\Width+\yy,0.25\Height+\za);
+\coordinate (C) at (0+\xa,0+\yy,0.25\Height+\za);
+\coordinate (D) at (0.25\Depth+\xa,0+\yy,0+\za);
+\coordinate (E) at (0.25\Depth+\xa,0.25\Width+\yy,0+\za);
+\coordinate (F) at (0.25\Depth+\xa,0.25\Width+\yy,0.25\Height+\za);
+\coordinate (G) at (0.25\Depth+\xa,0+\yy,0.25\Height+\za);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\draw[red!60] (0.25\Depth+\xa,\Width+\ya,0.25\Height+\za) -- (0.25\Depth+\xa,0+\ya,0.25\Height+\za);
+\draw (\xa,\yy-1.9,\zz) node {\color{black}$\boldsymbol{\phi}\in\mathbb{R}^{m}$};
+\draw (\xa-0.3,\yy+0.05,\zz) node {\color{green!50!black}$\phi_{i}$};
+
+\draw (5.4,0.5,0) node[rotate = 0] {{\color{black}\large{$+$}}};
+
+\coordinate (O) at (0+\xb,0+\yb,0+\zb);
+\coordinate (A) at (0+\xb,\Width+\yb,0+\zb);
+\coordinate (B) at (0+\xb,\Width+\yb,0.25\Height+\zb);
+\coordinate (C) at (0+\xb,0+\yb,0.25\Height+\zb);
+\coordinate (D) at (0.25\Depth+\xb,0+\ya,0+\zb);
+\coordinate (E) at (0.25\Depth+\xb,\Width+\yb,0+\zb);
+\coordinate (F) at (0.25\Depth+\xb,\Width+\yb,0.25\Height+\zb);
+\coordinate (G) at (0.25\Depth+\xb,0+\yb,0.25\Height+\zb);
+\draw[red!60,fill=blue!15] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[red!60,fill=blue!15] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[red!60,fill=blue!15] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[red!60,fill=blue!15,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[red!60,fill=blue!15,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[red!60,fill=blue!15,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\coordinate (O) at (0+\xb,0+\yy-0.2,0+\za);
+\coordinate (A) at (0+\xb,0.25\Width+\yy-0.2,0+\za);
+\coordinate (B) at (0+\xb,0.25\Width+\yy-0.2,0.25\Height+\za);
+\coordinate (C) at (0+\xb,0+\yy-0.2,0.25\Height+\za);
+\coordinate (D) at (0.25\Depth+\xb,0+\yy-0.2,0+\za);
+\coordinate (E) at (0.25\Depth+\xb,0.25\Width+\yy-0.2,0+\za);
+\coordinate (F) at (0.25\Depth+\xb,0.25\Width+\yy-0.2,0.25\Height+\za);
+\coordinate (G) at (0.25\Depth+\xb,0+\yy-0.2,0.25\Height+\za);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\draw[red!60] (0.25\Depth+\xb,\Width+\yb,0.25\Height+\zb) -- (0.25\Depth+\xb,0+\yb,0.25\Height+\zb);
+\draw (\xb,\yy-1.9,\zz) node {\color{black}$\boldsymbol{\theta}\in\mathbb{R}^{n}$};
+\draw (\xb-0.3,\yy-0.15,\zz) node {\color{green!50!black}$\theta_{j}$};
+
+\draw (6.8,0.5,0) node[rotate = 0] {{\color{black}\large{$+$}}};
+
+\coordinate (O) at (0+\xc,0+\yc,0+\zc);
+\coordinate (A) at (0+\xc,\Width+\yc,0+\zc);
+\coordinate (B) at (0+\xc,\Width+\yc,0.25\Height+\zc);
+\coordinate (C) at (0+\xc,0+\yc,0.25\Height+\zc);
+\coordinate (D) at (0.25\Depth+\xc,0+\yc,0+\zc);
+\coordinate (E) at (0.25\Depth+\xc,\Width+\yc,0+\zc);
+\coordinate (F) at (0.25\Depth+\xc,\Width+\yc,0.25\Height+\zc);
+\coordinate (G) at (0.25\Depth+\xc,0+\yc,0.25\Height+\zc);
+\draw[red!60,fill=red!15] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[red!60,fill=red!15] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[red!60,fill=red!15] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[red!60,fill=red!15,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[red!60,fill=red!15,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[red!60,fill=red!15,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\coordinate (O) at (0+\xc,0+\yy+0.1,0+\zc);
+\coordinate (A) at (0+\xc,0.25\Width+\yy+0.1,0+\zc);
+\coordinate (B) at (0+\xc,0.25\Width+\yy+0.1,0.25\Height+\zc);
+\coordinate (C) at (0+\xc,0+\yy+0.1,0.25\Height+\zc);
+\coordinate (D) at (0.25\Depth+\xc,0+\yy+0.1,0+\zc);
+\coordinate (E) at (0.25\Depth+\xc,0.25\Width+\yy+0.1,0+\zc);
+\coordinate (F) at (0.25\Depth+\xc,0.25\Width+\yy+0.1,0.25\Height+\zc);
+\coordinate (G) at (0.25\Depth+\xc,0+\yy+0.1,0.25\Height+\zc);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\draw[red!60] (0.25\Depth+\xc,\Width+\yc,0.25\Height+\zc) -- (0.25\Depth+\xc,0+\yc,0.25\Height+\zc);
+\draw (\xc,\yy-1.9,\zz) node {\color{black}$\boldsymbol{\eta}\in\mathbb{R}^{f}$};
+\draw (\xc-0.3,\yy+0.15,\zz) node {\color{green!50!black}$\eta_{t}$};
+
+\draw (\xd-1,0.5,0) node[rotate = 0] {{\color{black}\large{$+$}}};
+
+\coordinate (O) at (0+\xd,0+\yd,0+\zd);
+\coordinate (A) at (0+\xd,\Width+\yd,0+\zd);
+\coordinate (B) at (0+\xd,\Width+\yd,0.25\Height+\zd);
+\coordinate (C) at (0+\xd,0+\yd,0.25\Height+\zd);
+\coordinate (D) at (0.5\Depth+\xd,0+\yd,0+\zd);
+\coordinate (E) at (0.5\Depth+\xd,\Width+\yd,0+\zd);
+\coordinate (F) at (0.5\Depth+\xd,\Width+\yd,0.25\Height+\zd);
+\coordinate (G) at (0.5\Depth+\xd,0+\yd,0.25\Height+\zd);
+\draw[red!60,fill=yellow!25] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[red!60,fill=yellow!25] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[red!60,fill=yellow!25] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[red!60,fill=yellow!25,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[red!60,fill=yellow!25,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[red!60,fill=yellow!25,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\coordinate (O) at (0+\xd,0+\yy-0.1,0+\zd);
+\coordinate (A) at (0+\xd,0.25\Width+\yy-0.1,0+\zd);
+\coordinate (B) at (0+\xd,0.25\Width+\yy-0.1,0.25\Height+\zd);
+\coordinate (C) at (0+\xd,0+\yy-0.1,0.25\Height+\zd);
+\coordinate (D) at (0.5\Depth+\xd,0+\yy-0.1,0+\zd);
+\coordinate (E) at (0.5\Depth+\xd,0.25\Width+\yy-0.1,0+\zd);
+\coordinate (F) at (0.5\Depth+\xd,0.25\Width+\yy-0.1,0.25\Height+\zd);
+\coordinate (G) at (0.5\Depth+\xd,0+\yy-0.1,0.25\Height+\zd);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\draw[red!60] (0.5\Depth+\xd,\Width+\yd,0.25\Height+\zd) -- (0.5\Depth+\xd,0+\yd,0.25\Height+\zd);
+\draw (\xd+0.2,\yy-1.9,\zz) node {\color{black}$U\in\mathbb{R}^{m\times r}$};
+\draw (\xd-0.3,\yy-0.1,\zz) node {\color{green!50!black}$\boldsymbol{u}_{i}$};
+
+\coordinate (O) at (0+\xd+1.2,0+\ye,0+\zd);
+\coordinate (A) at (0+\xd+1.2,0.5\Width+\ye,0+\zd);
+\coordinate (B) at (0+\xd+1.2,0.5\Width+\ye,0.25\Height+\zd);
+\coordinate (C) at (0+\xd+1.2,0+\ye,0.25\Height+\zd);
+\coordinate (D) at (\Depth+\xd+1.2,0+\ye,0+\zd);
+\coordinate (E) at (\Depth+\xd+1.2,0.5\Width+\ye,0+\zd);
+\coordinate (F) at (\Depth+\xd+1.2,0.5\Width+\ye,0.25\Height+\zd);
+\coordinate (G) at (\Depth+\xd+1.2,0+\ye,0.25\Height+\zd);
+\draw[red!60,fill=blue!15] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[red!60,fill=blue!15] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[red!60,fill=blue!15] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[red!60,fill=blue!15,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[red!60,fill=blue!15,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[red!60,fill=blue!15,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\coordinate (O) at (0+\xd+2.5,0+\ye,0+\zd);
+\coordinate (A) at (0+\xd+2.5,0.5\Width+\ye,0+\zd);
+\coordinate (B) at (0+\xd+2.5,0.5\Width+\ye,0.25\Height+\zd);
+\coordinate (C) at (0+\xd+2.5,0+\ye,0.25\Height+\zd);
+\coordinate (D) at (0.25\Depth+\xd+2.5,0+\ye,0+\zd);
+\coordinate (E) at (0.25\Depth+\xd+2.5,0.5\Width+\ye,0+\zd);
+\coordinate (F) at (0.25\Depth+\xd+2.5,0.5\Width+\ye,0.25\Height+\zd);
+\coordinate (G) at (0.25\Depth+\xd+2.5,0+\ye,0.25\Height+\zd);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\draw[red!60] (0+\xd+1.2,0.5\Width+\ye,0.25\Height+\zd) -- (\Depth+\xd+1.2,0.5\Width+\ye,0.25\Height+\zd);
+\draw (\xd+2.0,\yy-0.8,\zz) node {\color{black}$V\in\mathbb{R}^{n\times r}$};
+\draw (\xd+2.6,\yy-0.3,\zz) node {\color{green!50!black}$\boldsymbol{v}_{j}$};
+
+\coordinate (O) at (0+\xd+1.2,0+\ye+1.5,0+\zd);
+\coordinate (A) at (0+\xd+1.2,0.25\Width+\ye+1.5,0+\zd);
+\coordinate (B) at (0+\xd+1.2,0.25\Width+\ye+1.5,\Height+\zd);
+\coordinate (C) at (0+\xd+1.2,0+\ye+1.5,\Height+\zd);
+\coordinate (D) at (0.5\Depth+\xd+1.2,0+\ye+1.5,0+\zd);
+\coordinate (E) at (0.5\Depth+\xd+1.2,0.25\Width+\ye+1.5,0+\zd);
+\coordinate (F) at (0.5\Depth+\xd+1.2,0.25\Width+\ye+1.5,\Height+\zd);
+\coordinate (G) at (0.5\Depth+\xd+1.2,0+\ye+1.5,\Height+\zd);
+\draw[red!60,fill=red!15] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[red!60,fill=red!15] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[red!60,fill=red!15] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[red!60,fill=red!15,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[red!60,fill=red!15,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[red!60,fill=red!15,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\coordinate (O) at (0+\xd+0.8,0+\yy+1.2,0+\zd);
+\coordinate (A) at (0+\xd+0.8,0.25\Width+\yy+1.2,0+\zd);
+\coordinate (B) at (0+\xd+0.8,0.25\Width+\yy+1.2,0.25\Height+\zd);
+\coordinate (C) at (0+\xd+0.8,0+\yy+1.2,0.25\Height+\zd);
+\coordinate (D) at (0.5\Depth+\xd+0.8,0+\yy+1.2,0+\zd);
+\coordinate (E) at (0.5\Depth+\xd+0.8,0.25\Width+\yy+1.2,0+\zd);
+\coordinate (F) at (0.5\Depth+\xd+0.8,0.25\Width+\yy+1.2,0.25\Height+\zd);
+\coordinate (G) at (0.5\Depth+\xd+0.8,0+\yy+1.2,0.25\Height+\zd);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\draw[red!60] (0.5\Depth+\xd+1.2,0.25\Width+\ye+1.5,0+\zd) -- (0.5\Depth+\xd+1.2,0.25\Width+\ye+1.5,\Height+\zd);
+\draw (\xd+2.5,\yy+1.3,\zz) node {\color{black}$X\in\mathbb{R}^{f\times r}$};
+\draw (\xd+0.5,\yy+1.4,\zz) node {\color{green!50!black}$\boldsymbol{x}_{t}$};
+
+\end{tikzpicture}
+\end{document}
