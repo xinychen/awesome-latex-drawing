@@ -34,7 +34,13 @@ Our Examples
 
 ### Research Frameworks
 
-- Open [tc_framework.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex) and upload [curve1.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve1.pdf) and [curve2.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve2.pdf) in your overleaf project, you will see the following picture:
+- Open
+  - [tc_framework.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex)
+- Upload
+  - [curve1.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve1.pdf)
+  - [curve2.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve2.pdf)
+
+in your overleaf project, you will see the following picture:
 
 ![framework](https://github.com/xinychen/transdim/blob/master/images/framework.png)
 
