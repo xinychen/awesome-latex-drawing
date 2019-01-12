@@ -32,6 +32,12 @@ Our Examples
 
   > BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
 
+- Open [BGCP.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.tex) in your overleaf project, you will see the following pictures:
+
+![BGCP](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.png)
+
+  > BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
+
 ### Research Frameworks
 
 - Open
