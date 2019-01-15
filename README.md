@@ -38,6 +38,12 @@ Our Examples
 
   > BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
 
+- Open [BATF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.tex) in your overleaf project, you will see the following pictures:
+
+![BATF](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png)
+
+  > BATF (Bayesian augmented tensor factorization) model as a Bayesian network and a directed factor graph.
+
 ### Research Frameworks
 
 - Open
