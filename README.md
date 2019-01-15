@@ -1,7 +1,7 @@
 Awesome LaTeX drawing
 ============
 
-This project contains a lot of awesome LaTeX documents for drawing Bayesian networks, graphical models and framework and helping our academic studies.
+This project contains a lot of awesome LaTeX documents for drawing Bayesian networks, graphical models and framework.
 
 Contents
 --------
@@ -38,7 +38,7 @@ Our Examples
 
   > BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
 
-- Open [BATF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.tex) in your overleaf project, you will see the following pictures:
+- Open [BATF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.tex) in your overleaf project, you will see the following picture:
 
 ![BATF](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png)
 
