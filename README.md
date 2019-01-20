@@ -38,7 +38,7 @@ Our Examples
 
   > BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
 
-- Open [BGCP-1.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.tex) in your overleaf project, you will see the following pictures:
+- Open [BGCP-1.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.tex) in your overleaf project, you will see the following picture:
 
 ![BGCP](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.png)
 
