@@ -70,6 +70,12 @@ in your overleaf project, you will see the following picture:
 
   > A graphical illustration of the partially observed time series data.
 
+  - Open [tensor_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.tex) in your overleaf project, you will see the following picture:
+
+  ![tensor_time_series](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.png)
+
+  > A graphical illustration of the partially observed time series tensor.
+
   - Open [mf-explained.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.tex) in your overleaf project, you will see the following picture:
 
   ![mf-explained](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.png)
