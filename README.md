@@ -67,8 +67,15 @@ in your overleaf project, you will see the following picture:
   - Open [graphical_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.tex) in your overleaf project, you will see the following picture:
 
   ![graphical_time_series](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png)
-  
-    > Graphical illustration of the partially observed time series data.
+
+  > Graphical illustration of the partially observed time series data.
+
+  - Open [mf-explained.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.tex) in your overleaf project, you will see the following picture:
+
+  ![mf-explained](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.png)
+
+  > Graphical illustration of matrix factorization.
+
 
 ### Tensor Factorization
 
