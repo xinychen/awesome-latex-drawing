@@ -68,16 +68,22 @@ in your overleaf project, you will see the following picture:
 
   ![graphical_time_series](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png)
 
-  > Graphical illustration of the partially observed time series data.
+  > A graphical illustration of the partially observed time series data.
 
   - Open [mf-explained.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.tex) in your overleaf project, you will see the following picture:
 
   ![mf-explained](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.png)
 
-  > Graphical illustration of matrix factorization.
+  > A graphical illustration of matrix factorization.
 
 
 ### Tensor Factorization
+
+- Open [tensor.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor.tex) in your overleaf project, you will see the following picture:
+
+![tensor](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor.png)
+
+  > A graphical illustration for the (origin,destination,time slot) tensor.
 
 - Open [AuTF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex) in your overleaf project, you will see the following picture:
 
