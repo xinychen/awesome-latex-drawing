@@ -64,6 +64,12 @@ in your overleaf project, you will see the following picture:
 
   > Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
 
+  - Open [graphical_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.tex) in your overleaf project, you will see the following picture:
+
+  ![graphical_time_series](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png)
+  
+    > Graphical illustration of the partially observed time series data.
+
 ### Tensor Factorization
 
 - Open [AuTF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex) in your overleaf project, you will see the following picture:
