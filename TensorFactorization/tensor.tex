@@ -1,0 +1,56 @@
+\documentclass[tikz,border=0.1cm]{standalone}
+\usepackage{tikz,tikz-3dplot}
+\usepackage{amsmath,amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{xcolor}
+
+\begin{document}
+\newcommand{\Depth}{2}
+\newcommand{\Height}{2}
+\newcommand{\Width}{2}
+\newcommand{\xx}{1}
+\newcommand{\yy}{1}
+\newcommand{\zz}{1}
+
+\begin{tikzpicture}
+\coordinate (O) at (0,0,0);
+\coordinate (A) at (0,\Width,0);
+\coordinate (B) at (0,\Width,\Height);
+\coordinate (C) at (0,0,\Height);
+\coordinate (D) at (\Depth,0,0);
+\coordinate (E) at (\Depth,\Width,0);
+\coordinate (F) at (\Depth,\Width,\Height);
+\coordinate (G) at (\Depth,0,\Height);
+\draw[red!60!black,fill=red!5] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[red!60!black,fill=red!5] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[red!60!black,fill=red!5] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[red!60!black,fill=red!5,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[red!60!black,fill=red!5,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[red!60!black,fill=red!5,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\coordinate (O) at (0+\xx,0+\yy,0+\zz);
+\coordinate (A) at (0+\xx,0.25\Width+\yy,0+\zz);
+\coordinate (B) at (0+\xx,0.25\Width+\yy,0.25\Height+\zz);
+\coordinate (C) at (0+\xx,0+\yy,0.25\Height+\zz);
+\coordinate (D) at (0.25\Depth+\xx,0+\yy,0+\zz);
+\coordinate (E) at (0.25\Depth+\xx,0.25\Width+\yy,0+\zz);
+\coordinate (F) at (0.25\Depth+\xx,0.25\Width+\yy,0.25\Height+\zz);
+\coordinate (G) at (0.25\Depth+\xx,0+\yy,0.25\Height+\zz);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+\draw (0.2,-1.3,0) node {\scriptsize{\color{blue}$n$ destinations}};
+\draw (0.2,-1,0) node[rotate = 0] {{\color{gray!75}$\underbrace{\hspace{2cm}}$}};
+\draw (-0.5,1,2) node[rotate = 90] {\scriptsize{\color{blue}$m$ origins}};
+\draw (-0.2,1,2) node[rotate = 270] {{\color{gray!75}$\underbrace{\hspace{2cm}}$}};
+\draw (2.5,0,1.2) node[rotate = 45] {\scriptsize{\color{blue}$f$ time slots}};
+\draw (2.2,0,1.2) node[rotate = 45] {{\color{gray!75}$\underbrace{\hspace{1.1cm}}$}};
+\draw [draw=gray!75,thick,->] (-1,1.7,1) -- (0.85,1,1) node [below] {{\color{red}$y_{ijt}$}};
+\draw (-2,1.8,1) node {\scriptsize{\color{red}$(i,j,t)$-th entry}};
+\draw (-3,0.6,1) node {{\color{red}tensor $\mathcal{Y}\in\mathbb{R}^{m\times n\times f}$}};
+\end{tikzpicture}
+\end{document}
