@@ -21,6 +21,8 @@ Usage
 
 Open [*overleaf.com*](https://www.overleaf.com/) in your Chrome.
 
+> It is not necessary to open each file in this repository because you can follow this readme document to find your needs.
+
 Our Examples
 --------------
 
