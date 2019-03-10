@@ -1,7 +1,7 @@
 Awesome LaTeX drawing
 ============
 
-This project contains a lot of awesome LaTeX documents for drawing Bayesian networks, graphical models and framework.
+This project covers a lot of personal LaTeX codes for drawing Bayesian networks, graphical models and framework.
 
 Contents
 --------
@@ -17,7 +17,7 @@ Contents
 Usage
 --------------
 
-> It is not necessary to install any package or even LaTeX in your personal computer because the online system like *overleaf* supports all that you want.
+> For many programming languages like Python, installing related packages is just the first step. Fortunately, you do not even to install any packages or even LaTeX in your PC (personal computer) because there are many online systems like overleaf make it easy to use.
 
 Open [*overleaf.com*](https://www.overleaf.com/) in your Chrome.
 
