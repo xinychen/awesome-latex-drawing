@@ -56,7 +56,7 @@ Our Examples
 
 ![btmf_net](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.png)
 
-  > BATF (Bayesian augmented tensor factorization) model as a Bayesian network and a directed factor graph.
+  > BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
 
 
 ### Research Frameworks
@@ -73,21 +73,27 @@ in your overleaf project, you will see the following picture:
 
   > Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
 
-  - Open [graphical_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.tex) in your overleaf project, you will see the following picture:
+- Open [rolling_prediction_strategy.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.tex) in your overleaf project, you will see the following picture:
 
-  ![graphical_time_series](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png)
+![rolling_prediction_strategy](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.png)
+
+  > A graphical illustration of rolling prediction strategy with temporal matrix factorization.
+
+- Open [graphical_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.tex) in your overleaf project, you will see the following picture:
+
+![graphical_time_series](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png)
 
   > A graphical illustration of the partially observed time series data.
 
-  - Open [tensor_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.tex) in your overleaf project, you will see the following picture:
+- Open [tensor_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.tex) in your overleaf project, you will see the following picture:
 
-  ![tensor_time_series](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.png)
+![tensor_time_series](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.png)
 
   > A graphical illustration of the partially observed time series tensor.
 
-  - Open [mf-explained.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.tex) in your overleaf project, you will see the following picture:
+- Open [mf-explained.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.tex) in your overleaf project, you will see the following picture:
 
-  ![mf-explained](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.png)
+![mf-explained](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.png)
 
   > A graphical illustration of matrix factorization.
 
@@ -105,19 +111,6 @@ in your overleaf project, you will see the following picture:
 ![autf](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.png)
 
   > Augmented tensor factorization (AuTF) model in our recent study.
-
-Official Links
---------------
-
-  ### PGF/TikZ
-
-  -   [SourceForge](https://sourceforge.net/projects/pgf/) - Code, releases, support and bug reports.
-  -   [CTAN](https://www.ctan.org/pkg/pgf) - Latest version release.
-
-  ### PGFPlots
-
-  -   [SourceForge](http://pgfplots.sourceforge.net/) - Code, releases, support and bug reports.
-  -   [CTAN](https://www.ctan.org/pkg/pgfplots) - Latest version release.
 
 Related Projects
 --------------
