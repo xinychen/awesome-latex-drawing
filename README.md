@@ -52,6 +52,13 @@ Our Examples
 
   > BATF (Bayesian augmented tensor factorization) model as a Bayesian network and a directed factor graph.
 
+- Open [btmf.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.tex) in your overleaf project, you will see the following picture:
+
+![btmf_net](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.png)
+
+  > BATF (Bayesian augmented tensor factorization) model as a Bayesian network and a directed factor graph.
+
+
 ### Research Frameworks
 
 - Open
