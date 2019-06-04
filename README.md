@@ -11,7 +11,6 @@ Contents
     -   [Bayesian Networks](#bayesian-networks)
     -   [Research Frameworks](#research-frameworks)
     -   [Tensor Factorization](#tensor-factorization)
--   [Official Links](#official-links)
 -   [Related Projects](#related-projects)
 
 Usage
