@@ -1,7 +1,7 @@
 Awesome LaTeX drawing
 ============
 
-This project covers a lot of personal LaTeX codes for drawing Bayesian networks, graphical models and framework.
+This project covers a lot of personal LaTeX codes for drawing Bayesian networks, graphical models, and technical framework. [[**Blogger**](https://tensor-learning.blogspot.com/2019/07/how-to-draw-graphical-illustrations-for.html)]
 
 Contents
 --------
