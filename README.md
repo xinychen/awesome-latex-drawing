@@ -57,6 +57,11 @@ Our Examples
 
   > BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
 
+- Open [BTMF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BTMF.tex) in your overleaf project, you will see the following picture:
+
+![BTMF](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BTMF.png)
+
+  > BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
 
 ### Research Frameworks
 
@@ -110,6 +115,10 @@ in your overleaf project, you will see the following picture:
 ![autf](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.png)
 
   > Augmented tensor factorization (AuTF) model in our recent study.
+
+- Open [TVART.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.tex) in our overleaf project, you will see the following picture:
+
+![TVART](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.png)
 
 Related Projects
 --------------
