@@ -1,0 +1,19 @@
+\documentclass[tikz,border={3cm 0.7cm 3cm 0.45cm}]{standalone}
+\usepackage{tikz}
+\usepackage{amsmath,amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{xcolor}
+
+
+\begin{document}
+\pagecolor{black}
+
+\begin{tikzpicture}
+\pgfdeclareimage[width=3.5cm]{img0}{jay.pdf}
+\node (img) at (0,1.8) {\pgfuseimage{img0}};
+
+\draw (0,0) node {\color{black}\Huge {\fontfamily{cmss}\selectfont {\color{red!75!black}\textbf{trans}}\textbf{\color{white}dim}}};
+
+\end{tikzpicture}
+\end{document}
