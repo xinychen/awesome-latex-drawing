@@ -120,6 +120,20 @@ in your overleaf project, you will see the following picture:
 
 ![TVART](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.png)
 
+### Awesome Stuff
+
+- Open
+  - [transdim_logo_large.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/awesome-stuff/transdim_logo_large.tex)
+- Upload
+  - [jay.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/awesome-stuff/jay.pdf)
+
+in your overleaf project, you will see the following picture:
+
+![transdim_logo](https://github.com/xinychen/awesome-latex-drawing/blob/master/awesome-stuff/transdim_logo_large.png)
+
+  > trandim logo.
+
+
 Related Projects
 --------------
 
