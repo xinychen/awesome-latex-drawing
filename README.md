@@ -1,7 +1,7 @@
 Awesome LaTeX drawing
 ============
 
-This project covers a lot of LaTeX codes for drawing Bayesian networks, graphical models, and technical framework. [[**Blogger**](https://tensor-learning.blogspot.com/2019/07/how-to-draw-graphical-illustrations-for.html)]
+This project covers a lot of LaTeX codes for drawing Bayesian networks, graphical models, and technical framework.
 
 Contents
 --------
@@ -143,6 +143,8 @@ Related Projects
 
 Our Publications
 --------------
+
+Most of these examples are from our publications:
 
 - **Xinyu Chen**, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). **Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model**. Transportation Research Part C: Emerging Technologies, 104: 66-77. [[preprint](https://xinychen.github.io/paper/BATF.pdf)] [[doi](https://doi.org/10.1016/j.trc.2019.03.003)] [[slide](https://doi.org/10.5281/zenodo.2632552)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/sysuits/BATF)]
 
