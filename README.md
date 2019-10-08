@@ -29,7 +29,7 @@ Our Examples
 
 - Open [BCPF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.png" alt="drawing" width="300"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.png" alt="drawing" width="280"/>
 
   > BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
 
@@ -106,19 +106,19 @@ in your overleaf project, then, you will see the following picture:
 
 - Open [tensor.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor.tex) in your overleaf project, then, you will see the following picture:
 
-![tensor](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor.png)
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor.png" alt="drawing" width="360"/>
 
   > A graphical illustration for the (origin,destination,time slot) tensor.
 
 - Open [AuTF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex) in your overleaf project, then, you will see the following picture:
 
-![autf](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.png)
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.png" alt="drawing" width="600"/>
 
   > Augmented tensor factorization (AuTF) model in our recent study.
 
 - Open [TVART.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.tex) in our overleaf project, then, you will see the following picture:
 
-![TVART](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.png)
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.png" alt="drawing" width="800"/>
 
 ### Awesome Stuff
 
