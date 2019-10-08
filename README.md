@@ -85,23 +85,23 @@ in your overleaf project, then, you will see the following picture:
 
 - Open [graphical_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png" alt="drawing" width="550"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png" alt="drawing" width="500"/>
 
   > A graphical illustration of the partially observed time series data.
 
 - Open [tensor_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.png" alt="drawing" width="550"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.png" alt="drawing" width="500"/>
 
   > A graphical illustration of the partially observed time series tensor.
 
 - Open [graphical_matrix_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_matrix_time_series.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_matrix_time_series.png" alt="drawing" width="550"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_matrix_time_series.png" alt="drawing" width="500"/>
 
 - Open [graphical_tensor_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_tensor_time_series.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_tensor_time_series.png" alt="drawing" width="550"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_tensor_time_series.png" alt="drawing" width="500"/>
 
 - Open [mf-explained.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.tex) in your overleaf project, then, you will see the following picture:
 
