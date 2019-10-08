@@ -73,31 +73,31 @@ Our Examples
 
 in your overleaf project, then, you will see the following picture:
 
-![framework](https://github.com/xinychen/transdim/blob/master/images/framework.png)
+<img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
 
   > Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
 
 - Open [rolling_prediction_strategy.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.tex) in your overleaf project, then, you will see the following picture:
 
-![rolling_prediction_strategy](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.png)
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.png" alt="drawing" width="500"/>
 
   > A graphical illustration of rolling prediction strategy with temporal matrix factorization.
 
 - Open [graphical_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.tex) in your overleaf project, then, you will see the following picture:
 
-![graphical_time_series](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png)
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png" alt="drawing" width="550"/>
 
   > A graphical illustration of the partially observed time series data.
 
 - Open [tensor_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.tex) in your overleaf project, then, you will see the following picture:
 
-![tensor_time_series](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.png)
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.png" alt="drawing" width="550"/>
 
   > A graphical illustration of the partially observed time series tensor.
 
 - Open [mf-explained.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.tex) in your overleaf project, then, you will see the following picture:
 
-![mf-explained](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.png)
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.png" alt="drawing" width="450"/>
 
   > A graphical illustration of matrix factorization.
 
@@ -129,7 +129,7 @@ in your overleaf project, then, you will see the following picture:
 
 in your overleaf project, then, you will see the following picture:
 
-![transdim_logo](https://github.com/xinychen/awesome-latex-drawing/blob/master/awesome-stuff/transdim_logo_large.png)
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/awesome-stuff/transdim_logo_large.png" alt="drawing" width="600"/>
 
   > trandim logo.
 
