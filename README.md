@@ -99,9 +99,13 @@ in your overleaf project, then, you will see the following picture:
 
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_matrix_time_series.png" alt="drawing" width="500"/>
 
+> Multivariate time series data prediction with missing values.
+
 - Open [graphical_tensor_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_tensor_time_series.tex) in your overleaf project, then, you will see the following picture:
 
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_tensor_time_series.png" alt="drawing" width="500"/>
+
+> Tensor time series data prediction with missing values.
 
 - Open [mf-explained.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.tex) in your overleaf project, then, you will see the following picture:
 
