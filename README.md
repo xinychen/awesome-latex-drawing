@@ -29,37 +29,37 @@ Our Examples
 
 - Open [BCPF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.png" alt="drawing" width="280"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.png" alt="drawing" width="250"/>
 
   > BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
 
 - Open [BGCP.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.tex) in your overleaf project, then, you will see the following pictures:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.png" alt="drawing" width="800"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.png" alt="drawing" width="700"/>
 
   > BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
 
 - Open [BGCP-1.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.png" alt="drawing" width="270"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.png" alt="drawing" width="250"/>
 
   > Another example for BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
 
 - Open [BATF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png" alt="drawing" width="350"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png" alt="drawing" width="320"/>
 
   > BATF (Bayesian augmented tensor factorization) model as a Bayesian network and a directed factor graph.
 
 - Open [btmf.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.png" alt="drawing" width="540"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.png" alt="drawing" width="500"/>
 
   > BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
 
 - Open [BTMF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BTMF.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BTMF.png" alt="drawing" width="540"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BTMF.png" alt="drawing" width="500"/>
 
   > BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
 
