@@ -79,9 +79,15 @@ in your overleaf project, then, you will see the following picture:
 
 - Open [rolling_prediction_strategy.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.png" alt="drawing" width="500"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.png" alt="drawing" width="450"/>
 
-  > A graphical illustration of rolling prediction strategy with temporal matrix factorization.
+  > A graphical illustration of rolling prediction strategy with temporal matrix factorization and autoregressive model.
+
+- Open [rolling_prediction.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.tex) in your overleaf project, then, you will see the following picture:
+
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="450"/>
+
+  > A graphical illustration of rolling prediction strategy with temporal matrix factorization and vector autoregressive model.
 
 - Open [graphical_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.tex) in your overleaf project, then, you will see the following picture:
 
