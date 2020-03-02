@@ -138,6 +138,13 @@ in your overleaf project, then, you will see the following picture:
 
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.png" alt="drawing" width="800"/>
 
+### Data Visualization
+
+- Open [RMseries.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.tex) in your overleaf project, then, you will see the following picture:
+
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.png" alt="drawing" width="400"/>
+
+
 ### Awesome Stuff
 
 - Open
