@@ -1,0 +1,171 @@
+\documentclass[tikz,border=0.1cm]{standalone}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{amsmath}
+
+\pgfplotsset{compat=newest}
+
+\begin{filecontents}{speed1.data}
+1	42.61
+2   45.43
+3   45.99
+4   45.37
+5   42.24
+6   36.90
+7   32.65
+8   34.37
+9   37.09
+10  33.09
+11  25.20
+\end{filecontents}
+
+\begin{filecontents}{speed2.data}
+11  25.20
+12  16.55
+13  24.89
+14  33.48
+15  38.96
+16  43.39
+17  45.01
+18  45.28
+19  44.65
+20  42.97
+21  41.04
+22  38.08
+23  39.45
+24  40.41
+25  39.41
+26  37.30
+\end{filecontents}
+
+\begin{filecontents}{speed3.data}
+26  37.30
+27  35.57
+28  36.46
+29  39.85
+30  42.33
+31  41.85
+32  44.51
+33  45.05
+34  44.45
+35  41.47
+36  36.30
+37  32.72
+38  34.45
+39  36.68
+40  33.00
+41  25.99
+\end{filecontents}
+
+\begin{filecontents}{speed4.data}
+41  25.99
+42  18.61
+43  25.82
+44  33.59
+45  39.40
+46  42.70
+47  45.33
+48  46.20
+49  45.23
+50  42.03
+51  37.69
+52  33.43
+53  35.75
+54  37.17
+55  32.57
+56  24.98
+57  18.33
+58  26.58
+59  33.05
+\end{filecontents}
+
+\begin{filecontents}{speed5.data}
+59  33.05
+60  40.26
+61  41.29
+62  44.32
+63  45.39
+64  45.11
+65  42.16
+66  36.90
+67  32.92
+68  33.84
+69  36.24
+70  33.15
+71  25.93
+72  19.16
+73  24.25
+\end{filecontents}
+
+\begin{filecontents}{speed6.data}
+73  24.25
+74  30.92
+75  38.17
+76  41.60
+77  44.24
+78  45.49
+79  45.28
+80  43.17
+81  39.65
+82  34.20
+83  34.34
+84  36.82
+85  32.93
+86  28.15
+87  25.24
+88  28.93
+89  33.23
+90  39.34
+\end{filecontents}
+
+\begin{filecontents}{speed7.data}
+90  39.34
+91  41.93
+92  44.50
+93  45.79
+94  45.61
+95  43.76
+96  40.76
+97  35.56
+98  35.55
+99  37.76
+100 33.38
+101 28.69
+102 27.10
+103 30.10
+104 33.98
+105 39.77
+\end{filecontents}
+
+\begin{document}
+\begin{tikzpicture}[domain=0:110]
+\begin{axis}[
+  height=3cm,
+  width=7cm,
+  axis x line=center,
+  axis y line=center,
+  xtick={15,30,45,60,75,90,105},
+  ytick={0},
+  xticklabels={\footnotesize$T$,\footnotesize$2T$,\footnotesize$3T$,\footnotesize$4T$,\footnotesize$5T$,\footnotesize$6T$,\footnotesize$7T$},
+  yticklabels={},
+  xlabel style={below left},
+  ylabel style={below right},
+  xmin=1,
+  xmax=115,
+  ymin=0,
+  ymax=60]
+\addplot[no marks,smooth,draw=gray!30,thick] file {speed1.data};
+\fill[green!10,draw=gray!50] (11,0) rectangle (26,55);
+\addplot[no marks,smooth,draw=cyan!60!blue,thick] file {speed2.data};
+\addplot[no marks,smooth,draw=gray!30,thick] file {speed3.data};
+\fill[green!10,draw=gray!60] (41,0) rectangle (73,55);
+\addplot[no marks,smooth,draw=cyan!60!blue,thick] file {speed4.data};
+\addplot[no marks,smooth,draw=cyan!60!blue,thick] file {speed5.data};
+\addplot[no marks,smooth,draw=gray!30,thick] file {speed6.data};
+\fill[green!10,draw=gray!60] (90,0) rectangle (105,55);
+\addplot[no marks,smooth,draw=cyan!60!blue,thick] file {speed7.data};
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
