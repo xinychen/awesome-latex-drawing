@@ -1,0 +1,78 @@
+\documentclass[tikz,border=0.1cm]{standalone}
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{amsmath}
+
+\pgfplotsset{compat=newest}
+
+\begin{document}
+
+\newcommand{\power}{10}
+
+\begin{tikzpicture}
+\fontfamily{phv}
+\scriptsize
+\begin{axis}[
+  height=5.5cm,
+  width=5cm,
+  axis x line=center,
+  axis y line=center,
+  xtick={-20,-5,5,15},
+  xticklabels={9.0,7.5,3.0,4.0},
+  ytick={20,60,100},
+  yticklabels={},
+  xgrid,
+  xlabel style={below left},
+  ylabel style={below right},
+  xmin=-35,
+  xmax=30,
+  ymin=-5,
+  ymax=130]
+  
+  
+%% RMSE
+\draw[draw=gray!60, fill=red!20] (0.5,20-14) rectangle (32.5-25,20-7-0.7);
+\draw[draw=gray!60, fill=red!20] (0.5,20-14+40) rectangle (34.1-25,20-7+40-0.7);
+\draw[draw=gray!60, fill=red!20] (0.5,20-14+80) rectangle (36.1-25,20-7+80-0.7);
+
+\draw[draw=gray!60, fill=green!20] (0.5,20-7) rectangle (37.7-25,20-0.7);
+\draw[draw=gray!60, fill=green!20] (0.5,20-7+40) rectangle (39.6-25,20+40-0.7);
+\draw[draw=gray!60, fill=green!20] (0.5,20-7+80) rectangle (41.8-25,20+80-0.7);
+
+\draw[draw=gray!60, fill=blue!20] (0.5,20) rectangle (36.1-25,20+7-0.7);
+\draw[draw=gray!60, fill=blue!20] (0.5,20+40) rectangle (36.5-25,20+7+40-0.7);
+\draw[draw=gray!60, fill=blue!20] (0.5,20+80) rectangle (36.9-25,20+7+80-0.7);
+
+\draw[draw=gray!60, fill=yellow!20] (0.5,20+7) rectangle (34.7-25,20+14-0.7);
+\draw[draw=gray!60, fill=yellow!20] (0.5,20+7+40) rectangle (36.5-25,20+14+40-0.7);
+\draw[draw=gray!60, fill=yellow!20] (0.5,20+7+80) rectangle (39.0-25,20+14+80-0.7);
+
+
+%% MAPE
+\draw[draw=gray!60, fill=red!20] (-0.5,20-14) rectangle (-75.6+70,20-7-0.7);
+\draw[draw=gray!60, fill=red!20] (-0.5,20-14+40) rectangle (-79.3+70,20-7+40-0.7);
+\draw[draw=gray!60, fill=red!20] (-0.5,20-14+80) rectangle (-83.8+70,20-7+80-0.7);
+
+\draw[draw=gray!60, fill=green!20] (-0.5,20-7) rectangle (-93.1+70,20-0.7);
+\draw[draw=gray!60, fill=green!20] (-0.5,20-7+40) rectangle (-98.3+70,20+40-0.7);
+\draw[draw=gray!60, fill=green!20] (-0.5,20-7+80) rectangle (-104.5+70,20+80-0.7);
+
+\draw[draw=gray!60, fill=blue!20] (-0.5,20) rectangle (-83.6+70,20+7-0.7);
+\draw[draw=gray!60, fill=blue!20] (-0.5,20+40) rectangle (-84.5+70,20+7+40-0.7);
+\draw[draw=gray!60, fill=blue!20] (-0.5,20+80) rectangle (-85.5+70,20+7+80-0.7);
+
+\draw[draw=gray!60, fill=yellow!20] (-0.5,20+7) rectangle (-80.8+70,20+14-0.7);
+\draw[draw=gray!60, fill=yellow!20] (-0.5,20+7+40) rectangle (-84.9+70,20+14+40-0.7);
+\draw[draw=gray!60, fill=yellow!20] (-0.5,20+7+80) rectangle (-90.8+70,20+14+80-0.7);
+
+\addplot[mark=None, very thin, dashed] plot coordinates { (-5,0) (-5,115) };
+\addplot[mark=None, very thin, dashed] plot coordinates { (5,0) (5,115) };
+\node[] at (axis cs: -12,125) {MAPE};
+\node[] at (axis cs: 12,125) {RMSE};
+
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
