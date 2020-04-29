@@ -1,0 +1,71 @@
+\documentclass[tikz,border={3cm 0.5cm 3cm 0.5cm}]{standalone}
+\usepackage{amsmath,amsthm}
+\usepackage{amssymb}
+\usepackage{bbm}
+\usepackage{amsfonts}
+\usepackage[ruled,vlined]{algorithm2e}
+\usetikzlibrary{positioning,matrix,fit,calc}
+\pgfdeclarelayer{behind}
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{behind,background,main,foreground}
+
+\begin{document}
+\begin{tikzpicture}[T/.style={text width=12em,node font=\bfseries},
+ A/.style={align=center},
+ B/.style={A,draw,text width=14em,align=left},
+ C/.style={text width=14em,align=right},
+ L/.style={node font=\tiny,text=blue},
+ F/.style={draw,dashed,fill=white},
+ font=\sffamily]
+ 
+ \matrix(mat1)[matrix of nodes,nodes={minimum width=12em}] at (0,0) {
+  |[T]| \large{\color{orange!80}Incomplete tensor} \\[1em]
+  |[A]| \pgfdeclareimage[width=4.8cm]{img}{input_tensor.pdf}
+  \pgfuseimage{img} \\
+  |[A]| Tensor $\boldsymbol{\mathcal{Y}}\in\mathbb{R}^{M\times N\times T}$ \\
+ };
+
+ \matrix(mat2)[matrix of nodes,nodes={minimum width=13em}] at (7,0) {
+  |[T]| \large{\color{orange!80}Model} \\[1em]
+  |[B]| Initialize $\boldsymbol{\mathcal{T}}^{1}=\boldsymbol{0}$, $\mathcal{P}_{\Omega}(\boldsymbol{\mathcal{M}}_{k}^{1}) = \mathcal{P}_{\Omega}(\boldsymbol{\mathcal{Y}})$, and set $\boldsymbol{\alpha},\rho,\theta$ and maximum iteration $L$. \\[1.5em]
+  |[C]| \begin{algorithm}[H]
+\For{$l = 1$ \KwTo $L$}{
+  \For{$k = 1$ \KwTo  $3$}{
+
+  Update $\boldsymbol{\mathcal{X}}_{k}^{l+1}$;
+  
+  }
+  
+  Update $\boldsymbol{\mathcal{M}}^{l+1}$;
+  
+  Update $\boldsymbol{\mathcal{T}}^{l+1}$;
+
+}
+\end{algorithm} \\
+ };
+ 
+  \matrix(mat3)[matrix of nodes,nodes={minimum width=12em}] at (14,0) {
+  |[T]| \large{\color{orange!80}Recovered tensor}\\[1em]
+  |[A]| \pgfdeclareimage[width=4.8cm]{img}{output_tensor.pdf}
+  \pgfuseimage{img} \\
+  |[A]| Tensor $\hat{\boldsymbol{\mathcal{Y}}}=\sum_{k=1}^{3}\alpha_k\boldsymbol{\mathcal{X}}_{k}^{L+1}$ \\
+ };
+
+ \begin{scope}
+  \begin{pgfonlayer}{background}
+  \node[F,fit=(mat1-1-1)(mat1-3-1),fill=gray!3](F1){};
+  \node[F,fit=(mat2-1-1)(mat2-3-1),fill=gray!3](F2){};
+  \node[F,fit=(mat3-1-1)(mat3-3-1),fill=gray!3](F3){};
+
+  \end{pgfonlayer}
+  \draw[-latex](mat2-2-1)--(mat2-3-1);
+  \node[text width=2cm] (cdots) at (4.2,0) {{\color{gray}\LARGE$\Rightarrow$}};
+  \node[text width=2cm] (cdots) at (11.2,0) {{\color{gray}\LARGE$\Rightarrow$}};
+ \end{scope}
+ \begin{scope}
+  \begin{pgfonlayer}{behind}
+  \end{pgfonlayer}
+ \end{scope}
+\end{tikzpicture}
+\end{document}
