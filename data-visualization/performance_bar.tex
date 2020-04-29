@@ -1,0 +1,88 @@
+\documentclass[tikz,border=0.1cm]{standalone}
+\usepackage{tikz}
+\usepackage{amsmath,amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{xcolor}
+
+\begin{document}
+\newcommand{\Depth}{2}
+\newcommand{\Height}{2}
+\newcommand{\Width}{2}
+\newcommand{\xxx}{0.39}
+\newcommand{\yyy}{2.13}
+\newcommand{\zzz}{1}
+
+\begin{tikzpicture}
+\fontfamily{phv}
+
+% Guangzhou data
+\draw (0,-7.6) node {\small\color{black}Data Set (G)};
+
+\pgfdeclareimage{img}{RM_Gdata.pdf}
+\node (img1) at (0,0) {\pgfuseimage{img}};
+
+\pgfdeclareimage{img}{NM_Gdata.pdf}
+\node (img2) at (0,-5) {\pgfuseimage{img}};
+
+% Birmingham data
+\draw (4.2,-7.6) node {\small\color{black}Data Set (B)};
+
+\pgfdeclareimage{img}{RM_Bdata.pdf}
+\node (img1) at (4.2,0) {\pgfuseimage{img}};
+
+\pgfdeclareimage{img}{NM_Bdata.pdf}
+\node (img2) at (4.2,-5) {\pgfuseimage{img}};
+
+% Hangzhou data
+\draw (8.4,-7.6) node {\small\color{black}Data Set (H)};
+
+\pgfdeclareimage{img}{RM_Hdata.pdf}
+\node (img1) at (8.4,0) {\pgfuseimage{img}};
+
+\pgfdeclareimage{img}{NM_Hdata.pdf}
+\node (img2) at (8.4,-5) {\pgfuseimage{img}};
+
+% Seattle data
+\draw (12.6,-7.6) node {\small\color{black}Data Set (S)};
+
+\pgfdeclareimage{img}{RM_Sdata.pdf}
+\node (img1) at (12.6,0) {\pgfuseimage{img}};
+
+\pgfdeclareimage{img}{NM_Sdata.pdf}
+\node (img2) at (12.6,-5) {\pgfuseimage{img}};
+
+\scriptsize
+\draw [mark=None, thick] plot coordinates { (-3+0.5,-1.09) (-3+0.5,1.23) };
+\draw [mark=None, very thin] plot coordinates { (-3+0.5,-1.09) (-2.85+0.5,-1.09) };
+\draw [mark=None, very thin] plot coordinates { (-3+0.5,0.07) (-2.85+0.5,0.07) };
+\draw [mark=None, very thin] plot coordinates { (-3+0.5,1.23) (-2.85+0.5,1.23) };
+\draw (-3.45+0.5,1.23) node {\color{black}70\%};
+\draw (-3.45+0.5,0.07) node {\color{black}60\%};
+\draw (-3.45+0.5,-1.09) node {\color{black}50\%};
+\draw (-3+0.5,1.7) node {\color{black}RM};
+
+\draw [mark=None, thick] plot coordinates { (-3+0.5,-1.09-5) (-3+0.5,1.23-5) };
+\draw [mark=None, very thin] plot coordinates { (-3+0.5,-1.09-5) (-2.85+0.5,-1.09-5) };
+\draw [mark=None, very thin] plot coordinates { (-3+0.5,0.07-5) (-2.85+0.5,0.07-5) };
+\draw [mark=None, very thin] plot coordinates { (-3+0.5,1.23-5) (-2.85+0.5,1.23-5) };
+\draw (-3.45+0.5,1.23-5) node {\color{black}70\%};
+\draw (-3.45+0.5,0.07-5) node {\color{black}60\%};
+\draw (-3.45+0.5,-1.09-5) node {\color{black}50\%};
+\draw (-3+0.5,1.7-5) node {\color{black}NM};
+
+\draw[draw=gray!60, fill=yellow!20] (-0.8+1,2.7) rectangle (0+1,3.0);
+\draw[draw=gray!60, fill=blue!20] (3.4+0.5,2.7) rectangle (4.2+0.5,3.0);
+\draw[draw=gray!60, fill=green!20] (7.6-0.5,2.7) rectangle (8.4-0.5,3.0);
+\draw[draw=gray!60, fill=red!20] (11.8-1,2.7) rectangle (12.6-1,3.0);
+
+\draw (0+1+0.6,2.85) node {\color{black}BTMF};
+\draw (4.2+0.5+0.6,2.85) node {\color{black}BGCP};
+\draw (8.4-0.5+0.7,2.85) node {\color{black}HaLRTC};
+\draw (12.6-1+0.8,2.85) node {\color{black}LRTC-TNN};
+
+
+
+
+\end{tikzpicture}
+\end{document}
