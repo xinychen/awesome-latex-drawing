@@ -11,6 +11,7 @@ Contents
     -   [Bayesian Networks](#bayesian-networks)
     -   [Research Frameworks](#research-frameworks)
     -   [Tensor Factorization](#tensor-factorization)
+    -   [Data Visualization](#data-visualization)
 -   [Related Projects](#related-projects)
 
 Usage
@@ -119,6 +120,14 @@ in your overleaf project, then you will see the following picture:
 
   > A graphical illustration of matrix factorization.
 
+- Open [LRTC-flow.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.tex) and upload
+  - [input_tensor.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/input_tensor.pdf)
+  - [output_tensor.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/output_tensor.tex)
+
+in your overleaf project, then you will see the following picture:
+
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.png" alt="drawing" width="700"/>
+
 
 ### Tensor Factorization
 
@@ -199,6 +208,8 @@ Our Publications
 --------------
 
 Most of these examples are from our publications:
+
+- Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. arxiv. 2003.10271. [[preprint](https://arxiv.org/abs/2003.10271)] [[data & Python code](https://github.com/xinychen/transdim)]
 
 - Xinyu Chen, Lijun Sun (2019). **Bayesian temporal factorization for multidimensional time series prediction**. arxiv. 1910.06366. [[preprint](https://arxiv.org/abs/1910.06366)] [[slide](https://xinychen.github.io/paper/Bayesian-temporal-factorization-slide.pdf)] [[data & Python code](https://github.com/xinychen/transdim)]
 
