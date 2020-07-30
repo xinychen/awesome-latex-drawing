@@ -8,7 +8,7 @@
 
 **文档目录**
 
-- 贝叶斯网络
+- [贝叶斯网络](https://github.com/xinychen/awesome-latex-drawing/blob/master/tutorial/Bayesian_nets.md)
 - 图模型
 - 技术框架
 - 数据可视化
