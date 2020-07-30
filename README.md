@@ -1,7 +1,14 @@
 Awesome LaTeX drawing
 ============
 
-This project covers a lot of LaTeX codes for drawing Bayesian networks, graphical models, technical frameworks, and data visualization cases.
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![repo size](https://img.shields.io/github/repo-size/xinychen/awesome-latex-drawing.svg)](https://github.com/xinychen/awesome-latex-drawing/archive/master.zip)
+[![GitHub stars](https://img.shields.io/github/stars/xinychen/awesome-latex-drawing.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/awesome-latex-drawing)
+
+<h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://twitter.com/chenxy346">https://twitter.com/chenxy346</a></h6>
+
+
+This project covers a lot of LaTeX codes for drawing Bayesian networks, graphical models, technical frameworks, and data visualization cases. [[说明文档 (中文版)](https://github.com/xinychen/awesome-latex-drawing/blob/master/README.md)]
 
 Contents
 --------
@@ -195,6 +202,14 @@ in your overleaf project, then, you will see the following picture:
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/awesome-stuff/transdim_logo_large.png" alt="drawing" width="600"/>
 
   > trandim logo.
+
+More Features
+--------------
+
+> Coming soon...
+
+- Documentation (English version)
+- 技术文档 (中文版)
 
 
 Related Projects
