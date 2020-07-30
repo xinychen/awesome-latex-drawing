@@ -26,7 +26,7 @@ Usage
 
 > For many programming languages like Python, installing related packages is just the first step. Fortunately, you do not even to install any packages or even LaTeX in your PC (personal computer) because there are many online systems like overleaf make it easy to use.
 
-Open [*overleaf.com*](https://www.overleaf.com/) in your Chrome.
+Open [**overleaf.com**](https://www.overleaf.com/) in your Chrome.
 
 > It is not necessary to open each file in this repository because you can just follow this readme document.
 
@@ -37,7 +37,7 @@ Our Examples
 
 - Open [BCPF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.png" alt="drawing" width="250"/>
+<img src="../BayesNet/BCPF.png" alt="drawing" width="250"/>
 
   > BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
 
