@@ -196,6 +196,14 @@ in your overleaf project, then, you will see the following picture:
 
   > trandim logo.
 
+More Features
+--------------
+
+> Coming soon...
+
+- Documentation (English version)
+- 技术文档 (中文版)
+
 
 Related Projects
 --------------
