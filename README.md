@@ -37,7 +37,7 @@ Our Examples
 
 - Open [BCPF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex) in your overleaf project, then you will see the following picture:
 
-<img src="../BayesNet/BCPF.png" alt="drawing" width="250"/>
+<img src="BayesNet/BCPF.png" alt="drawing" width="250"/>
 
   > BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
 
