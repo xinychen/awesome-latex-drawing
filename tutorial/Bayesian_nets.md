@@ -6,7 +6,30 @@ LaTeX在绘制贝叶斯网络结构方面具有天然的优势，一则是由于
 
 > `bayesnet`包的GitHub主页为[https://github.com/jluttine/tikz-bayesnet](https://github.com/jluttine/tikz-bayesnet)，主要用于绘制贝叶斯网络、图模型以及有向图结构。
 
-> **案例1: 如何绘制如下贝叶斯网络？**
+使用LaTeX绘制贝叶斯网络时，我们需要用到一些最为基本的LaTeX命令：
+
+```tex
+\documentclass[tikz, border = 0.1cm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{bayesnet}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\tikzset{>=latex}
+
+\begin{document}
+\begin{tikzpicture}
+
+\end{tikzpicture}
+\end{document}
+```
+
+在这几行基本命令中，它们各自都会发挥一定的作用：
+
+- ```{tex}\documentclass[tikz, border = 0.1cm]{standalone}```的作用在于指定所创建文件的类型，确定`tikz`绘图风格的同时可设置绘图边框的页边距，这里是0.1厘米。
+- 
+
+
+
+> **案例1: 如何绘制如下贝叶斯增强张量分解的贝叶斯网络示意图？**
 
 <p align="center">
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png" alt="drawing" width="250"/>
