@@ -9,9 +9,15 @@ LaTeX在绘制贝叶斯网络结构方面具有天然的优势，一则是由于
 > **案例1: 如何绘制如下贝叶斯网络？**
 
 <p align="center">
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png" alt="drawing" width="320"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png" alt="drawing" width="250"/>
 </p>
 
 <p align="center">
-<b>图</b>: 贝叶斯增强张量分解的贝叶斯模型示意图 (图片来自于文献[1])
+<b>图</b>: 贝叶斯增强张量分解的贝叶斯模型示意图 (图片案例取自文献[1])
 </p>
+
+
+参考文献
+------------
+
+[1] Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model. Transportation Research Part C: Emerging Technologies, 104: 66-77.
