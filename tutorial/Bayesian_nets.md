@@ -11,7 +11,7 @@
 本文将对几个具有代表性的贝叶斯网络案例进行拆分讲解，通过各行代码及其所对应的图形逐步介绍如何用LaTeX绘制出复杂的贝叶斯网络图形，不过在开始绘图之前，我们需要对贝叶斯网络所遵循的绘制原则有一个大致的了解，概括来说，这些原则包括：
 - 观测变量或者观测值要使用灰色节点表示；
 - 底层超参数无需用节点表示；
-- 除观测变量和底层超参数外的其他参数或者变量要使用白色节点表示；
+- 除观测变量和底层超参数外的其他变量要使用白色节点表示；
 - 有向边箭头的指向表示贝叶斯角度的概率依赖关系。
 
 绘制贝叶斯网络的基本语句
@@ -57,7 +57,25 @@
 <b>图</b>: 贝叶斯增强张量分解的贝叶斯模型示意图 (图片案例取自文献[1])
 </p>
 
-首先，
+基于上述的几行LaTeX绘图的基本命令，我们不妨在`\begin{tikzpicture} \end{tikzpicture}`绘制关于观测变量的节点，将其命名为`obs`，指定该节点的位置为坐标原点(0,0)。在`\node`命令中，指定节点类型为`circle`，节点边框为黑色（即`draw = black`），节点大小为0.65厘米（即`minimum size = 0.65cm`）。
+
+```tex
+\documentclass[tikz, border = 0.1cm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{bayesnet}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\tikzset{>=latex}
+
+\begin{document}
+\begin{tikzpicture}
+
+\node[circle, draw = black, fill = gray!20, inner sep = 0pt, minimum size = 0.65cm] (obs) at (0, 0) {{$y_{ijt}$}};
+
+\end{tikzpicture}
+\end{document}
+```
+
+与绘制观测变量节点类似，
 
 ```tex
 \documentclass[tikz, border = 0.1cm]{standalone}
