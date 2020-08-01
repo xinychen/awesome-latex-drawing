@@ -57,6 +57,32 @@
 <b>图</b>: 贝叶斯增强张量分解的贝叶斯模型示意图 (图片案例取自文献[1])
 </p>
 
+首先，
+
+```tex
+\documentclass[tikz, border = 0.1cm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{bayesnet}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\tikzset{>=latex}
+
+\begin{document}
+\begin{tikzpicture}
+
+\node[circle, draw = black, fill = gray!20, inner sep = 0pt, minimum size = 0.65cm] (obs) at (0, 0) {{$y_{ijt}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (ui) at (-0.9, 0.9) {{$\boldsymbol{u}_{i}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (vj) at (0, 1.8) {{$\boldsymbol{v}_{j}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (xt) at (0.9, 0.95) {{$\boldsymbol{x}_{t}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (phi) at (-0.9, -0.7) {{$\phi_{i}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (theta) at (0, -2) {{$\theta_{j}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (eta) at (0.9, -0.75) {{$\eta_{t}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (tau) at (2, 0) {{$\tau$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (mu) at (-2, 0) {{$\mu$}};
+
+\end{tikzpicture}
+\end{document}
+```
+
 
 参考文献
 ------------
