@@ -47,6 +47,8 @@
 绘制贝叶斯增强张量分解的贝叶斯网络
 --------------
 
+> **绘图任务**：如何使用LaTeX绘制出如下贝叶斯增强张量分解的贝叶斯网络？
+
 <p align="center">
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png" alt="drawing" width="280"/>
 </p>
@@ -54,6 +56,8 @@
 <p align="center">
 <b>图</b>: 贝叶斯增强张量分解的贝叶斯模型示意图 (图片案例取自文献[1])
 </p>
+
+### 绘制观测变量节点
 
 以上述的几行LaTeX绘图的基本命令为基础，我们不妨在`\begin{tikzpicture} \end{tikzpicture}`之间编写关于绘制观测变量节点的代码：首先，我们将观测变量节点命名为`obs`，在`\node`命令中，指定该节点的位置为坐标原点(0,0)，指定节点类型为`circle`，另外令节点边框为黑色（即`draw = black`）、节点大小为0.65厘米（即`minimum size = 0.65cm`）。
 
@@ -83,6 +87,8 @@
 <b>图</b>: 绘制贝叶斯模型的观测变量节点
 </p>
 
+### 绘制模型参数节点
+
 与绘制观测变量节点类似，
 
 ```tex
@@ -108,6 +114,14 @@
 \end{tikzpicture}
 \end{document}
 ```
+
+<p align="center">
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_02.png" alt="drawing" width="900"/>
+</p>
+
+<p align="center">
+<b>图</b>: 绘制贝叶斯模型的模型参数节点
+</p>
 
 
 参考文献
