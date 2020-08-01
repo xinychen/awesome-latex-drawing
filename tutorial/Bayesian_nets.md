@@ -2,7 +2,7 @@
 贝叶斯网络
 -----------
 
-LaTeX在绘制贝叶斯网络结构方面具有天然的优势，一则是我们在使用LaTeX绘图的过程中，LaTeX能够最大程度上支持复杂的公式符号；二则则是得益于LaTeX的一系列兼容性极好的图模型绘制包，其中，最具代表性且使用最为广泛的包莫过于`bayesnet`，结合LaTeX中的绘图包`tikz`，我们几乎可以使用LaTeX画出近乎完美的贝叶斯网络。
+LaTeX在绘制贝叶斯网络结构方面具有天然的优势，一是由于我们在使用LaTeX绘图的过程中，LaTeX能够最大程度上支持复杂的公式符号；二是得益于LaTeX的一系列兼容性极好的图模型绘制包，其中，最具代表性且使用最为广泛的包莫过于`bayesnet`。结合LaTeX中的绘图包`tikz`，我们可以使用LaTeX画出近乎完美的贝叶斯网络。
 
 > `bayesnet`包的GitHub主页为[https://github.com/jluttine/tikz-bayesnet](https://github.com/jluttine/tikz-bayesnet)，主要用于绘制贝叶斯网络、图模型以及有向图结构。
 
