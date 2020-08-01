@@ -75,6 +75,14 @@
 \end{document}
 ```
 
+<p align="center">
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_01.png" alt="drawing" width="800"/>
+</p>
+
+<p align="center">
+<b>图</b>: 在LaTeX在线系统[overleaf.com](overleaf.com)中绘制贝叶斯模型，将绘制观测变量的代码复制到overleaf项目中即可得到该图。
+</p>
+
 与绘制观测变量节点类似，
 
 ```tex
