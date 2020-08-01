@@ -8,7 +8,7 @@
 
 > `bayesnet`库是基于LaTeX绘图工具包`tikz`构建起来的贝叶斯网络绘图工具库，主要用于绘制贝叶斯网络、图模型以及有向图结构，其GitHub开发主页为[https://github.com/jluttine/tikz-bayesnet](https://github.com/jluttine/tikz-bayesnet)。
 
-本文将对几个具有代表性的贝叶斯网络案例进行拆分讲解，通过介绍各行代码及其所对应的图形，逐步讲解如何用LaTeX绘制出复杂的贝叶斯网络结构图，在开始绘图之前，我们介绍几个绘制贝叶斯网络所遵循的原则：
+本文将对几个具有代表性的贝叶斯网络案例进行拆分讲解，通过介绍各行代码及其所对应的绘图图形，逐步讲解如何用LaTeX绘制出复杂的贝叶斯网络，在开始绘图之前，我们不妨回顾一下贝叶斯网络所遵循的几项绘图原则：
 - 观测变量或者观测值要使用灰色节点表示；
 - 底层超参数无需用节点表示；
 - 除观测变量和底层超参数外的其他变量要使用白色节点表示；
@@ -44,8 +44,6 @@
   - `\begin{document} \end{document}`是LaTeX编辑各类文档时首先要申明的语句，在`\begin`和`\end`之间写语句才能有效地映射到所创建的文档中。
   - `\begin{tikzpicture} \end{tikzpicture}`是用于生成`tikz`绘图的基本语句，在`tikzpicture`中，我们可以通过指定各个节点(`\node`)的横纵坐标来进行绘图。
 
-> 目前，在线LaTeX编辑系统[overleaf.com](overleaf.com)可供...
-
 绘制贝叶斯增强张量分解的贝叶斯网络
 --------------
 
@@ -57,7 +55,7 @@
 <b>图</b>: 贝叶斯增强张量分解的贝叶斯模型示意图 (图片案例取自文献[1])
 </p>
 
-基于上述的几行LaTeX绘图的基本命令，我们不妨在`\begin{tikzpicture} \end{tikzpicture}`绘制关于观测变量的节点，将其命名为`obs`，指定该节点的位置为坐标原点(0,0)。在`\node`命令中，指定节点类型为`circle`，节点边框为黑色（即`draw = black`），节点大小为0.65厘米（即`minimum size = 0.65cm`）。
+以上述的几行LaTeX绘图的基本命令为基础，我们不妨在`\begin{tikzpicture} \end{tikzpicture}`之间编写关于绘制观测变量节点的代码：首先，我们将观测变量节点命名为`obs`，在`\node`命令中，指定该节点的位置为坐标原点(0,0)，指定节点类型为`circle`，另外令节点边框为黑色（即`draw = black`）、节点大小为0.65厘米（即`minimum size = 0.65cm`）。
 
 ```tex
 \documentclass[tikz, border = 0.1cm]{standalone}
@@ -75,12 +73,14 @@
 \end{document}
 ```
 
+将这几行简单的代码复制粘贴到所创建的overleaf项目中，即可得到我们希望得到的观测变量节点示意图。另外，从下图可以看出，左侧为代码区域，右侧为画图文档区域，我们在在线LaTeX编辑系统[overleaf.com](overleaf.com)中创建的项目名称为latex-drawing-tutorial.
+
 <p align="center">
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_01.png" alt="drawing" width="800"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_01.png" alt="drawing" width="900"/>
 </p>
 
 <p align="center">
-<b>图</b>: 在LaTeX在线系统[overleaf.com](overleaf.com)中绘制贝叶斯模型，将绘制观测变量的代码复制到overleaf项目中即可得到该图。
+<b>图</b>: 绘制贝叶斯模型的观测变量节点
 </p>
 
 与绘制观测变量节点类似，
