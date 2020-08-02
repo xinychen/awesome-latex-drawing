@@ -50,7 +50,7 @@
 > **绘图任务**：如何使用LaTeX绘制出如下贝叶斯增强张量分解的贝叶斯网络？
 
 <p align="center">
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png" alt="drawing" width="280"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png" alt="drawing" width="320"/>
 </p>
 
 <p align="center">
