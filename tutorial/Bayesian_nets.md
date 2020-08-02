@@ -59,7 +59,7 @@
 
 ### 绘制观测变量节点
 
-以上述的几行LaTeX绘图的基本命令为基础，我们不妨在`\begin{tikzpicture} \end{tikzpicture}`之间编写关于绘制观测变量节点的代码：首先，我们将观测变量节点命名为`obs`，在`\node`命令中，指定该节点的位置为坐标原点(0,0)，指定节点类型为`circle`，另外令节点边框为黑色（即`draw = black`）、节点大小为0.65厘米（即`minimum size = 0.65cm`）。
+以上述的几行LaTeX绘图的基本命令为基础，我们不妨在`\begin{tikzpicture} \end{tikzpicture}`之间编写关于绘制观测变量节点的代码：首先，我们将观测变量节点命名为`obs`，在`\node`命令中，指定该节点的位置为坐标原点`(0, 0)`，指定节点类型为`circle`，另外令节点边框为黑色（即`draw = black`）、节点大小为0.65厘米（即`minimum size = 0.65cm`）。
 
 ```tex
 \documentclass[tikz, border = 0.1cm]{standalone}
@@ -77,7 +77,7 @@
 \end{document}
 ```
 
-将这几行简单的代码复制粘贴到所创建的overleaf项目中，即可得到我们希望得到的观测变量节点示意图。另外，从下图可以看出，左侧为代码区域，右侧为画图文档区域，我们在在线LaTeX编辑系统[overleaf.com](overleaf.com)中创建的项目名称为latex-drawing-tutorial.
+将这几行简单的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的观测变量节点示意图。另外，从下图可以看出，左侧为代码区域，右侧为画图文档区域，我们在在线LaTeX编辑系统[overleaf.com](overleaf.com)中创建的项目名称为latex-drawing-tutorial.
 
 <p align="center">
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_01.png" alt="drawing" width="900"/>
@@ -89,7 +89,7 @@
 
 ### 绘制模型参数节点
 
-与绘制观测变量节点类似，
+与绘制观测变量节点类似，我们可以通过`\node`设计模型参数节点。
 
 ```tex
 \documentclass[tikz, border = 0.1cm]{standalone}
@@ -115,12 +115,61 @@
 \end{document}
 ```
 
+将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的观测变量节点和模型参数节点示意图。
+
 <p align="center">
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_02.png" alt="drawing" width="900"/>
 </p>
 
 <p align="center">
-<b>图</b>: 绘制贝叶斯模型的模型参数节点
+<b>图</b>: 新增贝叶斯模型的模型参数节点
+</p>
+
+### 绘制模型参数节点和观测变量节点之间的有向边
+
+紧接着上面绘制观测变量节点和模型参数节点的代码，根据已经定义好的节点，可以使用`\path`来构造有向边，其中模型参数节点和观测变量节点之间要用`edge`关联，箭头方向为`->`。
+
+```tex
+\documentclass[tikz, border = 0.1cm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{bayesnet}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\tikzset{>=latex}
+
+\begin{document}
+\begin{tikzpicture}
+
+\node[circle, draw = black, fill = gray!20, inner sep = 0pt, minimum size = 0.65cm] (obs) at (0, 0) {{$y_{ijt}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (ui) at (-0.9, 0.9) {{$\boldsymbol{u}_{i}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (vj) at (0, 1.8) {{$\boldsymbol{v}_{j}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (xt) at (0.9, 0.95) {{$\boldsymbol{x}_{t}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (phi) at (-0.9, -0.7) {{$\phi_{i}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (theta) at (0, -2) {{$\theta_{j}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (eta) at (0.9, -0.75) {{$\eta_{t}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (tau) at (2, 0) {{$\tau$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (mu) at (-2, 0) {{$\mu$}};
+
+\path [draw, ->] (ui) edge (obs);
+\path [draw, ->] (vj) edge (obs);
+\path [draw, ->] (xt) edge (obs);
+\path [draw, ->] (tau) edge (obs);
+\path [draw, ->] (mu) edge (obs);
+\path [draw, ->] (phi) edge (obs);
+\path [draw, ->] (theta) edge (obs);
+\path [draw,->] (eta) edge (obs);
+
+\end{tikzpicture}
+\end{document}
+```
+
+将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的观测变量节点、模型参数节点以及有向边示意图。
+
+<p align="center">
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_03.png" alt="drawing" width="900"/>
+</p>
+
+<p align="center">
+<b>图</b>: 新增贝叶斯模型观测变量节点和模型参数节点之间的有向边
 </p>
 
 
