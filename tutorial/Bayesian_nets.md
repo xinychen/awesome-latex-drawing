@@ -156,7 +156,7 @@
 \path [draw, ->] (mu) edge (obs);
 \path [draw, ->] (phi) edge (obs);
 \path [draw, ->] (theta) edge (obs);
-\path [draw,->] (eta) edge (obs);
+\path [draw, ->] (eta) edge (obs);
 
 \end{tikzpicture}
 \end{document}
@@ -171,6 +171,61 @@
 <p align="center">
 <b>图</b>: 新增贝叶斯模型观测变量节点和模型参数节点之间的有向边
 </p>
+
+### 绘制部分观测变量的元素集合
+
+对于部分观测变量，它可能只包括矩阵或张量元素的部分索引，因此需要指定出来。一般而言，我们可以用`\plate`在贝叶斯网络中进行标注，标注的方法是在`\plate`命令中罗列需要覆盖的变量。以第一个plate为例，我们可以将`{(obs) (ui) (m) (phi)}`作为所需要覆盖的集合。
+
+```tex
+\documentclass[tikz, border = 0.1cm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{bayesnet}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\tikzset{>=latex}
+
+\begin{document}
+\begin{tikzpicture}
+
+\node[circle, draw = black, fill = gray!20, inner sep = 0pt, minimum size = 0.65cm] (obs) at (0, 0) {{$y_{ijt}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (ui) at (-0.9, 0.9) {{$\boldsymbol{u}_{i}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (vj) at (0, 1.8) {{$\boldsymbol{v}_{j}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (xt) at (0.9, 0.95) {{$\boldsymbol{x}_{t}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (phi) at (-0.9, -0.7) {{$\phi_{i}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (theta) at (0, -2) {{$\theta_{j}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (eta) at (0.9, -0.75) {{$\eta_{t}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (tau) at (2, 0) {{$\tau$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (mu) at (-2, 0) {{$\mu$}};
+
+\path [draw, ->] (ui) edge (obs);
+\path [draw, ->] (vj) edge (obs);
+\path [draw, ->] (xt) edge (obs);
+\path [draw, ->] (tau) edge (obs);
+\path [draw, ->] (mu) edge (obs);
+\path [draw, ->] (phi) edge (obs);
+\path [draw, ->] (theta) edge (obs);
+\path [draw, ->] (eta) edge (obs);
+
+\node [text width = 0.2cm] (m) at (-1.1, 0.3) {\small{$m$}};
+\plate[] {plate1} {(obs) (ui) (m) (phi)} { };
+\node [text width = 0.6cm] (n) at (0, -1.55) {\small{$n$}};
+\plate[] {plate2} {(obs) (vj) (n) (theta)} { };
+\node [text width = 0.2cm] (f) at (1.1, 0.3) {\small{$f$}};
+\plate[] {plate3} {(obs) (xt) (f) (eta)} { };
+
+\end{tikzpicture}
+\end{document}
+```
+
+将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的部分观测变量的元素集合示意图。
+
+<p align="center">
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_04.png" alt="drawing" width="900"/>
+</p>
+
+<p align="center">
+<b>图</b>: 新增贝叶斯模型部分观测变量的元素集合
+</p>
+
 
 
 参考文献
