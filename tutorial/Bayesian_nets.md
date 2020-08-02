@@ -226,7 +226,84 @@
 <b>图</b>: 新增贝叶斯模型部分观测变量的元素集合
 </p>
 
+### 绘制超参数节点
 
+在这里，超参数分为待估计超参数和底层超参数，待估计超参数顾名思义是一个变量，而底层超参数则是常量。对于待估计超参数，我们仍要像绘制模型参数一样绘制它，而底层超参数则不需要带有“圆圈”，不过需要注意的是，两者都可以用`\node`命令进行绘制。
+
+```tex
+\documentclass[tikz, border = 0.1cm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{bayesnet}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\tikzset{>=latex}
+
+\begin{document}
+\begin{tikzpicture}
+
+\node[circle, draw = black, fill = gray!20, inner sep = 0pt, minimum size = 0.65cm] (obs) at (0, 0) {{$y_{ijt}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (ui) at (-0.9, 0.9) {{$\boldsymbol{u}_{i}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (vj) at (0, 1.8) {{$\boldsymbol{v}_{j}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (xt) at (0.9, 0.95) {{$\boldsymbol{x}_{t}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (phi) at (-0.9, -0.7) {{$\phi_{i}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (theta) at (0, -2) {{$\theta_{j}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (eta) at (0.9, -0.75) {{$\eta_{t}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (tau) at (2, 0) {{$\tau$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (mu) at (-2, 0) {{$\mu$}};
+
+\path [draw, ->] (ui) edge (obs);
+\path [draw, ->] (vj) edge (obs);
+\path [draw, ->] (xt) edge (obs);
+\path [draw, ->] (tau) edge (obs);
+\path [draw, ->] (mu) edge (obs);
+\path [draw, ->] (phi) edge (obs);
+\path [draw, ->] (theta) edge (obs);
+\path [draw, ->] (eta) edge (obs);
+
+\node [text width = 0.2cm] (m) at (-1.1, 0.3) {\small{$m$}};
+\plate[] {plate1} {(obs) (ui) (m) (phi)} { };
+\node [text width = 0.6cm] (n) at (0, -1.55) {\small{$n$}};
+\plate[] {plate2} {(obs) (vj) (n) (theta)} { };
+\node [text width = 0.2cm] (f) at (1.1, 0.3) {\small{$f$}};
+\plate[] {plate3} {(obs) (xt) (f) (eta)} { };
+
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (muv) at (-0.6, 2.8) {\small{$\boldsymbol{\mu}_{v}$}};
+\node[circle, draw = black, inner sep = 0pt, minimum size = 0.6cm] (lambdav) at (0.6, 2.8) {\small{$\Lambda_{v}$}};
+\node[text width = 0.8cm] (gamma) at (2, 0.8) {\small{$a_0,b_0$}};
+\node[text width = 0.8cm] (hyper1) at (-2, 0.8) {\small{$\mu_{0},\tau_{0}$}};
+\node[text width = 0.8cm] (hyper2) at (1.2, -2) {\small{$\mu_{0},\tau_{0}$}};
+\node[text width = 0.8cm] (hyper3) at (2.1, -0.75) {\small{$\mu_{0},\tau_{0}$}};
+\node[text width = 0.8cm] (hyper4) at (-2.1, -0.7) {\small{$\mu_{0},\tau_{0}$}};
+\node[text width = 0.4cm] (mu0) at (-0.6, 3.6) {\small{$\boldsymbol{\mu}_{0}$}};
+\node[text width = 0.9cm] (wnu0) at (0.6, 3.6) {\small{$W_{0},\nu_{0}$}};
+\node[text width = 0.6cm] (cdots1) at (-1, 1.6) {\Large\color{gray}{$\cdots$}};
+\node[text width = 0.6cm] (cdots2) at (1, 1.6) {\Large\color{gray}{$\cdots$}};
+
+\path [draw, ->] (muv) edge (vj);
+\path [draw, ->] (lambdav) edge (vj);
+\path [draw, ->] (lambdav) edge (muv);
+\path [draw, ->] (mu0) edge (muv);
+\path [draw, ->] (wnu0) edge (lambdav);
+\path [draw, ->] (gamma) edge (tau);
+\path [draw, ->] (hyper1) edge (mu);
+\path [draw, ->] (hyper2) edge (theta);
+\path [draw, ->] (hyper3) edge (eta);
+\path [draw, ->] (hyper4) edge (phi);
+
+\end{tikzpicture}
+\end{document}
+```
+
+将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的超参数节点及其有向边示意图。
+
+<p align="center">
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_05.png" alt="drawing" width="900"/>
+</p>
+
+<p align="center">
+<b>图</b>: 新增贝叶斯模型的超参数及其有向边
+</p>
+
+到这里，我们便完成了完整的贝叶斯网络绘制。
 
 参考文献
 ------------
