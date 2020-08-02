@@ -8,11 +8,13 @@
 
 > `bayesnet`库是基于LaTeX绘图工具包`tikz`构建起来的贝叶斯网络绘图工具库，主要用于绘制贝叶斯网络、图模型以及有向图结构，其GitHub开发主页为[https://github.com/jluttine/tikz-bayesnet](https://github.com/jluttine/tikz-bayesnet)。
 
-本文将对几个具有代表性的贝叶斯网络案例进行拆分讲解，通过介绍各行代码及其所对应的绘图图形，逐步讲解如何用LaTeX绘制出复杂的贝叶斯网络，在开始绘图之前，我们不妨回顾一下贝叶斯网络所遵循的几项绘图原则：
+本文将对几个具有代表性的贝叶斯网络案例进行拆分讲解，通过介绍各行代码及其所对应的绘图图形，逐步讲解如何用LaTeX绘制出复杂的贝叶斯网络。在开始绘图之前，我们不妨回顾一下贝叶斯网络所遵循的几项绘图原则：
 - 观测变量或者观测值要使用灰色节点表示；
 - 底层超参数无需用节点表示；
 - 除观测变量和底层超参数外的其他变量要使用白色节点表示；
 - 有向边箭头的指向表示贝叶斯角度的概率依赖关系。
+
+首先，我们在在线LaTeX编辑系统[overleaf.com](overleaf.com)中创建名称为latex-drawing-tutorial的项目，接下来就在项目中开启贝叶斯网络的LaTeX绘图之旅：
 
 绘制贝叶斯网络的基本语句
 -----------
@@ -77,7 +79,7 @@
 \end{document}
 ```
 
-将这几行简单的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的观测变量节点示意图。另外，从下图可以看出，左侧为代码区域，右侧为画图文档区域，我们在在线LaTeX编辑系统[overleaf.com](overleaf.com)中创建的项目名称为latex-drawing-tutorial.
+将这几行简单的代码复制并粘贴到之前所创建的overleaf项目中，即可得到绘制好的观测变量节点示意图。从下图可以看出，左侧为代码区域，右侧为画图文档区域。
 
 <p align="center">
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_01.png" alt="drawing" width="900"/>
@@ -115,7 +117,7 @@
 \end{document}
 ```
 
-将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的观测变量节点和模型参数节点示意图。
+同样，将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到观测变量节点和模型参数节点示意图。
 
 <p align="center">
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_02.png" alt="drawing" width="900"/>
@@ -162,7 +164,7 @@
 \end{document}
 ```
 
-将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的观测变量节点、模型参数节点以及有向边示意图。
+将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到观测变量节点、模型参数节点以及有向边示意图。
 
 <p align="center">
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_03.png" alt="drawing" width="900"/>
@@ -216,7 +218,7 @@
 \end{document}
 ```
 
-将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的部分观测变量的元素集合示意图。
+将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到部分观测变量的元素集合示意图。
 
 <p align="center">
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_04.png" alt="drawing" width="900"/>
@@ -293,7 +295,7 @@
 \end{document}
 ```
 
-将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的超参数节点及其有向边示意图。
+将这里的代码复制并粘贴到所创建的overleaf项目中，即可得到我们希望得到的包含了超参数节点及其有向边的贝叶斯网络结构图。
 
 <p align="center">
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/images/batf_05.png" alt="drawing" width="900"/>
