@@ -92,6 +92,7 @@
 ### 绘制模型参数节点
 
 与绘制观测变量节点类似，我们可以通过`\node`设计模型参数节点。
+对于模型参数节点`ui`，在`\node`命令中，指定该节点的位置为坐标`(-0.9, 0.9)`，并使用`\boldsymbol`命令加粗符号`u`。类似地，可以指定模型参数节点`vj`、`xt`、`phi`、`theta`、`eta`、`tau`、`mu`的位置坐标。
 
 ```tex
 \documentclass[tikz, border = 0.1cm]{standalone}
