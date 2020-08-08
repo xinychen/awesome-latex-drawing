@@ -129,7 +129,29 @@
 
 ### 绘制模型参数节点和观测变量节点之间的有向边
 
-紧接着上面绘制观测变量节点和模型参数节点的代码，根据已经定义好的节点，可以使用`\path`来构造有向边，其中模型参数节点和观测变量节点之间要用`edge`关联，箭头方向为`->`。
+紧接着上面绘制观测变量节点和模型参数节点的代码，根据已经定义好的节点，可以使用`\path`来构造有向边，其中模型参数节点和观测变量节点之间要用`edge`关联，箭头方向为`->`。这里，有两种办法在模型参数节点和观测变量节点之间建立有向边：
+
+- 第一种方法是依次对各个有向边进行建立，这种方法简单易懂，不足之处在于代码往往会出现冗余。
+
+```tex
+\path [draw, ->] (ui) edge (obs);
+\path [draw, ->] (vj) edge (obs);
+\path [draw, ->] (xt) edge (obs);
+\path [draw, ->] (tau) edge (obs);
+\path [draw, ->] (mu) edge (obs);
+\path [draw, ->] (phi) edge (obs);
+\path [draw, ->] (theta) edge (obs);
+\path [draw, ->] (eta) edge (obs);
+```
+
+- 第二种方法是采用LaTeX中的`\foreach`命令，即一般意义上的for循环语句，在这里，我们可以使用`\foreach`命令对集合`{ui, vj, xt, tau, mu, phi, theta, eta}`内的变量进行遍历，这样对于简化代码大有裨益。
+
+```tex
+\foreach \n in {ui, vj, xt, tau, mu, phi, theta, eta}{\path [draw, ->] (\n) edge (obs);}
+```
+
+【注释】对LaTeX中`\foreach`命令感兴趣的读者，不妨阅读Stack Overflow里面的一篇回答：[Iteration in LaTeX
+](https://stackoverflow.com/questions/2561791/iteration-in-latex/5958641)。`\foreach`的基本用法为：1) 对整数进行循环，例如，`\foreach \n in {0, ..., 22}{do something}`，2) 对字符进行循环，例如，`\foreach \n in {apples, burgers, cake}{Let's eat \n.\par}`。
 
 ```tex
 \documentclass[tikz, border = 0.1cm]{standalone}
@@ -151,14 +173,7 @@
 \node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (tau) at (2, 0) {{$\tau$}};
 \node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (mu) at (-2, 0) {{$\mu$}};
 
-\path [draw, ->] (ui) edge (obs);
-\path [draw, ->] (vj) edge (obs);
-\path [draw, ->] (xt) edge (obs);
-\path [draw, ->] (tau) edge (obs);
-\path [draw, ->] (mu) edge (obs);
-\path [draw, ->] (phi) edge (obs);
-\path [draw, ->] (theta) edge (obs);
-\path [draw, ->] (eta) edge (obs);
+\foreach \n in {ui, vj, xt, tau, mu, phi, theta, eta}{\path [draw, ->] (\n) edge (obs);}
 
 \end{tikzpicture}
 \end{document}
@@ -198,14 +213,7 @@
 \node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (tau) at (2, 0) {{$\tau$}};
 \node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (mu) at (-2, 0) {{$\mu$}};
 
-\path [draw, ->] (ui) edge (obs);
-\path [draw, ->] (vj) edge (obs);
-\path [draw, ->] (xt) edge (obs);
-\path [draw, ->] (tau) edge (obs);
-\path [draw, ->] (mu) edge (obs);
-\path [draw, ->] (phi) edge (obs);
-\path [draw, ->] (theta) edge (obs);
-\path [draw, ->] (eta) edge (obs);
+\foreach \n in {ui, vj, xt, tau, mu, phi, theta, eta}{\path [draw, ->] (\n) edge (obs);}
 
 \node [text width = 0.2cm] (m) at (-1.1, 0.3) {\small{$m$}};
 \plate[] {plate1} {(obs) (ui) (m) (phi)} { };
@@ -232,9 +240,9 @@
 
 在这里，超参数分为待估计超参数和底层超参数，待估计超参数顾名思义是一个变量，而底层超参数则是常量。对于待估计超参数，我们仍要像绘制模型参数一样绘制它，而底层超参数则不需要带有“圆圈”，不过需要注意的是，两者都可以用`\node`命令进行绘制，如下面代码所示。
 
-1、待估计超参数包括`muv`和`lambdav`。在`\node`命令中，指定节点类型为`circle`，使用`draw = black`令节点边框为黑色，使用`inner sep = 0pt`令节点与边框之间无间隔，使用`minimum size = 0.6cm`将节点大小统一设为0.6厘米，并将字体大小统一设为`\small`；
+- 待估计超参数包括`muv`和`lambdav`。在`\node`命令中，指定节点类型为`circle`，使用`draw = black`令节点边框为黑色，使用`inner sep = 0pt`令节点与边框之间无间隔，使用`minimum size = 0.6cm`将节点大小统一设为0.6厘米，并将字体大小统一设为`\small`；
 
-2、底层超参数包括：`gamma`、`hyper1`、`hyper2`、`hyper3`、`hyper4`、`mu0`、`wnu0`。在`\node`命令中，使用`text width`指定不同大小的文本宽度，通过`at`指定各参数的位置，并将字体大小统一设为`\small`。
+- 底层超参数包括：`gamma`、`hyper1`、`hyper2`、`hyper3`、`hyper4`、`mu0`、`wnu0`。在`\node`命令中，使用`text width`指定不同大小的文本宽度，通过`at`指定各参数的位置，并将字体大小统一设为`\small`。
 
 此外，为了表示其它未列出的参数名称，使用命令`\cdots`绘制了两个居中省略号，即`cdots1`和`cdots2`，并将字体颜色设为灰色`color{gray}`、字体大小设为`\Large`。
 
@@ -258,14 +266,7 @@
 \node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (tau) at (2, 0) {{$\tau$}};
 \node[circle, draw = black, inner sep = 0pt, minimum size = 0.55cm] (mu) at (-2, 0) {{$\mu$}};
 
-\path [draw, ->] (ui) edge (obs);
-\path [draw, ->] (vj) edge (obs);
-\path [draw, ->] (xt) edge (obs);
-\path [draw, ->] (tau) edge (obs);
-\path [draw, ->] (mu) edge (obs);
-\path [draw, ->] (phi) edge (obs);
-\path [draw, ->] (theta) edge (obs);
-\path [draw, ->] (eta) edge (obs);
+\foreach \n in {ui, vj, xt, tau, mu, phi, theta, eta}{\path [draw, ->] (\n) edge (obs);}
 
 \node [text width = 0.2cm] (m) at (-1.1, 0.3) {\small{$m$}};
 \plate[] {plate1} {(obs) (ui) (m) (phi)} { };
