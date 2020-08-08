@@ -39,8 +39,7 @@
 \node[text width = 0.6cm] (cdots2) at (1, 1.6) {\Large\color{gray}{$\cdots$}};
 
 \path [draw, ->] (muv) edge (vj);
-\path [draw, ->] (lambdav) edge (vj);
-\path [draw, ->] (lambdav) edge (muv);
+\foreach \n in {vj, muv}{\path [draw, ->] (lambdav) edge (\n);}
 \path [draw, ->] (mu0) edge (muv);
 \path [draw, ->] (wnu0) edge (lambdav);
 \path [draw, ->] (gamma) edge (tau);
