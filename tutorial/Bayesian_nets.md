@@ -313,7 +313,7 @@
 
 到这里，我们便完成了完整的贝叶斯网络绘制。
 
-绘制贝叶斯增强张量分解的贝叶斯网络
+绘制贝叶斯时序矩阵分解的贝叶斯网络
 --------------
 
 > **绘图任务**：如何使用LaTeX绘制出如下贝叶斯时序矩阵分解的贝叶斯网络？
@@ -342,10 +342,10 @@
 below left=5pt and 0pt of #1.south]
 \begin{document}
 \begin{tikzpicture}
-	\node [obs,inner sep=0pt,minimum size=0.8cm] (obs) at (0.8+2.4,0+0.8-0.3) {\normalsize$y_{i,t+1}$};
-	\node [obs,minimum size=0.95cm] (obs1) at (-0.8+2.4,0+0.8-0.3) {\normalsize$y_{i,t}$};
-	\node [circle,draw=black,fill=white,inner sep=0pt,minimum size=0.8cm] (obs2) at (-0.8+2.4-1.6,0.5) {$y_{i,t-1}$};
-	\node [circle,draw=black,fill=white,inner sep=0pt,minimum size=0.8cm] (xtd1) at (-2.6,-2.0) {\scalebox{0.85}[1]{$\boldsymbol{x}_{t-d+1}$}};
+\node [obs,inner sep=0pt,minimum size=0.8cm] (obs) at (0.8+2.4,0+0.8-0.3) {\normalsize$y_{i,t+1}$};
+\node [obs,minimum size=0.95cm] (obs1) at (-0.8+2.4,0+0.8-0.3) {\normalsize$y_{i,t}$};
+\node [circle,draw=black,fill=white,inner sep=0pt,minimum size=0.8cm] (obs2) at (-0.8+2.4-1.6,0.5) {$y_{i,t-1}$};
+\node [circle,draw=black,fill=white,inner sep=0pt,minimum size=0.8cm] (xtd1) at (-2.6,-2.0) {\scalebox{0.85}[1]{$\boldsymbol{x}_{t-d+1}$}};
 	\node [circle,draw=black,fill=white,inner sep=0pt,minimum size=1cm] (xtd) at (-4.2,-2.0) {$\boldsymbol{x}_{t-d}$};
 	\node [circle,draw=black,fill=white,inner sep=0pt,minimum size=1cm] (xt1) at (3.2,-2.0) {$\boldsymbol{x}_{t+1}$};
   \node [circle,draw=black,fill=white,inner sep=0pt,minimum size=1cm] (xt2) at (1.6,-2.0) {$\boldsymbol{x}_{t}$};
