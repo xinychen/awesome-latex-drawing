@@ -7,7 +7,7 @@
   - 理工科本科生、硕士生、博士生；
   - 各类科研工作者，例如从事机器学习以及人工智能相关领域的科研人员。
 
-- **现有基础**：团队成员在GitHub开源社区创建了开源项目awesome-latex-drawing，项目网址为[https://github.com/xinychen/awesome-latex-drawing](https://github.com/xinychen/awesome-latex-drawing)。自2019年1月创建以来，该项目已获得了超过500次标星 (star) 和近百次fork，在LaTeX科技绘图方面得到了开源社区的广泛好评。
+- **现有基础**：团队成员在GitHub开源社区创建了开源项目awesome-latex-drawing，项目网址为[https://github.com/xinychen/awesome-latex-drawing](https://github.com/xinychen/awesome-latex-drawing)，该项目自2019年1月创建以来，已获得了超过500次标星 (star) 和近百次fork，在LaTeX科技绘图方面得到了开源社区的广泛好评。
 
 **文档目录**
 
