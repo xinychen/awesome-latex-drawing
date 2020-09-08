@@ -7,8 +7,9 @@ Awesome LaTeX drawing
 
 <h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://twitter.com/chenxy346">https://twitter.com/chenxy346</a></h6>
 
+**awesome-latex-drawing** is a collection which uses LaTeX to draw Bayesian networks, graphical models, and technical frameworks.
 
-This project covers a lot of LaTeX codes for drawing Bayesian networks, graphical models, technical frameworks, and data visualization cases. [[说明文档 (中文版)](https://github.com/xinychen/awesome-latex-drawing/blob/master/README.md)]
+LaTeX is a high-quality typesetting system, and it is available as free software. In recent years, it is popular for creating some graphics by LaTeX because LaTeX is able to draw many complicated graphics containing equations. For many programming languages like Python, installing related packages is just the first step. Fortunately, you do not even to install any packages or even LaTeX on your PC (personal computer) because there are many online systems like [overleaf](https://www.overleaf.com/) making LaTeX convenient.
 
 Contents
 --------
@@ -23,8 +24,6 @@ Contents
 
 Usage
 --------------
-
-> For many programming languages like Python, installing related packages is just the first step. Fortunately, you do not even to install any packages or even LaTeX in your PC (personal computer) because there are many online systems like overleaf make it easy to use.
 
 Open [**overleaf.com**](https://www.overleaf.com/) in your Chrome.
 
