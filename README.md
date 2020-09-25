@@ -149,9 +149,13 @@ in your overleaf project, then you will see the following picture:
 
   > Augmented tensor factorization (AuTF) model in our recent study.
 
-- Open [TVART.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.tex) in our overleaf project, then you will see the following picture:
+- Open [TVART.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.tex) in your overleaf project, then you will see the following picture:
 
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.png" alt="drawing" width="800"/>
+
+- Open [tensor_svt.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.tex) in your overleaf project, then you will see the following picture:
+
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.png" alt="drawing" width="800"/>
 
 ### Data Visualization
 
@@ -218,10 +222,12 @@ Related Projects
 - [awesome-tikz](https://github.com/xiaohanyu/awesome-tikz)
 - [transdim](https://github.com/xinychen/transdim)
 
-Our Publications
+Publications
 --------------
 
-Most of these examples are from our publications:
+Most of these examples are from our papers:
+
+- Xinyu Chen, Yixian Chen, Lijun Sun (2020). **Scalable low-rank autoregressive tensor learning for spatiotemporal traffic data imputation**. arXiv: 2008.03194. [[preprint](https://arxiv.org/abs/2008.03194)] [[data](https://doi.org/10.5281/zenodo.3939792)] [[Python code](https://github.com/xinychen/tensor-learning)]
 
 - Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. arxiv. 2003.10271. [[preprint](https://arxiv.org/abs/2003.10271)] [[data & Python code](https://github.com/xinychen/transdim)]
 
