@@ -134,6 +134,9 @@ in your overleaf project, then you will see the following picture:
 
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.png" alt="drawing" width="700"/>
 
+- Open [latc_framework](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.tex) in your overleaf project, then you will see the following picture:
+
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.png" alt="drawing" width="800"/>
 
 ### Tensor Factorization
 
