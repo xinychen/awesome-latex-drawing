@@ -136,7 +136,7 @@ in your overleaf project, then you will see the following picture:
 
 - Open [latc_framework](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.png" alt="drawing" width="800"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.png" alt="drawing" width="700"/>
 
 ### Tensor Factorization
 
@@ -158,7 +158,7 @@ in your overleaf project, then you will see the following picture:
 
 - Open [tensor_svt.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.png" alt="drawing" width="800"/>
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.png" alt="drawing" width="700"/>
 
 ### Data Visualization
 
