@@ -9,7 +9,7 @@ Awesome LaTeX drawing
 
 **awesome-latex-drawing** is a collection which uses LaTeX to draw Bayesian networks, graphical models, and technical frameworks.
 
-LaTeX is a high-quality typesetting system, and it is available as free software. In recent years, it is popular for creating some graphics by LaTeX because LaTeX is able to draw many complicated graphics containing equations. For many programming languages like Python, installing related packages is just the first step. Fortunately, you do not need to install any packages or even LaTeX on your PC (personal computer) because there are many online systems like [**overleaf**](https://www.overleaf.com/) making LaTeX convenient now.
+LaTeX is a high-quality typesetting system, and it is available as free software. In recent years, it is popular for creating some graphics by LaTeX because LaTeX is able to draw many complicated graphics containing equations. For many programming languages like Python, installing related packages is just the first step. If you prefer not to install LaTeX on your own computer, [overleaf.com](overleaf.com) is a good option. [overleaf.com](overleaf.com) runs in your web browser and be accessed from any computer with an Internet connection. It is really convenient! Please register an account first!
 
 Contents
 --------
