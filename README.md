@@ -36,39 +36,63 @@ Our Examples
 
 - Open [BCPF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex) in your overleaf project, then you will see the following picture:
 
-<img src="BayesNet/BCPF.png" alt="drawing" width="250"/>
+<p align="center">
+<img align="middle" src="BayesNet/BCPF.png" width="250" />
+</p>
 
-  > BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
+<p align = "center">
+<b>Figure 1</b>: BCPF (Bayesian CP factorization) model as a Bayesian network and a directed factor graph.
+</p>
 
 - Open [BGCP.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.tex) in your overleaf project, then you will see the following pictures:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.png" alt="drawing" width="700"/>
+<p align="center">
+<img align="middle" src="BayesNet/BGCP.png" width="700" />
+</p>
 
-  > BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
+<p align = "center">
+<b>Figure 2</b>: BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
+</p>
 
 - Open [BGCP-1.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.png" alt="drawing" width="250"/>
+<p align="center">
+<img align="middle" src="BayesNet/BGCP-1.png" width="250">
+</p>
 
-  > Another example for BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
+<p align = "center">
+<b>Figure 3</b>: Another example for BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
+</p>
 
 - Open [BATF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.png" alt="drawing" width="320"/>
+<p align="center">
+<img align="middle" src="BayesNet/BATF.png" width="320">
+</p>
 
-  > BATF (Bayesian augmented tensor factorization) model as a Bayesian network and a directed factor graph.
+<p align = "center">
+<b>Figure 4</b>: BATF (Bayesian augmented tensor factorization) model as a Bayesian network and a directed factor graph.
+</p>
 
 - Open [btmf.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.png" alt="drawing" width="500"/>
+<p align="center">
+<img align="middle" src="BayesNet/btmf_net.png" width="500">
+</p>
 
-  > BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
+<p align = "center">
+<b>Figure 5</b>: BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
+</p>
 
 - Open [BTMF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BTMF.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BTMF.png" alt="drawing" width="500"/>
+<p align="center">
+<img align="middle" src="BayesNet/BTMF.png" width="500">
+</p>
 
-  > BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
+<p align = "center">
+<b>Figure 6</b>: BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
+</p>
 
 ### Research Frameworks
 
@@ -80,51 +104,83 @@ Our Examples
 
 in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800"/>
+<p align="center">
+<img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800">
+</p>
 
-  > Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
+<p align = "center">
+<b>Figure 7</b>: Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
+</p>
 
 - Open [rolling_prediction_strategy.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.png" alt="drawing" width="450"/>
+<p align="center">
+<img align="middle" src="Framework/rolling_prediction_strategy.png" alt="drawing" width="450">
+</p>
 
-  > A graphical illustration of rolling prediction strategy with temporal matrix factorization and autoregressive model.
+<p align = "center">
+<b>Figure 8</b>: A graphical illustration of rolling prediction strategy with temporal matrix factorization and autoregressive model.
+</p>
 
 - Open [rolling_prediction.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="450"/>
+<p align="center">
+<img align="middle" src="Framework/rolling_prediction.png" alt="drawing" width="450">
+</p>
 
-  > A graphical illustration of rolling prediction strategy with temporal matrix factorization and vector autoregressive model.
+<p align = "center">
+<b>Figure 9</b>: A graphical illustration of rolling prediction strategy with temporal matrix factorization and vector autoregressive model.
+</p>
 
 - Open [graphical_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png" alt="drawing" width="500"/>
+<p align="center">
+<img align="middle" src="Framework/graphical_time_series.png" alt="drawing" width="500">
+</p>
 
-  > A graphical illustration of the partially observed time series data.
+<p align = "center">
+<b>Figure 10</b>: A graphical illustration of the partially observed time series data.
+</p>
 
 - Open [tensor_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.tex) in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.png" alt="drawing" width="500"/>
+<p align="center">
+<img align="middle" src="Framework/tensor_time_series.png" alt="drawing" width="500">
+</p>
 
-  > A graphical illustration of the partially observed time series tensor.
+<p align = "center">
+<b>Figure 11</b>: A graphical illustration of the partially observed time series tensor.
+</p>
 
 - Open [graphical_matrix_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_matrix_time_series.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_matrix_time_series.png" alt="drawing" width="500"/>
+<p align="center">
+<img align="middle" src="Framework/graphical_matrix_time_series.png" alt="drawing" width="500">
+</p>
 
-> Multivariate time series data prediction with missing values.
+<p align = "center">
+<b>Figure 12</b>: Multivariate time series data prediction with missing values.
+</p>
 
 - Open [graphical_tensor_time_series.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_tensor_time_series.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_tensor_time_series.png" alt="drawing" width="500"/>
+<p align="center">
+<img align="middle" src="Framework/graphical_tensor_time_series.png" alt="drawing" width="500">
+</p>
 
-> Tensor time series data prediction with missing values.
+<p align = "center">
+<b>Figure 13</b>: Tensor time series data prediction with missing values.
+</p>
 
 - Open [mf-explained.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.png" alt="drawing" width="450"/>
+<p align="center">
+<img align="middle" src="Framework/mf-explained.png" alt="drawing" width="450">
+</p>
 
-  > A graphical illustration of matrix factorization.
+<p align = "center">
+<b>Figure 14</b>: A graphical illustration of matrix factorization.
+</p>
 
 - Open [LRTC-flow.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.tex) and upload
   - [input_tensor.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/input_tensor.pdf)
@@ -132,43 +188,87 @@ in your overleaf project, then you will see the following picture:
 
 in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.png" alt="drawing" width="700"/>
+<p align="center">
+<img align="middle" src="Framework/LRTC-flow.png" alt="drawing" width="700">
+</p>
+
+<p align = "center">
+<b>Figure 15</b>: A graphical illustration of low-rank tensor completion model.
+</p>
 
 - Open [latc_framework](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.png" alt="drawing" width="700"/>
+<p align="center">
+<img align="middle" src="Framework/latc_framework.png" alt="drawing" width="700">
+</p>
+
+<p align = "center">
+<b>Figure 16</b>: A graphical illustration of low-rank autoregressive tensor completion model.
+</p>
 
 ### Tensor Factorization
 
 - Open [tensor.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor.png" alt="drawing" width="360"/>
+<p align="center">
+<img align="middle" src="TensorFactorization/tensor.png" alt="drawing" width="360">
+</p>
 
-  > A graphical illustration for the (origin,destination,time slot) tensor.
+<p align = "center">
+<b>Figure 17</b>: A graphical illustration for the (origin,destination,time slot) tensor.
+</p>
 
 - Open [AuTF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.png" alt="drawing" width="600"/>
+<p align="center">
+<img align="middle" src="TensorFactorization/AuTF.png" alt="drawing" width="600">
+</p>
 
-  > Augmented tensor factorization (AuTF) model in our recent study.
+<p align = "center">
+<b>Figure 18</b>: Augmented tensor factorization (AuTF) model.
+</p>
 
 - Open [TVART.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.png" alt="drawing" width="800"/>
+<p align="center">
+<img align="middle" src="TensorFactorization/TVART.png" alt="drawing" width="800">
+</p>
+
+<p align = "center">
+<b>Figure 19</b>: Tensor regression model.
+</p>
 
 - Open [tensor_svt.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.png" alt="drawing" width="700"/>
+<p align="center">
+<img align="middle" src="TensorFactorization/tensor_svt.png" alt="drawing" width="700">
+</p>
+
+<p align = "center">
+<b>Figure 20</b>: Singular value thresholding process of the tensor data with unitary transform.
+</p>
 
 ### Data Visualization
 
 - Open [RMseries.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.png" alt="drawing" width="400"/>
+<p align="center">
+<img align="middle" src="data-visualization/RMseries.png" alt="drawing" width="400">
+</p>
+
+<p align = "center">
+<b>Figure 21</b>: Random missing pattern.
+</p>
 
 - Open [NMseries.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.tex) in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.png" alt="drawing" width="400"/>
+<p align="center">
+<img align="middle" src="data-visualization/NMseries.png" alt="drawing" width="400">
+</p>
+
+<p align = "center">
+<b>Figure 22</b>: Non-random missing pattern.
+</p>
 
 - Open [performance_bar.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/performance_bar.tex) and upload
   - [RM_Gdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Gdata.pdf)
@@ -182,7 +282,13 @@ in your overleaf project, then you will see the following picture:
 
 in your overleaf project, then you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/performance_bar.png" alt="drawing" width="800">
+<p align="center">
+<img align="middle" src="data-visualization/performance_bar.png" alt="drawing" width="800">
+</p>
+
+<p align = "center">
+<b>Figure 23</b>: Imputation performance.
+</p>
 
 If you want to draw each sub-figure, please check out the following `.tex` files:
 
@@ -205,9 +311,13 @@ If you want to draw each sub-figure, please check out the following `.tex` files
 
 in your overleaf project, then, you will see the following picture:
 
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/awesome-stuff/transdim_logo_large.png" alt="drawing" width="600"/>
+<p align="center">
+<img align="middle" src="awesome-stuff/transdim_logo_large.png" alt="drawing" width="600">
+</p>
 
-  > trandim logo.
+<p align = "center">
+<b>Figure 24</b>: transdim logo.
+</p>
 
 More Features
 --------------
@@ -216,6 +326,7 @@ More Features
 
 - Documentation (English version)
 - 技术文档 (中文版)
+  - [贝叶斯网络](https://github.com/xinychen/awesome-latex-drawing/blob/master/tutorial/Bayesian_nets.md)
 
 
 Related Projects
