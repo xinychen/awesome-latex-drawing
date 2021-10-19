@@ -251,7 +251,7 @@ in your overleaf project, then you will see the following picture:
 - Open [CP_factorization.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/CP_factorization.tex) in your overleaf project, then you will see the following picture:
 
 <p align="center">
-<img align="middle" src="TensorFactorization/CP_factorization.png" alt="drawing" width="700">
+<img align="middle" src="TensorFactorization/CP_factorization.png" alt="drawing" width="400">
 </p>
 
 <p align = "center">
