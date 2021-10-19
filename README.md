@@ -248,6 +248,17 @@ in your overleaf project, then you will see the following picture:
 <b>Figure 20</b>: Singular value thresholding process of the tensor data with unitary transform.
 </p>
 
+- Open [CP_factorization.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/CP_factorization.tex) in your overleaf project, then you will see the following picture:
+
+<p align="center">
+<img align="middle" src="TensorFactorization/CP_factorization.png" alt="drawing" width="700">
+</p>
+
+<p align = "center">
+<b>Figure 21</b>: Illustration of CP factorization on third-order tensor.
+</p>
+
+
 ### Data Visualization
 
 - Open [RMseries.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.tex) in your overleaf project, then you will see the following picture:
@@ -257,7 +268,7 @@ in your overleaf project, then you will see the following picture:
 </p>
 
 <p align = "center">
-<b>Figure 21</b>: Random missing pattern.
+<b>Figure 22</b>: Random missing pattern.
 </p>
 
 - Open [NMseries.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.tex) in your overleaf project, then you will see the following picture:
@@ -267,7 +278,7 @@ in your overleaf project, then you will see the following picture:
 </p>
 
 <p align = "center">
-<b>Figure 22</b>: Non-random missing pattern.
+<b>Figure 23</b>: Non-random missing pattern.
 </p>
 
 - Open [performance_bar.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/performance_bar.tex) and upload
@@ -287,7 +298,7 @@ in your overleaf project, then you will see the following picture:
 </p>
 
 <p align = "center">
-<b>Figure 23</b>: Imputation performance.
+<b>Figure 24</b>: Imputation performance.
 </p>
 
 If you want to draw each sub-figure, please check out the following `.tex` files:
@@ -316,7 +327,7 @@ in your overleaf project, then, you will see the following picture:
 </p>
 
 <p align = "center">
-<b>Figure 24</b>: transdim logo.
+<b>Figure 25</b>: transdim logo.
 </p>
 
 More Features
