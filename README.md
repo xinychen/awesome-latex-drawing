@@ -13,6 +13,11 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
 
 ## Contents
 
+**Table of Examples**
+
+1. [Bayesian network of Bayesian CP factorization (BCPF)]([Example 1])
+2. [Bayesian network of Bayesian Gaussian CP (BGCP) factorization]([Example 2])
+
 -   [Usage](#usage)
 -   [Our Examples](#our-examples)
     -   [Bayesian Networks](#bayesian-networks)
@@ -39,7 +44,9 @@ LaTeX provides some powerful domain-specific packages and tools like `tikz` to e
 
 #### Bayesian Tensor Factorization
 
-[**Example 1**] This example is from the following paper:
+##### [Example 1]
+
+This example is from the following paper:
 
 > - Qibin Zhao, Liqing Zhang, Andrzej Cichocki, (2015). [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://doi.org/10.1109/TPAMI.2015.2392756). IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(9): 1751-1763.
 
@@ -75,7 +82,9 @@ which shows the Bayesian network of Bayesian CP factorization (BCPF) model. To d
   > <b>Figure 2</b>: BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
   > </p> -->
 
-[**Example 2**] This example is from the following paper:
+##### [Example 2] 
+
+This example is from the following paper:
 
 > Xinyu Chen, Zhaocheng He, Lijun Sun (2019). [A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation](https://doi.org/10.1016/j.trc.2018.11.003). Transportation Research Part C: Emerging Technologies, 98: 73-84.
 
@@ -101,7 +110,9 @@ which shows the Bayesian network of Bayesian Gaussian CP factorization (BGCP) mo
 
 <br>
 
-[**Example 3**] This example is from the following paper:
+##### [Example 3]
+
+This example is from the following paper:
 
 > Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). [Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model](https://doi.org/10.1016/j.trc.2019.03.003). Transportation Research Part C: Emerging Technologies, 104: 66-77.
 
