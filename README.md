@@ -50,7 +50,7 @@ This example is from the following paper:
 > - Qibin Zhao, Liqing Zhang, Andrzej Cichocki (2015). [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://doi.org/10.1109/TPAMI.2015.2392756). IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(9): 1751-1763.
 
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex">
-<img src="BayesNet/BCPF.png" alt="drawing" width="250" align="right"/>
+<img src="BayesNet/BCPF.png" alt="drawing" width="280" align="right"/>
 </a>
 which shows the Bayesian network of Bayesian CP factorization (BCPF) model. To draw this Bayesian network example, there are some preliminaries to follow:
 
@@ -88,7 +88,7 @@ This example is from the following paper:
 > Xinyu Chen, Zhaocheng He, Lijun Sun (2019). [A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation](https://doi.org/10.1016/j.trc.2018.11.003). Transportation Research Part C: Emerging Technologies, 98: 73-84.
 
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.tex">
-<img src="BayesNet/BGCP-1.png" alt="drawing" width="250" align="right"/>
+<img src="BayesNet/BGCP-1.png" alt="drawing" width="280" align="right"/>
 </a>
 which shows the Bayesian network of Bayesian Gaussian CP factorization (BGCP) model. To draw this Bayesian network example, there are some preliminaries to follow:
 
