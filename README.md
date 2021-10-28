@@ -38,13 +38,13 @@
   >
   > #### Bayesian Tensor Factorization
   >
+  > This example is from the following paper:
+  >
+  > > - Qibin Zhao, Liqing Zhang, Andrzej Cichocki, (2015). [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://doi.org/10.1109/TPAMI.2015.2392756). IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(9): 1751-1763.
+  >
   > <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex">
   > <img src="BayesNet/BCPF.png" alt="drawing" width="250" align="right"/>
   > </a>
-  >
-  > This example is from the following paper:
-  >
-  > > - Qibin Zhao, Liqing Zhang, Andrzej Cichocki, 2015. [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://doi.org/10.1109/TPAMI.2015.2392756). *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 37(9): 1751-1763.
   >
   > which shows the Bayesian network of Bayesian CP factorization (BCPF) model. To draw this Bayesian network example, there are some preliminaries to follow:
   >
