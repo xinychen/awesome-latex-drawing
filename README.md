@@ -15,8 +15,8 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
 
 **Table of Examples**
 
-1. [Bayesian network of Bayesian CP factorization (BCPF)]([Example 1])
-2. [Bayesian network of Bayesian Gaussian CP (BGCP) factorization]([Example 2])
+1. [Bayesian network of Bayesian CP factorization (BCPF)]([Example-1])
+2. [Bayesian network of Bayesian Gaussian CP (BGCP) factorization]([Example-2])
 
 -   [Usage](#usage)
 -   [Our Examples](#our-examples)
