@@ -1,73 +1,71 @@
-- > Awesome LaTeX drawing
-  > ============
-  >
-  > [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-  > [![repo size](https://img.shields.io/github/repo-size/xinychen/awesome-latex-drawing.svg)](https://github.com/xinychen/awesome-latex-drawing/archive/master.zip)
-  > [![GitHub stars](https://img.shields.io/github/stars/xinychen/awesome-latex-drawing.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/awesome-latex-drawing)
-  >
-  > <h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://twitter.com/chenxy346">https://twitter.com/chenxy346</a></h6>
-  >
-  > **awesome-latex-drawing** is a collection which uses LaTeX to draw Bayesian networks, graphical models, tensor structure, and technical frameworks.
-  >
-  > LaTeX is a high-quality typesetting system, and it is available as a free software. In recent years, it is very popular for creating some graphics by using LaTeX because LaTeX is able to draw many complicated graphics containing math equations. For many programming languages like Python, installing console and related packages is the first step. If you prefer not to install LaTeX on your own computer, [overleaf.com](overleaf.com) is a good option. [overleaf.com](overleaf.com) gives you the full capabilities of LaTeX without installing any stuff, it supports writing and compiling `.tex` file on your web browser and can be asscessible for any laptops with an Internet connection.
-  >
-  > ## Contents
-  >
-  > -   [Usage](#usage)
-  > -   [Our Examples](#our-examples)
-  >     -   [Bayesian Networks](#bayesian-networks)
-  >     -   [Research Frameworks](#research-frameworks)
-  >     -   [Tensor Factorization](#tensor-factorization)
-  >     -   [Data Visualization](#data-visualization)
-  > -   [Related Projects](#related-projects)
-  >
-  > Usage
-  > --------------
-  >
-  > Open [**overleaf.com**](https://www.overleaf.com/) in your Chrome.
-  >
-  > > It is not necessary to open each file in this repository because you can just follow this readme document.
-  >
-  > ## Gallery
-  >
-  > Looking for some good LaTeX drawing examples? Here is a few (20+) to peruse.
-  >
-  > ### Bayesian Networks
-  >
-  > LaTeX provides some powerful domain-specific packages and tools like `tikz` to enable flexible graphical models.
-  >
-  > #### Bayesian Tensor Factorization
-  >
-  > This example is from the following paper:
-  >
-  > > - Qibin Zhao, Liqing Zhang, Andrzej Cichocki, (2015). [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://doi.org/10.1109/TPAMI.2015.2392756). IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(9): 1751-1763.
-  >
-  > <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex">
-  > <img src="BayesNet/BCPF.png" alt="drawing" width="250" align="right"/>
-  > </a>
-  >
-  > which shows the Bayesian network of Bayesian CP factorization (BCPF) model. To draw this Bayesian network example, there are some preliminaries to follow:
-  >
-  > - `preamble` codes:
-  >   1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
-  >   2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
-  >   3. set the `tikz` style by using the `\tikzstyle{}` command,
-  >   4. use math equation environments including `\usepackage{amsfonts, amsmath, amssymb}`.
-  > - `body` codes:
-  >   1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
-  >   2. use `\node` to define nodes and text boxes in the Bayesian network,
-  >   3. use `\path` to define arrows in the Bayesian network,
-  >   4. use `\plate` to define plates in the Bayesian network.
-  >
-  > Please click on the image and check out the source code.
-  >
-  > <br>
-  > <br>
-  >
-  > 
-  >
-  >
-  > - Open [BGCP.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.tex) in your overleaf project, then you will see the following pictures:
+Awesome LaTeX drawing
+============
+
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![repo size](https://img.shields.io/github/repo-size/xinychen/awesome-latex-drawing.svg)](https://github.com/xinychen/awesome-latex-drawing/archive/master.zip)
+[![GitHub stars](https://img.shields.io/github/stars/xinychen/awesome-latex-drawing.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/awesome-latex-drawing)
+
+<h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://twitter.com/chenxy346">https://twitter.com/chenxy346</a></h6>
+
+**awesome-latex-drawing** is a collection which uses LaTeX to draw Bayesian networks, graphical models, tensor structure, and technical frameworks.
+
+LaTeX is a high-quality typesetting system, and it is available as a free software. In recent years, it is very popular for creating some graphics by using LaTeX because LaTeX is able to draw many complicated graphics containing math equations. For many programming languages like Python, installing console and related packages is the first step. If you prefer not to install LaTeX on your own computer, [overleaf.com](overleaf.com) is a good option. [overleaf.com](overleaf.com) gives you the full capabilities of LaTeX without installing any stuff, it supports writing and compiling `.tex` file on your web browser and can be asscessible for any laptops with an Internet connection.
+
+## Contents
+
+-   [Usage](#usage)
+-   [Our Examples](#our-examples)
+    -   [Bayesian Networks](#bayesian-networks)
+    -   [Research Frameworks](#research-frameworks)
+    -   [Tensor Factorization](#tensor-factorization)
+    -   [Data Visualization](#data-visualization)
+-   [Related Projects](#related-projects)
+
+Usage
+--------------
+
+Open [**overleaf.com**](https://www.overleaf.com/) in your Chrome.
+
+> It is not necessary to open each file in this repository because you can just follow this readme document.
+
+## Gallery
+
+Looking for some good LaTeX drawing examples? Here is a few (20+) to peruse.
+
+### Bayesian Networks
+
+LaTeX provides some powerful domain-specific packages and tools like `tikz` to enable flexible graphical models.
+
+
+#### Bayesian Tensor Factorization
+
+[**Example 1**] This example is from the following paper:
+
+> - Qibin Zhao, Liqing Zhang, Andrzej Cichocki, (2015). [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://doi.org/10.1109/TPAMI.2015.2392756). IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(9): 1751-1763.
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex">
+<img src="BayesNet/BCPF.png" alt="drawing" width="250" align="right"/>
+</a>
+which shows the Bayesian network of Bayesian CP factorization (BCPF) model. To draw this Bayesian network example, there are some preliminaries to follow:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
+  2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
+  3. set the `tikz` style by using the `\tikzstyle{}` command,
+  4. use math equation environments including `\usepackage{amsfonts, amsmath, amssymb}`.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\node` to define nodes and text boxes in the Bayesian network,
+  3. use `\path` to define arrows in the Bayesian network,
+  4. use `\plate` to define plates in the Bayesian network.
+
+> Please click on the image and check out the source code.
+
+<br>
+
+<!-- > - Open [BGCP.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.tex) in your overleaf project, then you will see the following pictures:
   >
   > <p align="center">
   > <img align="middle" src="BayesNet/BGCP.png" width="700" />
@@ -75,29 +73,61 @@
   >
   > <p align = "center">
   > <b>Figure 2</b>: BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
-  > </p>
-  >
-  > - Open [BGCP-1.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="BayesNet/BGCP-1.png" width="250">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 3</b>: Another example for BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
-  > </p>
-  >
-  > - Open [BATF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="BayesNet/BATF.png" width="320">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 4</b>: BATF (Bayesian augmented tensor factorization) model as a Bayesian network and a directed factor graph.
-  > </p>
-  >
-  > - Open [btmf.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.tex) in your overleaf project, then you will see the following picture:
+  > </p> -->
+
+[**Example 2**] This example is from the following paper:
+
+> Xinyu Chen, Zhaocheng He, Lijun Sun (2019). [A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation](https://doi.org/10.1016/j.trc.2018.11.003). Transportation Research Part C: Emerging Technologies, 98: 73-84.
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP-1.tex">
+<img src="BayesNet/BGCP-1.png" alt="drawing" width="250" align="right"/>
+</a>
+which shows the Bayesian network of Bayesian Gaussian CP factorization (BGCP) model. To draw this Bayesian network example, there are some preliminaries to follow:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
+  2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
+  3. set the `tikz` style by using the `\tikzstyle{}` command,
+  4. use math equation environments including `\usepackage{amsmath, amsfonts, amssymb}`.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\node` to define nodes and text boxes in the Bayesian network,
+  3. use `\path` to define arrows in the Bayesian network,
+  4. use `\plate` to define plates in the Bayesian network.
+
+> Please click on the image and check out the source code. If you are interested in the original [Bayesian network of BGCP](BayesNet/BGCP.png) in the paper, please check out [BGCP.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.tex).
+
+<br>
+
+[**Example 3**] This example is from the following paper:
+
+> Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). [Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model](https://doi.org/10.1016/j.trc.2019.03.003). Transportation Research Part C: Emerging Technologies, 104: 66-77.
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BATF.tex">
+<img src="BayesNet/BATF.png" alt="drawing" width="300" align="right"/>
+</a>
+which shows the Bayesian network of Bayesian augmented tensor factorization (BATF) model. To draw this Bayesian network example, there are some preliminaries to follow:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
+  2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
+  3. set the `tikz` style by using the `\tikzstyle{}` command,
+  4. use math equation environments including `\usepackage{amsmath, amsfonts, amssymb}`.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\node` to define nodes and text boxes in the Bayesian network,
+  3. use `\path` to define arrows in the Bayesian network,
+  4. use `\plate` to define plates in the Bayesian network.
+
+> Please click on the image and check out the source code.
+
+<br>
+
+> - Open [btmf.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.tex) in your overleaf project, then you will see the following picture:
   >
   > <p align="center">
   > <img align="middle" src="BayesNet/btmf_net.png" width="500">
@@ -370,19 +400,19 @@
   > - [awesome-tikz](https://github.com/xiaohanyu/awesome-tikz)
   > - [transdim](https://github.com/xinychen/transdim)
   >
-  > Publications
-  > --------------
-  >
-  > Most of these examples are from our papers:
-  >
-  > - Xinyu Chen, Yixian Chen, Lijun Sun (2020). **Scalable low-rank autoregressive tensor learning for spatiotemporal traffic data imputation**. arXiv: 2008.03194. [[preprint](https://arxiv.org/abs/2008.03194)] [[data](https://doi.org/10.5281/zenodo.3939792)] [[Python code](https://github.com/xinychen/tensor-learning)]
-  >
-  > - Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. arxiv. 2003.10271. [[preprint](https://arxiv.org/abs/2003.10271)] [[data & Python code](https://github.com/xinychen/transdim)]
-  >
-  > - Xinyu Chen, Lijun Sun (2019). **Bayesian temporal factorization for multidimensional time series prediction**. arxiv. 1910.06366. [[preprint](https://arxiv.org/abs/1910.06366)] [[slide](https://xinychen.github.io/paper/Bayesian-temporal-factorization-slide.pdf)] [[data & Python code](https://github.com/xinychen/transdim)]
-  >
-  > - Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). **Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model**. Transportation Research Part C: Emerging Technologies, 104: 66-77. [[preprint](https://xinychen.github.io/paper/BATF.pdf)] [[doi](https://doi.org/10.1016/j.trc.2019.03.003)] [[slide](https://doi.org/10.5281/zenodo.2632552)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/sysuits/BATF)]
-  >
-  > - Xinyu Chen, Zhaocheng He, Lijun Sun (2019). **A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 98: 73-84. [[preprint](https://www.researchgate.net/publication/329177786_A_Bayesian_tensor_decomposition_approach_for_spatiotemporal_traffic_data_imputation)] [[doi](https://doi.org/10.1016/j.trc.2018.11.003)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/lijunsun/bgcp_imputation)] [[Python code](https://github.com/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb)]
-  >
-  >   > Please consider citing our papers if you find these codes help your research.
+ Publications
+ --------------
+ 
+ Most of these examples are from our papers:
+ 
+ - Xinyu Chen, Yixian Chen, Lijun Sun (2020). **Scalable low-rank autoregressive tensor learning for spatiotemporal traffic data imputation**. arXiv: 2008.03194. [[preprint](https://arxiv.org/abs/2008.03194)] [[data](https://doi.org/10.5281/zenodo.3939792)] [[Python code](https://github.com/xinychen/tensor-learning)]
+
+- Xinyu Chen, Jinming Yang, Lijun Sun (2020). **A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation**. arxiv. 2003.10271. [[preprint](https://arxiv.org/abs/2003.10271)] [[data & Python code](https://github.com/xinychen/transdim)]
+
+- Xinyu Chen, Lijun Sun (2019). **Bayesian temporal factorization for multidimensional time series prediction**. arxiv. 1910.06366. [[preprint](https://arxiv.org/abs/1910.06366)] [[slide](https://xinychen.github.io/paper/Bayesian-temporal-factorization-slide.pdf)] [[data & Python code](https://github.com/xinychen/transdim)]
+
+- Xinyu Chen, Zhaocheng He, Yixian Chen, Yuhuan Lu, Jiawei Wang (2019). **Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model**. Transportation Research Part C: Emerging Technologies, 104: 66-77. [[preprint](https://xinychen.github.io/paper/BATF.pdf)] [[doi](https://doi.org/10.1016/j.trc.2019.03.003)] [[slide](https://doi.org/10.5281/zenodo.2632552)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/sysuits/BATF)]
+
+- Xinyu Chen, Zhaocheng He, Lijun Sun (2019). **A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation**. Transportation Research Part C: Emerging Technologies, 98: 73-84. [[preprint](https://www.researchgate.net/publication/329177786_A_Bayesian_tensor_decomposition_approach_for_spatiotemporal_traffic_data_imputation)] [[doi](https://doi.org/10.1016/j.trc.2018.11.003)] [[data](http://doi.org/10.5281/zenodo.1205229)] [[Matlab code](https://github.com/lijunsun/bgcp_imputation)] [[Python code](https://github.com/xinychen/transdim/blob/master/experiments/Imputation-BGCP.ipynb)]
+
+> Please consider citing our papers if you find these codes help your research.
