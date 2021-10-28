@@ -19,12 +19,16 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
 2. [Bayesian network of Bayesian Gaussian CP (BGCP) factorization](https://github.com/xinychen/awesome-latex-drawing#example-2)
 2. [Bayesian network of Bayesian augmented tensor factorization (BATF)](https://github.com/xinychen/awesome-latex-drawing#example-3)
 
+<br>
+
 Usage
 --------------
 
 Open [**overleaf.com**](https://www.overleaf.com/) in your Chrome.
 
 > It is not necessary to open each file in this repository because you can just follow this readme document.
+
+<br>
 
 ## Gallery
 
