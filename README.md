@@ -45,7 +45,7 @@ LaTeX provides some powerful domain-specific packages and tools like `tikz` to e
 
 This example is from the following paper:
 
-> - Qibin Zhao, Liqing Zhang, Andrzej Cichocki, (2015). [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://doi.org/10.1109/TPAMI.2015.2392756). IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(9): 1751-1763.
+> - Qibin Zhao, Liqing Zhang, Andrzej Cichocki (2015). [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://doi.org/10.1109/TPAMI.2015.2392756). IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(9): 1751-1763.
 
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex">
 <img src="BayesNet/BCPF.png" alt="drawing" width="250" align="right"/>
@@ -135,7 +135,7 @@ which shows the Bayesian network of Bayesian augmented tensor factorization (BAT
 
 <br>
 
-> - Open [btmf.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.tex) in your overleaf project, then you will see the following picture:
+<!-- > - Open [btmf.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.tex) in your overleaf project, then you will see the following picture:
   >
   > <p align="center">
   > <img align="middle" src="BayesNet/btmf_net.png" width="500">
@@ -143,36 +143,55 @@ which shows the Bayesian network of Bayesian augmented tensor factorization (BAT
   >
   > <p align = "center">
   > <b>Figure 5</b>: BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
-  > </p>
-  >
-  > - Open [BTMF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BTMF.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="BayesNet/BTMF.png" width="500">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 6</b>: BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
-  > </p>
-  >
-  > ### Research Frameworks
-  >
-  > - Open
-  >   - [tc_framework.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex)
-  > - Upload
-  >   - [curve1.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve1.pdf)
-  >   - [curve2.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve2.pdf)
-  >
-  > in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 7</b>: Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
-  > </p>
-  >
+  > </p> -->
+
+##### [Example 4]
+
+This example is from the following paper:
+
+> Xinyu Chen, Lijun Sun (2021). [Bayesian temporal factorization for multidimensional time series prediction](https://doi.org/10.1109/TPAMI.2021.3066551). IEEE Transactions on Pattern Analysis and Machine Intelligence. (Early access)
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BTMF.tex">
+<img src="BayesNet/BTMF.png" alt="drawing" width="450" align="right"/>
+</a>
+which shows the Bayesian network of Bayesian temporal matrix factorization (BTMF) model. To draw this Bayesian network example, there are some preliminaries to follow:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
+  2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
+  3. set the `tikz` style by using the `\tikzstyle{}` command,
+  4. use math equation environments including `\usepackage{amsmath, amsfonts, amssymb}`.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\node` to define nodes and text boxes in the Bayesian network,
+  3. use `\path` to define arrows in the Bayesian network,
+  4. use `\plate` to define plates in the Bayesian network.
+
+> Please click on the image and check out the source code. Instead of multivariate vector autoregressive process on temporal factors, we can also use univariate autoregressive process to rebuild BTMF. The Beyasian network is available at [btmf_net.png](BayesNet/btmf_net.png), you can also check out the source code [btmf_net.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.tex).
+
+<br>
+
+
+### Research Frameworks
+
+- Open
+  - [tc_framework.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex)
+- Upload
+  - [curve1.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve1.pdf)
+  - [curve2.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve2.pdf)
+
+in your overleaf project, then you will see the following picture:
+
+<p align="center">
+<img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800">
+</p>
+
+<p align = "center">
+<b>Figure 7</b>: Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
+</p>
+
   > - Open [rolling_prediction_strategy.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.tex) in your overleaf project, then you will see the following picture:
   >
   > <p align="center">
