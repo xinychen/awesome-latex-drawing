@@ -1,8 +1,6 @@
-\documentclass[tikz,border=0.1cm]{standalone}
-\usepackage{tikz,tikz-3dplot}
-\usepackage{amsmath,amsthm}
-\usepackage{amssymb}
-\usepackage{amsfonts}
+\documentclass[tikz, border = 0.1cm]{standalone}
+\usepackage{tikz, tikz-3dplot}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
 \usepackage{xcolor}
 
 \newcommand{\Depth}{2}
@@ -37,35 +35,35 @@
 \coordinate (E) at (\Depth, \Width, 0);
 \coordinate (F) at (\Depth, \Width, \Height);
 \coordinate (G) at (\Depth, 0, \Height);
-\draw[green!60!black, fill=green!5] (O) -- (C) -- (G) -- (D) -- cycle; % Bottom Face
-\draw[green!60!black, fill=green!5] (O) -- (A) -- (E) -- (D) -- cycle; % Back Face
-\draw[green!60!black, fill=green!5] (O) -- (A) -- (B) -- (C) -- cycle; % Left Face
-\draw[green!60!black, fill=green!5, opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle; % Right Face
-\draw[green!60!black, fill=green!5, opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle; % Front Face
-\draw[green!60!black, fill=green!5, opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle; % Top Face
+\draw[green!60!black, fill = green!5] (O) -- (C) -- (G) -- (D) -- cycle; % Bottom Face
+\draw[green!60!black, fill = green!5] (O) -- (A) -- (E) -- (D) -- cycle; % Back Face
+\draw[green!60!black, fill = green!5] (O) -- (A) -- (B) -- (C) -- cycle; % Left Face
+\draw[green!60!black, fill = green!5, opacity = 0.8] (D) -- (E) -- (F) -- (G) -- cycle; % Right Face
+\draw[green!60!black, fill = green!5, opacity = 0.6] (C) -- (B) -- (F) -- (G) -- cycle; % Front Face
+\draw[green!60!black, fill = green!5, opacity = 0.8] (A) -- (B) -- (F) -- (E) -- cycle; % Top Face
 
-\draw (0.2,-1.2,0) node {\scriptsize{\color{gray}$n$~days}};
-\draw (0.2,-0.95,0) node[rotate = 0] {{\color{gray!65}$\underbrace{\hspace{2cm}}$}};
-\draw (-0.4,1,2) node[rotate = 90] {\scriptsize{\color{gray}$m$~locations}};
-\draw (-0.15,1,2) node[rotate = 270] {{\color{gray!65}$\underbrace{\hspace{2cm}}$}};
-\draw (2.5,-0.2,1.4) node[rotate = 45] {\scriptsize{\color{gray}$f$~intervals}};
-\draw (2.2,0,1.2) node[rotate = 45] {{\color{gray!65}$\underbrace{\hspace{1.1cm}}$}};
-\draw (1,-1.2,1) node {\color{black}$\mathcal{Y}\in\mathbb{R}^{m\times n\times f}$};
+\draw (0.2, -1.2, 0) node {\scriptsize{\color{gray}$n$~days}};
+\draw (0.2, -0.95, 0) node[rotate = 0] {{\color{gray!65}$\underbrace{\hspace{2cm}}$}};
+\draw (-0.4, 1, 2) node[rotate = 90] {\scriptsize{\color{gray}$m$~locations}};
+\draw (-0.15, 1, 2) node[rotate = 270] {{\color{gray!65}$\underbrace{\hspace{2cm}}$}};
+\draw (2.5, -0.2, 1.4) node[rotate = 45] {\scriptsize{\color{gray}$f$~intervals}};
+\draw (2.2, 0, 1.2) node[rotate = 45] {{\color{gray!65}$\underbrace{\hspace{1.1cm}}$}};
+\draw (1, -1.2, 1) node {\color{black}$\mathcal{Y}\in\mathbb{R}^{m\times n\times f}$};
 
-\coordinate (O) at (0+\posx,0+\posy,0+\posz);
-\coordinate (A) at (0+\posx,0.25\Width+\posy,0+\posz);
-\coordinate (B) at (0+\posx,0.25\Width+\posy,\Height+\posz);
-\coordinate (C) at (0+\posx,0+\posy,\Height+\posz);
-\coordinate (D) at (0.25\Depth+\posx,0+\posy,0+\posz);
-\coordinate (E) at (0.25\Depth+\posx,0.25\Width+\posy,0+\posz);
-\coordinate (F) at (0.25\Depth+\posx,0.25\Width+\posy,\Height+\zzz);
-\coordinate (G) at (0.25\Depth+\posx,0+\posy,\Height+\zzz);
-\draw[gray!80,fill=white] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
-\draw[gray!80,fill=white] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
-\draw[gray!80,fill=white] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
-\draw[gray!50,fill=white,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
-\draw[gray!50,fill=white,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
-\draw[gray!50,fill=white,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+\coordinate (O) at (0 + \posx, 0 + \posy, 0 + \posz);
+\coordinate (A) at (0 + \posx, 0.25\Width + \posy, 0 + \posz);
+\coordinate (B) at (0 + \posx, 0.25\Width + \posy, \Height + \posz);
+\coordinate (C) at (0 + \posx, 0 + \posy, \Height + \posz);
+\coordinate (D) at (0.25\Depth + \posx, 0+\posy, 0 + \posz);
+\coordinate (E) at (0.25\Depth + \posx, 0.25\Width + \posy, 0 + \posz);
+\coordinate (F) at (0.25\Depth + \posx, 0.25\Width + \posy, \Height + \zzz);
+\coordinate (G) at (0.25\Depth + \posx, 0 + \posy, \Height + \zzz);
+\draw[gray!80, fill = white] (O) -- (C) -- (G) -- (D) -- cycle; % Bottom Face
+\draw[gray!80, fill = white] (O) -- (A) -- (E) -- (D) -- cycle; % Back Face
+\draw[gray!80, fill = white] (O) -- (A) -- (B) -- (C) -- cycle; % Left Face
+\draw[gray!50, fill = white, opacity = 0.8] (D) -- (E) -- (F) -- (G) -- cycle; % Right Face
+\draw[gray!50, fill = white, opacity = 0.6] (C) -- (B) -- (F) -- (G) -- cycle; % Front Face
+\draw[gray!50, fill = white, opacity = 0.8] (A) -- (B) -- (F) -- (E) -- cycle; % Top Face
 
 \coordinate (O) at (0+\posx+0.5,0+\posy,0+\posz);
 \coordinate (A) at (0+\posx+0.5,0.25\Width+\posy,0+\posz);
