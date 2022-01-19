@@ -23,6 +23,7 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [Bayesian network of Bayesian augmented tensor factorization (BATF)](https://github.com/xinychen/awesome-latex-drawing#example-3)
   - [x] [Bayesian network of Bayesian temporal matrix factorization (BTMF)](https://github.com/xinychen/awesome-latex-drawing#example-4)
 - **`pgfplots` function plotting**
+  - [x] [PDF and CDF functions of Erlang distribution](https://github.com/xinychen/awesome-latex-drawing#example-5)
 
 <br>
 
