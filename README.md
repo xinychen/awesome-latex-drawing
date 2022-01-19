@@ -147,8 +147,6 @@ which shows the Bayesian network of Bayesian augmented tensor factorization (BAT
   > <b>Figure 5</b>: BTMF (Bayesian temporal matrix factorization) model as a Bayesian network and a directed factor graph.
   > </p> -->
 
-##### [Example 4]
-
 This example is from the following paper:
 
 > Xinyu Chen, Lijun Sun (2021). [Bayesian temporal factorization for multidimensional time series prediction](https://doi.org/10.1109/TPAMI.2021.3066551). IEEE Transactions on Pattern Analysis and Machine Intelligence. (Early access)
@@ -175,6 +173,27 @@ which shows the Bayesian network of Bayesian temporal matrix factorization (BTMF
 
 <br>
 
+### `pgfplots` function plotting
+
+##### [Example 1]
+
+<p align="center">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_pdf.png" alt="drawing" width="400">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_cdf.png" alt="drawing" width="400">
+</p>
+
+These two examples show the probability density function (PDF) and cumulative density function (CDF) of Erlang distribution, respectively. To draw the example, there are few steps to follow:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use package `pgfplots` in preamble,
+  3. set font style and `\pgfplotsset{}` as you prefer.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\begin{axis} \end{axis}` to draw the function,
+  3. use `\addplot` to define the function for drawing.
 
 ### Research Frameworks
 
