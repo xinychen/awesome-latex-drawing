@@ -5,9 +5,11 @@ Awesome LaTeX drawing
 [![repo size](https://img.shields.io/github/repo-size/xinychen/awesome-latex-drawing.svg)](https://github.com/xinychen/awesome-latex-drawing/archive/master.zip)
 [![GitHub stars](https://img.shields.io/github/stars/xinychen/awesome-latex-drawing.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/awesome-latex-drawing)
 
-<h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://twitter.com/chenxy346">https://twitter.com/chenxy346</a></h6>
+<h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://xinychen.github.io">https://xinychen.github.io</a></h6>
 
-**awesome-latex-drawing** is a collection which uses LaTeX to draw Bayesian networks, graphical models, tensor structure, and technical frameworks.
+**awesome-latex-drawing** is a collection of **20+** academic drawing examples for using LaTeX, including Bayesian networks, function plotting, graphical models, tensor structure, and technical frameworks.
+
+## Description
 
 LaTeX is a high-quality typesetting system, and it is available as a free software. In recent years, it is very popular for creating some graphics by using LaTeX because LaTeX is able to draw many complicated graphics containing math equations. For many programming languages like Python, installing console and related packages is the first step. If you prefer not to install LaTeX on your own computer, [overleaf.com](overleaf.com) is a good option. [overleaf.com](overleaf.com) gives you the full capabilities of LaTeX without installing any stuff, it supports writing and compiling `.tex` file on your web browser and can be asscessible for any laptops with an Internet connection.
 
@@ -15,10 +17,12 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
 
 **Table of Examples**
 
-1. [Bayesian network of Bayesian CP factorization (BCPF)](https://github.com/xinychen/awesome-latex-drawing#example-1)
-2. [Bayesian network of Bayesian Gaussian CP (BGCP) factorization](https://github.com/xinychen/awesome-latex-drawing#example-2)
-3. [Bayesian network of Bayesian augmented tensor factorization (BATF)](https://github.com/xinychen/awesome-latex-drawing#example-3)
-4. [Bayesian network of Bayesian temporal matrix factorization (BTMF)](https://github.com/xinychen/awesome-latex-drawing#example-4)
+- **Bayesian networks**
+  - [x] [Bayesian network of Bayesian CP factorization (BCPF)](https://github.com/xinychen/awesome-latex-drawing#example-1)
+  - [x] [Bayesian network of Bayesian Gaussian CP (BGCP) factorization](https://github.com/xinychen/awesome-latex-drawing#example-2)
+  - [x] [Bayesian network of Bayesian augmented tensor factorization (BATF)](https://github.com/xinychen/awesome-latex-drawing#example-3)
+  - [x] [Bayesian network of Bayesian temporal matrix factorization (BTMF)](https://github.com/xinychen/awesome-latex-drawing#example-4)
+- **`pgfplots` function plotting**
 
 <br>
 
@@ -175,7 +179,7 @@ which shows the Bayesian network of Bayesian temporal matrix factorization (BTMF
 
 ### `pgfplots` function plotting
 
-##### [Example 1]
+##### [Example 5]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_pdf.tex">
@@ -193,7 +197,7 @@ These two examples show the probability density function (PDF) and cumulative de
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
   2. use package `pgfplots` in preamble,
-  3. set font style and `\pgfplotsset{}` as you prefer.
+  3. set font style and adjust `\pgfplotsset{}` as you prefer.
 - **`body` codes**:
   1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   2. use `\begin{axis} \end{axis}` to draw the function,
