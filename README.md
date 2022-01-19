@@ -178,8 +178,8 @@ which shows the Bayesian network of Bayesian temporal matrix factorization (BTMF
 ##### [Example 1]
 
 <p align="center">
-<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_pdf.png" alt="drawing" width="400">
-<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_cdf.png" alt="drawing" width="400">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_pdf.png" alt="drawing" width="360">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_cdf.png" alt="drawing" width="360">
 </p>
 
 These two examples show the probability density function (PDF) and cumulative density function (CDF) of Erlang distribution, respectively. To draw the example, there are few steps to follow:
