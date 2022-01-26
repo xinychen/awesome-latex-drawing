@@ -1,0 +1,31 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{pgfplots}
+\usepackage[scaled]{helvet}
+\usepackage[T1]{fontenc}
+\renewcommand\familydefault{\sfdefault}
+\usepackage[eulergreek]{sansmath}
+\pgfplotsset{
+tick label style = {font=\sansmath\sffamily}}
+
+\pgfkeys{/pgf/number format/fixed, /pgf/number format/precision=5, /pgf/number format/.cd, 1000 sep = {}}
+\pgfplotsset{compat=newest}
+\begin{document}
+\pgfmathdeclarefunction{gauss}{2}{\pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
+}
+
+\begin{tikzpicture}
+\begin{axis}[
+    scaled ticks=false,
+    axis lines=left,
+    enlargelimits=upper,
+    line width=0.5,
+    legend entries={a: {$\mathcal{N}(1072,184^2)$}, b: {$\mathcal{N}(1012,176^2)$}, c: {$\mathcal{N}(1085,141^2)$}},
+    xlabel = {$x_1$},
+    ylabel = {$f(x_1)$}
+]
+\addplot + [smooth, mark=none, domain=400:2000, samples=100, color=red, line width=1.5] {gauss(1072, 183.74)};
+\addplot + [smooth, mark=none, domain=400:2000, samples=100, color=blue, line width=1.5] {gauss(1012, 176.34)};
+\addplot + [smooth, mark=none, domain=400:2000, samples=100, color=cyan, line width=1.5] {gauss(1085, 141.37)};
+\end{axis}
+\end{tikzpicture}
+\end{document}
