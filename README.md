@@ -24,6 +24,7 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [Bayesian network of Bayesian temporal matrix factorization (BTMF)](https://github.com/xinychen/awesome-latex-drawing#example-4)
 - **`pgfplots` function plotting**
   - [x] [PDF and CDF functions of Erlang distribution](https://github.com/xinychen/awesome-latex-drawing#example-5)
+  - [x] [PDF of normal distribution with different means and variances](https://github.com/xinychen/awesome-latex-drawing#example-6)
 
 <br>
 
@@ -203,6 +204,30 @@ These two examples show the probability density function (PDF) and cumulative de
   1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   2. use `\begin{axis} \end{axis}` to draw the function,
   3. use `\addplot` to define the function for drawing.
+
+##### [Example 6]
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/normal_pdf.tex">
+<img src="pgfplots-function/normal_pdf.png" alt="drawing" width="360" align="right"/>
+</a>
+
+This example shows the PDF of normal distribution with different means and variances. To draw this example, there are few step to follow:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use package `pgfplots` in preamble,
+  3. set font style and adjust `\pgfplotsset{}` as you prefer.
+- **`body` codes**:
+  1. use `\pgfmathdeclarefunction` to define the PDF function of normal (Gaussian) distribution,
+  2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  3. use `\begin{axis} \end{axis}` to draw the function,
+  4. use `\addplot` to define the function for drawing.
+- **More posts**:
+  1. [Plotting Normal distribution in pgfplots](https://tex.stackexchange.com/questions/100022)
+  2. [number format in pgfplots axis](https://tex.stackexchange.com/questions/31276)
+  3. [Remove the scientific notation which is unreasonable](https://tex.stackexchange.com/questions/119887)
 
 ### Research Frameworks
 
