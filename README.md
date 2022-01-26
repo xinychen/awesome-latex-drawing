@@ -464,26 +464,26 @@ in your overleaf project, then you will see the following picture:
   > <p align = "center">
   > <b>Figure 25</b>: transdim logo.
   > </p>
-  >
-  > More Features
-  > --------------
-  >
-  > > Coming soon...
-  >
-  > - Documentation (English version)
-  > - 技术文档 (中文版)
-  >   - [贝叶斯网络](https://github.com/xinychen/awesome-latex-drawing/blob/master/tutorial/Bayesian_nets.md)
-  >
-  >
-  > Related Projects
-  > --------------
-  >
-  > - [tikz-bayesnet](https://github.com/jluttine/tikz-bayesnet)
-  > - [awesome-tikz](https://github.com/xiaohanyu/awesome-tikz)
-  > - [transdim](https://github.com/xinychen/transdim)
-  >
- Publications
- --------------
+
+Recommended Posts
+-----------
+
+1. [draw colored world/US map in LaTeX](https://tex.stackexchange.com/questions/183087)
+2. [geographic maps with TikZ/pgfplots](https://tex.stackexchange.com/questions/36059)
+
+More Features
+--------------
+> Coming soon...
+
+Related Projects
+--------------
+
+- [tikz-bayesnet](https://github.com/jluttine/tikz-bayesnet)
+- [awesome-tikz](https://github.com/xiaohanyu/awesome-tikz)
+- [transdim](https://github.com/xinychen/transdim)
+
+Publications
+--------------
  
  Most of these examples are from our papers:
  
