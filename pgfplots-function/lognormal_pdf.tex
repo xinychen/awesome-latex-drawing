@@ -1,0 +1,30 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{pgfplots}
+\usepackage[scaled]{helvet}
+\usepackage[T1]{fontenc}
+\renewcommand\familydefault{\sfdefault}
+\usepackage[eulergreek]{sansmath}
+\pgfplotsset{
+tick label style = {font=\sansmath\sffamily}}
+
+\pgfkeys{/pgf/number format/fixed, /pgf/number format/precision=5, /pgf/number format/.cd, 1000 sep = {}}
+\pgfplotsset{compat=newest}
+\begin{document}
+\pgfmathdeclarefunction{lognormal}{2}{\pgfmathparse{1/(x*#2*sqrt(2*pi))*exp(-((ln(x)-#1)^2)/(2*#2^2))}%
+}
+
+\begin{tikzpicture}
+\begin{axis}[
+    scaled ticks=false,
+    axis lines=left,
+    enlargelimits=upper,
+    line width=0.5,
+    ymin=0,
+    xlabel = {$x$},
+    ylabel = {$f(x)$}
+]
+\addplot + [smooth, mark=none, domain=0:30, samples=100, color=red, line width=1.5] {lognormal(1.9, 1.0724)};
+\node at (20,0.06) {$\ln\mathcal{N}(1.9,1.0724^2)$};
+\end{axis}
+\end{tikzpicture}
+\end{document}
