@@ -25,6 +25,7 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
 - **`pgfplots` function plotting**
   - [x] [PDF and CDF functions of Erlang distribution](https://github.com/xinychen/awesome-latex-drawing#example-5)
   - [x] [PDF of normal distribution with different means and variances](https://github.com/xinychen/awesome-latex-drawing#example-6)
+  - [x] [(Joint) PDF functions of Lognormal distributions](https://github.com/xinychen/awesome-latex-drawing#example-7)
 
 <br>
 
@@ -185,10 +186,10 @@ which shows the Bayesian network of Bayesian temporal matrix factorization (BTMF
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_pdf.tex">
-<img align="middle" src="pgfplots-function/erlang_pdf.png" alt="drawing" width="360">
+<img align="middle" src="pgfplots-function/erlang_pdf.png" alt="drawing" width="350">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_cdf.tex">
-<img align="middle" src="pgfplots-function/erlang_cdf.png" alt="drawing" width="360">
+<img align="middle" src="pgfplots-function/erlang_cdf.png" alt="drawing" width="350">
 </a>
 </p>
 
@@ -208,7 +209,7 @@ These two examples show the probability density function (PDF) and cumulative de
 ##### [Example 6]
 
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/normal_pdf.tex">
-<img src="pgfplots-function/normal_pdf.png" alt="drawing" width="360" align="right"/>
+<img src="pgfplots-function/normal_pdf.png" alt="drawing" width="350" align="right"/>
 </a>
 
 This example shows the PDF of normal distribution with different means and variances. To draw this example, there are few step to follow:
@@ -228,6 +229,27 @@ This example shows the PDF of normal distribution with different means and varia
   1. [Plotting Normal distribution in pgfplots](https://tex.stackexchange.com/questions/100022)
   2. [number format in pgfplots axis](https://tex.stackexchange.com/questions/31276)
   3. [Remove the scientific notation which is unreasonable](https://tex.stackexchange.com/questions/119887)
+
+##### [Example 7]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/lognormal_pdf.tex">
+<img align="middle" src="pgfplots-function/lognormal_pdf.png" alt="drawing" width="350">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/bilognormal_pdf.tex">
+<img align="middle" src="pgfplots-function/bilognormal_pdf.png" alt="drawing" width="350">
+</a>
+</p>
+
+These two examples show the PDF and joint PDF of Lognormal distributions, respectively. There are some recommended material to follow the examples:
+
+<br>
+
+- **More posts**:
+  1. [Draw a bivariate normal distribution in TikZ](https://tex.stackexchange.com/questions/31708)
+  2. [How can two bivariate normal distributions be plotted in one plot?](https://tex.stackexchange.com/questions/198741)
+  3. [Plotting a Bivariate Normal Distribution in Tikz](https://tex.stackexchange.com/questions/236721)
+  4. [Split curve with addplot3](https://tex.stackexchange.com/questions/629567)
 
 ### Research Frameworks
 
