@@ -11,7 +11,7 @@ Awesome LaTeX drawing
 
 ## Description
 
-LaTeX is a high-quality typesetting system, and it is available as a free software. In recent years, it is very popular for creating some graphics by using LaTeX because LaTeX is able to draw many complicated graphics containing math equations. For many programming languages like Python, installing console and related packages is the first step. If you prefer not to install LaTeX on your own computer, [overleaf.com](overleaf.com) is a good option. [overleaf.com](overleaf.com) gives you the full capabilities of LaTeX without installing any stuff, it supports writing and compiling `.tex` file on your web browser and can be asscessible for any laptops with an Internet connection.
+LaTeX is a high-quality typesetting system, and it is available as a free software. In recent years, it is very popular for creating and drawing academic graphics by using LaTeX. This is because that LaTeX is able to draw many complicated graphics containing special symbols and math equations. It is really a great attempt for using LaTeX to draw certain graphics in your research.This post will introduce some graphics that created by using LaTeX. It would be easy to follow the examples with a popular online LaTeX system - Overleaf. If you are interested, welcome to use Overleaf and reproduce our examples. The Overleaf is available at [https://www.overleaf.com/](overleaf.com), please feel free to try it.
 
 ## Contents
 
@@ -46,7 +46,7 @@ Looking for some good LaTeX drawing examples? Here is a few (20+) to peruse.
 
 ### Bayesian Networks
 
-LaTeX provides some powerful domain-specific packages and tools like `tikz` to enable flexible graphical models.
+LaTeX provides some powerful domain-specific packages and tools like `tikz` to enable flexible graphical models. Bayesian networks represent a family of graphical models consisting of variables (usually denoted by nodes) and dependency relationships (usually denoted by arrows). Fortunately, `tikz` has a specific library for drawing Bayesian networks and directed factor graphs.
 
 #### Bayesian Tensor Factorization
 
@@ -65,7 +65,7 @@ which shows the Bayesian network of Bayesian CP factorization (BCPF) model. To d
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
-  2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
+  2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graphs,
   3. set the `tikz` style by using the `\tikzstyle{}` command,
   4. use math equation environments including `\usepackage{amsfonts, amsmath, amssymb}`.
 - **`body` codes**:
