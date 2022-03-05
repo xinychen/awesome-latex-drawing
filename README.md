@@ -206,6 +206,8 @@ These two examples show the probability density function (PDF) and cumulative de
   2. use `\begin{axis} \end{axis}` to draw the function,
   3. use `\addplot` to define the function for drawing.
 
+<br>
+
 ##### [Example 6]
 
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/normal_pdf.tex">
@@ -230,6 +232,8 @@ This example shows the PDF of normal distribution with different means and varia
   2. [number format in pgfplots axis](https://tex.stackexchange.com/questions/31276)
   3. [Remove the scientific notation which is unreasonable](https://tex.stackexchange.com/questions/119887)
 
+<br>
+
 ##### [Example 7]
 
 <p align="center">
@@ -250,6 +254,32 @@ These two examples show the PDF and joint PDF of Lognormal distributions, respec
   2. [How can two bivariate normal distributions be plotted in one plot?](https://tex.stackexchange.com/questions/198741)
   3. [Plotting a Bivariate Normal Distribution in Tikz](https://tex.stackexchange.com/questions/236721)
   4. [Split curve with addplot3](https://tex.stackexchange.com/questions/629567)
+
+<br>
+
+##### [Example 8]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/sin_cos_functions.tex">
+<img align="middle" src="pgfplots-function/sin_cos_functions.png" alt="drawing" width="600">
+</a>
+</p>
+
+This example shows four sequences consisting of Sine and Cosine functions. When regarding these sequences as time series, then we can see two kinds of temporal dynamics, that is, one is from Sine function, while another is from Cosine function. To draw this example, we can follow these steps:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use package `pgfplots` in preamble,
+  3. set font style and adjust `\pgfplotsset{}` as you prefer.
+- **`body` codes**:
+  1. use `\pgfmathdeclarefunction` to define the PDF function of normal (Gaussian) distribution,
+  2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  3. use `\begin{axis} \end{axis}` to draw the function,
+  4. use `\addplot` to define the function for drawing.
+
+<br>
 
 ### Research Frameworks
 
