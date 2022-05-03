@@ -299,7 +299,7 @@ This example illustrates the mechanism of time series forecasting on streaming d
 - **`body` codes**:
   1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   2. use `\begin{axis} \end{axis}` to define the graphic,
-  3. use `addplot` to define the marks at some coordinates.
+  3. use `addplot` to define the marks at some coordinates and specify the color of these marks.
 
 <br>
 
