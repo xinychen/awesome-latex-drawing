@@ -26,7 +26,8 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [PDF and CDF functions of Erlang distribution](https://github.com/xinychen/awesome-latex-drawing#example-5)
   - [x] [PDF of normal distribution with different means and variances](https://github.com/xinychen/awesome-latex-drawing#example-6)
   - [x] [(Joint) PDF functions of Lognormal distributions](https://github.com/xinychen/awesome-latex-drawing#example-7)
-  - [x] [Mechanism of time series forecasting]()
+  - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-8)
+  - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-9)
 
 <br>
 
