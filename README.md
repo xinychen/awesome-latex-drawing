@@ -26,6 +26,7 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [PDF and CDF functions of Erlang distribution](https://github.com/xinychen/awesome-latex-drawing#example-5)
   - [x] [PDF of normal distribution with different means and variances](https://github.com/xinychen/awesome-latex-drawing#example-6)
   - [x] [(Joint) PDF functions of Lognormal distributions](https://github.com/xinychen/awesome-latex-drawing#example-7)
+  - [x] [Mechanism of time series forecasting]()
 
 <br>
 
@@ -278,6 +279,27 @@ This example shows four sequences consisting of Sine and Cosine functions. When 
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   3. use `\begin{axis} \end{axis}` to draw the function,
   4. use `\addplot` to define the function for drawing.
+
+<br>
+
+##### [Example 9]
+
+This example illustrates the mechanism of time series forecasting on streaming data in our [tracebase](https://github.com/xinychen/tracebase) project. To draw this example, we can follow these steps:
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/forecasting.tex">
+<img src="pgfplots-function/forecasting.png" alt="drawing" width="400", align="right"/>
+</a>
+
+<br>
+
+- **`preamble` condes**:
+  1. define the `documentclass` as `standalone`,
+  2. use both `tikz` and `pgfplots` packages in preamble,
+  3. set font style and adjust `\pgfplotsset{}` as you prefer.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\begin{axis} \end{axis}` to define the graphic,
+  3. use `addplot` to define the marks at some coordinates.
 
 <br>
 
