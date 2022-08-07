@@ -29,7 +29,8 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-8)
   - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-9)
 - **`tikz-3dplot`** for tensor data
-  - [x] [Graphical illustration for the (origin,destination,time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-9)
+  - [x] [Graphical illustration for the (origin,destination,time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-10)
+  - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-11)
 
 
 <br>
@@ -326,6 +327,28 @@ This example gives a graphical illustration of a third-order tensor. To draw thi
   3. define the coordinates of the tensor edges,
   4. use `\draw` cammand to define cycles.
 
+<br>
+
+##### [Example 11]
+
+This example gives a graphical illustration of classical CP tensor factorization on a third-order tensor. To draw this example, we can follow these steps:
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/CP_factorization.tex">
+<img src="TensorFactorization/CP_factorization.png" alt="drawing" width="450", align="right"/>
+</a>
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use both `tikz` and `tikz-3dplot` packages in preamble.
+- **`body` codes**:
+  1. set depth, width, and height parameters by using `\newcommand`,
+  2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  3. define the coordinates of the tensor edges,
+  4. use `\draw` cammand to define cycles.
+
+
 ### Research Frameworks
 
 - Open
@@ -440,16 +463,6 @@ in your overleaf project, then you will see the following picture:
   >
   > ### Tensor Factorization
   >
-  > - Open [tensor.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="TensorFactorization/tensor.png" alt="drawing" width="360">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 17</b>: A graphical illustration for the (origin,destination,time slot) tensor.
-  > </p>
-  >
   > - Open [AuTF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex) in your overleaf project, then you will see the following picture:
   >
   > <p align="center">
@@ -479,17 +492,6 @@ in your overleaf project, then you will see the following picture:
   > <p align = "center">
   > <b>Figure 20</b>: Singular value thresholding process of the tensor data with unitary transform.
   > </p>
-  >
-  > - Open [CP_factorization.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/CP_factorization.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="TensorFactorization/CP_factorization.png" alt="drawing" width="400">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 21</b>: Illustration of CP factorization on third-order tensor.
-  > </p>
-  > 
   >
   > ### Data Visualization
   >
