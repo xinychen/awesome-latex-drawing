@@ -11,7 +11,7 @@ Awesome LaTeX drawing
 
 ## Description
 
-LaTeX is a high-quality typesetting system, and it is available as a free software. In recent years, it is very popular for creating and drawing academic graphics by using LaTeX. This is because that LaTeX is able to draw many complicated graphics containing special symbols and math equations. It is really a great attempt for using LaTeX to draw certain graphics in your research.This post will introduce some graphics that created by using LaTeX. It would be easy to follow the examples with a popular online LaTeX system - Overleaf. If you are interested, welcome to use Overleaf and reproduce our examples. The Overleaf is available at [overleaf.com](https://www.overleaf.com/), please feel free to try it.
+LaTeX is a high-quality typesetting system, and it is available as a free software. In recent years, it is very popular for creating and drawing academic graphics via LaTeX. This is because that LaTeX is able to draw many complicated graphics containing special symbols and math equations. It is really good for using LaTeX to draw certain graphics in your research.This project introduces some graphics that created by using LaTeX. It would be easy to follow the examples with a popular online LaTeX system - Overleaf. If you are interested, welcome to use Overleaf and reproduce our examples. The Overleaf is available at [overleaf.com](https://www.overleaf.com/), please feel free to try it.
 
 ## Contents
 
@@ -28,6 +28,9 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [(Joint) PDF functions of Lognormal distributions](https://github.com/xinychen/awesome-latex-drawing#example-7)
   - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-8)
   - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-9)
+- **`tikz-3dplot`** for tensor data
+  - [x] [Graphical illustration for the (origin,destination,time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-9)
+
 
 <br>
 
@@ -293,7 +296,7 @@ This example illustrates the mechanism of time series forecasting on streaming d
 
 <br>
 
-- **`preamble` condes**:
+- **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
   2. use both `tikz` and `pgfplots` packages in preamble,
   3. set font style and adjust `\pgfplotsset{}` as you prefer.
@@ -303,6 +306,25 @@ This example illustrates the mechanism of time series forecasting on streaming d
   3. use `addplot` to define the marks at some coordinates and specify the color of these marks.
 
 <br>
+
+##### [Example 10]
+
+This example gives a graphical illustration of a third-order tensor. To draw this example, we can follow these steps:
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor.tex">
+<img src="TensorFactorization/tensor.png" alt="drawing" width="400", align="right"/>
+</a>
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use both `tikz` and `tikz-3dplot` packages in preamble.
+- **`body` codes**:
+  1. set depth, width, and height parameters by using `\newcommand`,
+  2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  3. define the coordinates of the tensor edges,
+  4. use `\draw` cammand to define cycles.
 
 ### Research Frameworks
 
