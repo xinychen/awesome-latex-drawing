@@ -36,6 +36,7 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [Augmented tensor factorization (AuTF) model](https://github.com/xinychen/awesome-latex-drawing#example-12)
   - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-13)
   - [x] [Graphical illustration of low-rank autoregressive tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-14)
+  - [x] [Graphical illustration of singular value thresholding process of the tensor data with unitary transform](https://github.com/xinychen/awesome-latex-drawing#example-15)
 
 
 <br>
@@ -445,10 +446,34 @@ This example gives a graphical illustration of singular value thresholding proce
   5. use `\draw` cammand to define nodes,
   6. use `\filldraw` cammand to define colors of rectangles.
 
+##### [Example 16]
+
+This example gives a graphical illustration of low-rank tensor completion model. To draw this example, we can follow these steps:
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.png" alt="drawing" width="650">
+</a>
+</p>
+
+<br>
+
+- **Request**:
+  1. upload [input_tensor.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/input_tensor.pdf),
+  2. upload [output_tensor.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/output_tensor.pdf).
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use both `tikz` and `tikz-3dplot` packages,
+  3. use the `algorithm2e` package,
+  4. use `\usetikzlibrary{positioning, matrix, fit, calc}`.
+- **`body` codes**:
+  1. use `\begin{algorithm} \end{algorithm}` environment to define algorithm,
+  2. use `\matrix` command to position the components,
+  3. use `\begin{scope} \end{scope}` to contain the layers.
 
 
 
-
+<br>
+<br>
 
   > - Open [rolling_prediction_strategy.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.tex) in your overleaf project, then you will see the following picture:
   >
@@ -518,20 +543,6 @@ This example gives a graphical illustration of singular value thresholding proce
   >
   > <p align = "center">
   > <b>Figure 14</b>: A graphical illustration of matrix factorization.
-  > </p>
-  >
-  > - Open [LRTC-flow.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.tex) and upload
-  >   - [input_tensor.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/input_tensor.pdf)
-  >   - [output_tensor.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/output_tensor.tex)
-  >
-  > in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="Framework/LRTC-flow.png" alt="drawing" width="700">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 15</b>: A graphical illustration of low-rank tensor completion model.
   > </p>
   >
   >
