@@ -425,18 +425,28 @@ This example gives a graphical illustration of low-rank autoregressive tensor co
 
 <br>
 
+##### [Example 15]
+
+This example gives a graphical illustration of singular value thresholding process of the tensor data with unitary transform. To draw this example, we can follow these steps:
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.tex"><img align="right" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.png" alt="drawing" width="500">
+</a>
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use both `tikz` and `tikz-3dplot` packages.
+- **`body` codes**:
+  1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
+  2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  3. use `\node` cammand to define nodes,
+  4. define the coordinates of the tensor edges,
+  5. use `\draw` cammand to define nodes,
+  6. use `\filldraw` cammand to define colors of rectangles.
 
 
-  > - Open [latc_framework](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="Framework/latc_framework.png" alt="drawing" width="700">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 16</b>: A graphical illustration of low-rank autoregressive tensor completion model.
-  > </p>
-  >
+
 
 
 
@@ -533,16 +543,6 @@ This example gives a graphical illustration of low-rank autoregressive tensor co
   >
   > <p align = "center">
   > <b>Figure 19</b>: Tensor regression model.
-  > </p>
-  >
-  > - Open [tensor_svt.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="TensorFactorization/tensor_svt.png" alt="drawing" width="700">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 20</b>: Singular value thresholding process of the tensor data with unitary transform.
   > </p>
   >
   > ### Data Visualization
