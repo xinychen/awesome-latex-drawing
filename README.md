@@ -22,17 +22,20 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [Bayesian network of Bayesian Gaussian CP (BGCP) factorization](https://github.com/xinychen/awesome-latex-drawing#example-2)
   - [x] [Bayesian network of Bayesian augmented tensor factorization (BATF)](https://github.com/xinychen/awesome-latex-drawing#example-3)
   - [x] [Bayesian network of Bayesian temporal matrix factorization (BTMF)](https://github.com/xinychen/awesome-latex-drawing#example-4)
+  <br>
 - **`pgfplots` function plotting**
   - [x] [PDF and CDF functions of Erlang distribution](https://github.com/xinychen/awesome-latex-drawing#example-5)
   - [x] [PDF of normal distribution with different means and variances](https://github.com/xinychen/awesome-latex-drawing#example-6)
   - [x] [(Joint) PDF functions of Lognormal distributions](https://github.com/xinychen/awesome-latex-drawing#example-7)
   - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-8)
   - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-9)
+  <br>
 - **`tikz-3dplot`** for tensor structure
   - [x] [Graphical illustration for the (origin,destination,time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-10)
   - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-11)
   - [x] [Augmented tensor factorization (AuTF) model](https://github.com/xinychen/awesome-latex-drawing#example-12)
   - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-13)
+  - [x] [Graphical illustration of low-rank autoregressive tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-14)
 
 
 <br>
@@ -399,6 +402,41 @@ This example gives a graphical illustration of tensor completion task and its fr
 
 <br>
 
+##### [Example 14]
+
+This example gives a graphical illustration of low-rank autoregressive tensor completion model. To draw this example, we can follow these steps:
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.png" alt="drawing" width="700">
+</a>
+</p>
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use both `tikz` and `tikz-3dplot` packages.
+- **`body` codes**:
+  1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
+  2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  3. use `\node`, `\path`, `\plate` cammands to define nodes, arrows, and plates,
+  4. define the coordinates of the tensor edges,
+  5. use `\draw` cammand to define nodes.
+
+<br>
+
+
+
+  > - Open [latc_framework](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.tex) in your overleaf project, then you will see the following picture:
+  >
+  > <p align="center">
+  > <img align="middle" src="Framework/latc_framework.png" alt="drawing" width="700">
+  > </p>
+  >
+  > <p align = "center">
+  > <b>Figure 16</b>: A graphical illustration of low-rank autoregressive tensor completion model.
+  > </p>
+  >
 
 
 
@@ -484,16 +522,6 @@ This example gives a graphical illustration of tensor completion task and its fr
   >
   > <p align = "center">
   > <b>Figure 15</b>: A graphical illustration of low-rank tensor completion model.
-  > </p>
-  >
-  > - Open [latc_framework](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="Framework/latc_framework.png" alt="drawing" width="700">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 16</b>: A graphical illustration of low-rank autoregressive tensor completion model.
   > </p>
   >
   >
