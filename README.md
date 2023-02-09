@@ -15,7 +15,7 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
 
 ## Contents
 
-**Table of Examples**
+### Table of Examples
 
 - **Bayesian networks**
   - [x] [Bayesian network of Bayesian CP factorization (BCPF)](https://github.com/xinychen/awesome-latex-drawing#example-1)
@@ -30,13 +30,14 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-8)
   - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-9)
   <br>
-- **`tikz-3dplot`** for tensor structure
+- **`tikz-3dplot` for tensor structure**
   - [x] [Graphical illustration for the (origin,destination,time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-10)
   - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-11)
   - [x] [Augmented tensor factorization (AuTF) model](https://github.com/xinychen/awesome-latex-drawing#example-12)
   - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-13)
   - [x] [Graphical illustration of low-rank autoregressive tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-14)
   - [x] [Graphical illustration of singular value thresholding process of the tensor data with unitary transform](https://github.com/xinychen/awesome-latex-drawing#example-15)
+  - [x] [Graphical illustration of low-rank tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-16)
 
 
 <br>
