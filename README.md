@@ -356,9 +356,10 @@ This example gives a graphical illustration of classical CP tensor factorization
 
 This example gives a graphical illustration of augmented tensor factorization model. To draw this example, we can follow these steps:
 
-<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex">
-<img src="TensorFactorization/AuTF.png" alt="drawing" width="600", align="right"/>
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex"><img align="middle" src="TensorFactorization/AuTF.png" alt="drawing" width="650">
 </a>
+</p>
 
 <br>
 
@@ -379,6 +380,7 @@ This example gives a graphical illustration of tensor completion task and its fr
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.png" alt="drawing" width="800">
+</a>
 </p>
 
 <br>
