@@ -28,9 +28,10 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [(Joint) PDF functions of Lognormal distributions](https://github.com/xinychen/awesome-latex-drawing#example-7)
   - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-8)
   - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-9)
-- **`tikz-3dplot`** for tensor data
+- **`tikz-3dplot`** for tensor structure
   - [x] [Graphical illustration for the (origin,destination,time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-10)
   - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-11)
+  - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-12)
 
 
 <br>
@@ -84,15 +85,13 @@ which shows the Bayesian network of Bayesian CP factorization (BCPF) model. To d
 
 <br>
 
-<!-- > - Open [BGCP.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.tex) in your overleaf project, then you will see the following pictures:
-  >
-  > <p align="center">
-  > <img align="middle" src="BayesNet/BGCP.png" width="700" />
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 2</b>: BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph.
-  > </p> -->
+- Open [BGCP.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.tex) in your overleaf project, then you will see the following pictures about BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph:
+
+<p align="center">
+<img align="middle" src="BayesNet/BGCP.png" width="700" />
+</p>
+
+<br>
 
 ##### [Example 2] 
 
@@ -308,6 +307,8 @@ This example illustrates the mechanism of time series forecasting on streaming d
 
 <br>
 
+### `tikz-3dplot` for tensor structure
+
 ##### [Example 10]
 
 This example gives a graphical illustration of a third-order tensor. To draw this example, we can follow these steps:
@@ -325,7 +326,7 @@ This example gives a graphical illustration of a third-order tensor. To draw thi
   1. set depth, width, and height parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   3. define the coordinates of the tensor edges,
-  4. use `\draw` cammand to define cycles.
+  4. use `\draw` cammand to define nodes.
 
 <br>
 
@@ -341,31 +342,41 @@ This example gives a graphical illustration of classical CP tensor factorization
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
-  2. use both `tikz` and `tikz-3dplot` packages in preamble.
+  2. use both `tikz` and `tikz-3dplot` packages.
 - **`body` codes**:
-  1. set depth, width, and height parameters by using `\newcommand`,
+  1. set `\Depth`, `\Width`, and `\height` parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   3. define the coordinates of the tensor edges,
-  4. use `\draw` cammand to define cycles.
+  4. use `\draw` cammand to define nodes.
 
+<br>
 
-### Research Frameworks
+##### [Example 12]
 
-- Open
-  - [tc_framework.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex)
-- Upload
-  - [curve1.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve1.pdf)
-  - [curve2.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve2.pdf)
-
-in your overleaf project, then you will see the following picture:
+This example gives a graphical illustration of tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed. To draw this example, we can follow these steps:
 
 <p align="center">
-<img align="middle" src="https://github.com/xinychen/transdim/blob/master/images/framework.png" alt="drawing" width="800">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.png" alt="drawing" width="800">
 </p>
 
-<p align = "center">
-<b>Figure 7</b>: Tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed.
-</p>
+<br>
+
+- **Request**:
+  1. upload [curve1.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve1.pdf),
+  2. upload [curve2.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve2.pdf).
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use both `tikz` and `tikz-3dplot` packages.
+- **`body` codes**:
+  1. set `\Depth`, `\Width`, and `\height` parameters by using `\newcommand`,
+  2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  3. define the coordinates of the tensor edges,
+  4. use `\draw` cammand to define nodes.
+
+<br>
+
+
+
 
   > - Open [rolling_prediction_strategy.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.tex) in your overleaf project, then you will see the following picture:
   >
