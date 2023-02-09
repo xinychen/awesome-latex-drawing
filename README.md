@@ -31,7 +31,8 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
 - **`tikz-3dplot`** for tensor structure
   - [x] [Graphical illustration for the (origin,destination,time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-10)
   - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-11)
-  - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-12)
+  - [x] [Augmented tensor factorization (AuTF) model](https://github.com/xinychen/awesome-latex-drawing#example-12)
+  - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-13)
 
 
 <br>
@@ -323,7 +324,7 @@ This example gives a graphical illustration of a third-order tensor. To draw thi
   1. define the `documentclass` as `standalone`,
   2. use both `tikz` and `tikz-3dplot` packages in preamble.
 - **`body` codes**:
-  1. set depth, width, and height parameters by using `\newcommand`,
+  1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   3. define the coordinates of the tensor edges,
   4. use `\draw` cammand to define nodes.
@@ -344,7 +345,7 @@ This example gives a graphical illustration of classical CP tensor factorization
   1. define the `documentclass` as `standalone`,
   2. use both `tikz` and `tikz-3dplot` packages.
 - **`body` codes**:
-  1. set `\Depth`, `\Width`, and `\height` parameters by using `\newcommand`,
+  1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   3. define the coordinates of the tensor edges,
   4. use `\draw` cammand to define nodes.
@@ -352,6 +353,27 @@ This example gives a graphical illustration of classical CP tensor factorization
 <br>
 
 ##### [Example 12]
+
+This example gives a graphical illustration of augmented tensor factorization model. To draw this example, we can follow these steps:
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex">
+<img src="TensorFactorization/AuTF.png" alt="drawing" width="600", align="right"/>
+</a>
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use both `tikz` and `tikz-3dplot` packages.
+- **`body` codes**:
+  1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
+  2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  3. define the coordinates of the tensor edges,
+  4. use `\draw` cammand to define nodes.
+
+<br>
+
+##### [Example 13]
 
 This example gives a graphical illustration of tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed. To draw this example, we can follow these steps:
 
@@ -368,7 +390,7 @@ This example gives a graphical illustration of tensor completion task and its fr
   1. define the `documentclass` as `standalone`,
   2. use both `tikz` and `tikz-3dplot` packages.
 - **`body` codes**:
-  1. set `\Depth`, `\Width`, and `\height` parameters by using `\newcommand`,
+  1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   3. define the coordinates of the tensor edges,
   4. use `\draw` cammand to define nodes.
@@ -472,17 +494,6 @@ This example gives a graphical illustration of tensor completion task and its fr
   > <b>Figure 16</b>: A graphical illustration of low-rank autoregressive tensor completion model.
   > </p>
   >
-  > ### Tensor Factorization
-  >
-  > - Open [AuTF.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="TensorFactorization/AuTF.png" alt="drawing" width="600">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 18</b>: Augmented tensor factorization (AuTF) model.
-  > </p>
   >
   > - Open [TVART.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.tex) in your overleaf project, then you will see the following picture:
   >
