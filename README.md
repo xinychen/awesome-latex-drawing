@@ -27,8 +27,8 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [PDF and CDF functions of Erlang distribution](https://github.com/xinychen/awesome-latex-drawing#example-5)
   - [x] [PDF of normal distribution with different means and variances](https://github.com/xinychen/awesome-latex-drawing#example-6)
   - [x] [(Joint) PDF functions of Lognormal distributions](https://github.com/xinychen/awesome-latex-drawing#example-7)
-  - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-8)
-  - [x] [Random and non-random missing patterns](https://github.com/xinychen/awesome-latex-drawing#example-9)
+  - [x] [Random and non-random missing patterns](https://github.com/xinychen/awesome-latex-drawing#example-8)
+  - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-9)
   - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-10)
   <br>
 - **`tikz-3dplot` for tensor structure**
@@ -155,6 +155,8 @@ which shows the Bayesian network of Bayesian augmented tensor factorization (BAT
 > Please click on the image and check out the source code.
 
 <br>
+
+##### [Example 4]
 
 <!-- > - Open [btmf.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/btmf_net.tex) in your overleaf project, then you will see the following picture:
   >
