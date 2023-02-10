@@ -28,16 +28,17 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [PDF of normal distribution with different means and variances](https://github.com/xinychen/awesome-latex-drawing#example-6)
   - [x] [(Joint) PDF functions of Lognormal distributions](https://github.com/xinychen/awesome-latex-drawing#example-7)
   - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-8)
-  - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-9)
+  - [x] [Random and non-random missing patterns](https://github.com/xinychen/awesome-latex-drawing#example-9)
+  - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-10)
   <br>
 - **`tikz-3dplot` for tensor structure**
-  - [x] [Graphical illustration for the (origin,destination,time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-10)
-  - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-11)
-  - [x] [Augmented tensor factorization (AuTF) model](https://github.com/xinychen/awesome-latex-drawing#example-12)
-  - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-13)
-  - [x] [Graphical illustration of low-rank autoregressive tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-14)
-  - [x] [Graphical illustration of singular value thresholding process of the tensor data with unitary transform](https://github.com/xinychen/awesome-latex-drawing#example-15)
-  - [x] [Graphical illustration of low-rank tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-16)
+  - [x] [Graphical illustration for the (origin, destination, time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-11)
+  - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-12)
+  - [x] [Graphical illustration of augmented tensor factorization (AuTF) model](https://github.com/xinychen/awesome-latex-drawing#example-13)
+  - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-14)
+  - [x] [Graphical illustration of low-rank autoregressive tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-15)
+  - [x] [Graphical illustration of singular value thresholding process of the tensor data with unitary transform](https://github.com/xinychen/awesome-latex-drawing#example-16)
+  - [x] [Graphical illustration of low-rank tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-17)
 
 
 <br>
@@ -78,7 +79,7 @@ which shows the Bayesian network of Bayesian CP factorization (BCPF) model. To d
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
-  2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graphs,
+  2. use the package `tikz`, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graphs,
   3. set the `tikz` style by using the `\tikzstyle{}` command,
   4. use math equation environments including `\usepackage{amsfonts, amsmath, amssymb}`.
 - **`body` codes**:
@@ -114,7 +115,7 @@ which shows the Bayesian network of Bayesian Gaussian CP factorization (BGCP) mo
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
-  2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
+  2. use the package `tikz`, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
   3. set the `tikz` style by using the `\tikzstyle{}` command,
   4. use math equation environments including `\usepackage{amsmath, amsfonts, amssymb}`.
 - **`body` codes**:
@@ -142,7 +143,7 @@ which shows the Bayesian network of Bayesian augmented tensor factorization (BAT
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
-  2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
+  2. use the package `tikz`, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
   3. set the `tikz` style by using the `\tikzstyle{}` command,
   4. use math equation environments including `\usepackage{amsmath, amsfonts, amssymb}`.
 - **`body` codes**:
@@ -178,7 +179,7 @@ which shows the Bayesian network of Bayesian temporal matrix factorization (BTMF
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
-  2. use package `tikz` in preamble, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
+  2. use the package `tikz`, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graph,
   3. set the `tikz` style by using the `\tikzstyle{}` command,
   4. use math equation environments including `\usepackage{amsmath, amsfonts, amssymb}`.
 - **`body` codes**:
@@ -210,7 +211,7 @@ These two examples show the probability density function (PDF) and cumulative de
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
-  2. use package `pgfplots` in preamble,
+  2. use the package `pgfplots`,
   3. set font style and adjust `\pgfplotsset{}` as you prefer.
 - **`body` codes**:
   1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
@@ -231,7 +232,7 @@ This example shows the PDF of normal distribution with different means and varia
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
-  2. use package `pgfplots` in preamble,
+  2. use the package `pgfplots`,
   3. set font style and adjust `\pgfplotsset{}` as you prefer.
 - **`body` codes**:
   1. use `\pgfmathdeclarefunction` to define the PDF function of normal (Gaussian) distribution,
@@ -271,6 +272,32 @@ These two examples show the PDF and joint PDF of Lognormal distributions, respec
 ##### [Example 8]
 
 <p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.tex">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.png" alt="drawing" width="320">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.tex">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.png" alt="drawing" width="320">
+</a>
+</p>
+
+These two examples show the random and non-random missing patterns. To draw both two examples, we can follow these steps:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use both `tikz` and `pgfplots` packages,
+  3. use `\begin{filecontents} \end{filecontents}` to contain the data.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\begin{axis} \end{axis}` to draw the function,
+  3. use `\addplot` to draw the data.
+
+<br>
+
+##### [Example 9]
+
+<p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/sin_cos_functions.tex">
 <img align="middle" src="pgfplots-function/sin_cos_functions.png" alt="drawing" width="600">
 </a>
@@ -282,7 +309,7 @@ This example shows four sequences consisting of Sine and Cosine functions. When 
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
-  2. use package `pgfplots` in preamble,
+  2. use the package `pgfplots`,
   3. set font style and adjust `\pgfplotsset{}` as you prefer.
 - **`body` codes**:
   1. use `\pgfmathdeclarefunction` to define the PDF function of normal (Gaussian) distribution,
@@ -292,7 +319,7 @@ This example shows four sequences consisting of Sine and Cosine functions. When 
 
 <br>
 
-##### [Example 9]
+##### [Example 10]
 
 This example illustrates the mechanism of time series forecasting on streaming data in our [tracebase](https://github.com/xinychen/tracebase) project. To draw this example, we can follow these steps:
 
@@ -315,7 +342,7 @@ This example illustrates the mechanism of time series forecasting on streaming d
 
 ### `tikz-3dplot` for tensor structure
 
-##### [Example 10]
+##### [Example 11]
 
 This example gives a graphical illustration of a third-order tensor. To draw this example, we can follow these steps:
 
@@ -336,7 +363,7 @@ This example gives a graphical illustration of a third-order tensor. To draw thi
 
 <br>
 
-##### [Example 11]
+##### [Example 12]
 
 This example gives a graphical illustration of classical CP tensor factorization on a third-order tensor. To draw this example, we can follow these steps:
 
@@ -357,14 +384,14 @@ This example gives a graphical illustration of classical CP tensor factorization
 
 <br>
 
-##### [Example 12]
-
-This example gives a graphical illustration of augmented tensor factorization model. To draw this example, we can follow these steps:
+##### [Example 13]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex"><img align="middle" src="TensorFactorization/AuTF.png" alt="drawing" width="650">
 </a>
 </p>
+
+This example gives a graphical illustration of augmented tensor factorization model. To draw this example, we can follow these steps:
 
 <br>
 
@@ -379,14 +406,14 @@ This example gives a graphical illustration of augmented tensor factorization mo
 
 <br>
 
-##### [Example 13]
-
-This example gives a graphical illustration of tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed. To draw this example, we can follow these steps:
+##### [Example 14]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.png" alt="drawing" width="800">
 </a>
 </p>
+
+This example gives a graphical illustration of tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed. To draw this example, we can follow these steps:
 
 <br>
 
@@ -404,14 +431,14 @@ This example gives a graphical illustration of tensor completion task and its fr
 
 <br>
 
-##### [Example 14]
-
-This example gives a graphical illustration of low-rank autoregressive tensor completion model. To draw this example, we can follow these steps:
+##### [Example 15]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.png" alt="drawing" width="700">
 </a>
 </p>
+
+This example gives a graphical illustration of low-rank autoregressive tensor completion model. To draw this example, we can follow these steps:
 
 <br>
 
@@ -427,7 +454,7 @@ This example gives a graphical illustration of low-rank autoregressive tensor co
 
 <br>
 
-##### [Example 15]
+##### [Example 16]
 
 This example gives a graphical illustration of singular value thresholding process of the tensor data with unitary transform. To draw this example, we can follow these steps:
 
@@ -447,14 +474,16 @@ This example gives a graphical illustration of singular value thresholding proce
   5. use `\draw` cammand to define nodes,
   6. use `\filldraw` cammand to define colors of rectangles.
 
-##### [Example 16]
+<br>
 
-This example gives a graphical illustration of low-rank tensor completion model. To draw this example, we can follow these steps:
+##### [Example 17]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.png" alt="drawing" width="650">
 </a>
 </p>
+
+This example gives a graphical illustration of low-rank tensor completion model. To draw this example, we can follow these steps:
 
 <br>
 
@@ -558,26 +587,6 @@ This example gives a graphical illustration of low-rank tensor completion model.
   > </p>
   >
   > ### Data Visualization
-  >
-  > - Open [RMseries.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="data-visualization/RMseries.png" alt="drawing" width="400">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 22</b>: Random missing pattern.
-  > </p>
-  >
-  > - Open [NMseries.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="data-visualization/NMseries.png" alt="drawing" width="400">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 23</b>: Non-random missing pattern.
-  > </p>
   >
   > - Open [performance_bar.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/performance_bar.tex) and upload
   >   - [RM_Gdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Gdata.pdf)
