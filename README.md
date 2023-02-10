@@ -22,6 +22,8 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [Bayesian network of Bayesian Gaussian CP (BGCP) factorization](https://github.com/xinychen/awesome-latex-drawing#example-2)
   - [x] [Bayesian network of Bayesian augmented tensor factorization (BATF)](https://github.com/xinychen/awesome-latex-drawing#example-3)
   - [x] [Bayesian network of Bayesian temporal matrix factorization (BTMF)](https://github.com/xinychen/awesome-latex-drawing#example-4)
+  <br>
+- **Graphical models**
   - [x] [Partially observed time series matrix and tensor](https://github.com/xinychen/awesome-latex-drawing#example-5)
   - [x] [Matrix and tensor time series prediction in the presence of missing values](https://github.com/xinychen/awesome-latex-drawing#example-6)
   <br>
@@ -33,15 +35,19 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
   - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-11)
   - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-12)
   <br>
+- **`tikz` for matrix structure**
+  - [x] [Graphical illustration of the temporal matrix factorization](https://github.com/xinychen/awesome-latex-drawing#example-13)
+  - [x] [Graphical illustration of the rolling time series forecasting with temporal matrix factorization](https://github.com/xinychen/awesome-latex-drawing#example-14)
+  <br>
 - **`tikz-3dplot` for tensor structure**
-  - [x] [Graphical illustration for the (origin, destination, time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-13)
-  - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-14)
-  - [x] [Graphical illustration of augmented tensor factorization (AuTF) model](https://github.com/xinychen/awesome-latex-drawing#example-15)
-  - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-16)
-  - [x] [Graphical illustration of low-rank autoregressive tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-17)
-  - [x] [Graphical illustration of singular value thresholding process of the tensor data with unitary transform](https://github.com/xinychen/awesome-latex-drawing#example-18)
-  - [x] [Graphical illustration of low-rank tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-19)
-
+  - [x] [Graphical illustration for the (origin, destination, time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-15)
+  - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-16)
+  - [x] [Graphical illustration of augmented tensor factorization (AuTF) model](https://github.com/xinychen/awesome-latex-drawing#example-17)
+  - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-18)
+  - [x] [Graphical illustration of low-rank autoregressive tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-19)
+  - [x] [Graphical illustration of singular value thresholding process of the tensor data with unitary transform](https://github.com/xinychen/awesome-latex-drawing#example-20)
+  - [x] [Graphical illustration of low-rank tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-21)
+  - [x] [Graphical illustration of low-rank tensor regression model](https://github.com/xinychen/awesome-latex-drawing#example-22)
 
 <br>
 
@@ -196,17 +202,19 @@ which shows the Bayesian network of Bayesian temporal matrix factorization (BTMF
 
 <br>
 
+### Graphical Models
+
 ##### [Example 5]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.tex">
-<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png" alt="drawing" width="600">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/graphical_time_series.png" alt="drawing" width="570">
 </a>
 </p>
 <br>
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.tex">
-<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.png" alt="drawing" width="600">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tensor_time_series.png" alt="drawing" width="570">
 </a>
 </p>
 
@@ -393,7 +401,7 @@ This example illustrates the mechanism of time series forecasting on streaming d
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
-  2. use both `tikz` and `pgfplots` packages in preamble,
+  2. use both `tikz` and `pgfplots` packages,
   3. set font style and adjust `\pgfplotsset{}` as you prefer.
 - **`body` codes**:
   1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
@@ -402,9 +410,50 @@ This example illustrates the mechanism of time series forecasting on streaming d
 
 <br>
 
-### `tikz-3dplot` for tensor structure
+### `tikz` for Matrix Structure
 
 ##### [Example 13]
+
+<p align="center">
+<a href="https://github.com/xinychen/tracebase/blob/main/graphics/tmf.tex"><img align="middle" src="https://github.com/xinychen/tracebase/blob/main/graphics/tmf.png" alt="drawing" width="700">
+</a>
+</p>
+
+This example gives a graphical illustration of the temporal matrix factorization. To draw this example, we can follow these steps:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use the package `tikz`.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\draw` and `\filldraw` to set nodes and rectangles.
+
+<br>
+
+##### [Example 14]
+
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.tex">
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="420" align="right"/>
+</a>
+
+This example gives a graphical illustration of the rolling time series forecasting with temporal matrix factorization. To draw this example, we can follow these steps:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use the package `tikz`.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\draw` and `\filldraw` to set nodes and rectangles.
+
+<br>
+
+### `tikz-3dplot` for Tensor Structure
+
+##### [Example 15]
 
 This example gives a graphical illustration of a third-order tensor. To draw this example, we can follow these steps:
 
@@ -421,11 +470,11 @@ This example gives a graphical illustration of a third-order tensor. To draw thi
   1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   3. define the coordinates of the tensor edges,
-  4. use `\draw` cammand to define nodes.
+  4. use `\draw` command to define nodes.
 
 <br>
 
-##### [Example 14]
+##### [Example 16]
 
 This example gives a graphical illustration of classical CP tensor factorization on a third-order tensor. To draw this example, we can follow these steps:
 
@@ -442,11 +491,11 @@ This example gives a graphical illustration of classical CP tensor factorization
   1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   3. define the coordinates of the tensor edges,
-  4. use `\draw` cammand to define nodes.
+  4. use `\draw` command to define nodes.
 
 <br>
 
-##### [Example 15]
+##### [Example 17]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex"><img align="middle" src="TensorFactorization/AuTF.png" alt="drawing" width="650">
@@ -464,11 +513,11 @@ This example gives a graphical illustration of augmented tensor factorization mo
   1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   3. define the coordinates of the tensor edges,
-  4. use `\draw` cammand to define nodes.
+  4. use `\draw` command to define nodes.
 
 <br>
 
-##### [Example 16]
+##### [Example 18]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.png" alt="drawing" width="800">
@@ -489,11 +538,11 @@ This example gives a graphical illustration of tensor completion task and its fr
   1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
   3. define the coordinates of the tensor edges,
-  4. use `\draw` cammand to define nodes.
+  4. use `\draw` command to define nodes.
 
 <br>
 
-##### [Example 17]
+##### [Example 19]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.png" alt="drawing" width="700">
@@ -510,13 +559,13 @@ This example gives a graphical illustration of low-rank autoregressive tensor co
 - **`body` codes**:
   1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
-  3. use `\node`, `\path`, `\plate` cammands to define nodes, arrows, and plates,
+  3. use `\node`, `\path`, `\plate` commands to define nodes, arrows, and plates,
   4. define the coordinates of the tensor edges,
-  5. use `\draw` cammand to define nodes.
+  5. use `\draw` command to define nodes.
 
 <br>
 
-##### [Example 18]
+##### [Example 20]
 
 This example gives a graphical illustration of singular value thresholding process of the tensor data with unitary transform. To draw this example, we can follow these steps:
 
@@ -531,14 +580,14 @@ This example gives a graphical illustration of singular value thresholding proce
 - **`body` codes**:
   1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
   2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
-  3. use `\node` cammand to define nodes,
+  3. use `\node` command to define nodes,
   4. define the coordinates of the tensor edges,
-  5. use `\draw` cammand to define nodes,
-  6. use `\filldraw` cammand to define colors of rectangles.
+  5. use `\draw` command to define nodes,
+  6. use `\filldraw` command to define colors of rectangles.
 
 <br>
 
-##### [Example 19]
+##### [Example 21]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.png" alt="drawing" width="650">
@@ -562,112 +611,56 @@ This example gives a graphical illustration of low-rank tensor completion model.
   2. use `\matrix` command to position the components,
   3. use `\begin{scope} \end{scope}` to contain the layers.
 
-
-
-<br>
 <br>
 
-  > - Open [rolling_prediction_strategy.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction_strategy.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="Framework/rolling_prediction_strategy.png" alt="drawing" width="450">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 8</b>: A graphical illustration of rolling prediction strategy with temporal matrix factorization and autoregressive model.
-  > </p>
-  >
-  > - Open [rolling_prediction.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="Framework/rolling_prediction.png" alt="drawing" width="450">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 9</b>: A graphical illustration of rolling prediction strategy with temporal matrix factorization and vector autoregressive model.
-  > </p>
-  >
-  > - Open [mf-explained.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/mf-explained.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="Framework/mf-explained.png" alt="drawing" width="450">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 14</b>: A graphical illustration of matrix factorization.
-  > </p>
-  >
-  >
-  > - Open [TVART.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.tex) in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="TensorFactorization/TVART.png" alt="drawing" width="800">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 19</b>: Tensor regression model.
-  > </p>
-  >
-  > ### Data Visualization
-  >
-  > - Open [performance_bar.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/performance_bar.tex) and upload
-  >   - [RM_Gdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Gdata.pdf)
-  >   - [RM_Bdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Bdata.pdf)
-  >   - [RM_Hdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Hdata.pdf)
-  >   - [RM_Sdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Sdata.pdf)
-  >   - [NM_Gdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Gdata.pdf)
-  >   - [NM_Bdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Bdata.pdf)
-  >   - [NM_Hdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Hdata.pdf)
-  >   - [NM_Sdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Sdata.pdf)
-  >
-  > in your overleaf project, then you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="data-visualization/performance_bar.png" alt="drawing" width="800">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 24</b>: Imputation performance.
-  > </p>
-  >
-  > If you want to draw each sub-figure, please check out the following `.tex` files:
-  >
-  >   - Sub-figure at the 1st row and 1st column: [RM_Gdata.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Gdata.tex)
-  >   - Sub-figure at the 1st row and 2nd column: [RM_Bdata.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Bdata.tex)
-  >   - Sub-figure at the 1st row and 3rd column: [RM_Hdata.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Hdata.tex)
-  >   - Sub-figure at the 1st row and 4th column: [RM_Sdata.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Sdata.tex)
-  >   - Sub-figure at the 2nd row and 1st column: [NM_Gdata.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Gdata.tex)
-  >   - Sub-figure at the 2nd row and 2nd column: [NM_Bdata.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Bdata.tex)
-  >   - Sub-figure at the 2nd row and 3rd column: [NM_Hdata.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Hdata.tex)
-  >   - Sub-figure at the 2nd row and 4th column: [NM_Sdata.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Sdata.tex)
-  >
-  >
-  > ### Awesome Stuff
-  >
-  > - Open
-  >   - [transdim_logo_large.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/awesome-stuff/transdim_logo_large.tex)
-  > - Upload
-  >   - [jay.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/awesome-stuff/jay.pdf)
-  >
-  > in your overleaf project, then, you will see the following picture:
-  >
-  > <p align="center">
-  > <img align="middle" src="awesome-stuff/transdim_logo_large.png" alt="drawing" width="600">
-  > </p>
-  >
-  > <p align = "center">
-  > <b>Figure 25</b>: transdim logo.
-  > </p>
+##### [Example 22]
 
-Recommended Posts
------------
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.png" alt="drawing" width="650">
+</a>
+</p>
 
-1. [draw colored world/US map in LaTeX](https://tex.stackexchange.com/questions/183087)
-2. [geographic maps with TikZ/pgfplots](https://tex.stackexchange.com/questions/36059)
+This example gives a graphical illustration of low-rank tensor regression model. To draw this example, we can follow these steps:
 
-More Features
---------------
-> Coming soon...
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use both `tikz` and `tikz-3dplot` packages.
+- **`body` codes**:
+  1. set `\Depth`, `\Width`, and `\Height` parameters by using `\newcommand`,
+  2. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  3. use `\draw` command to define nodes.
+
+<br>
+
+### Data Visualization
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/performance_bar.tex"><img align="middle" src="data-visualization/performance_bar.png" alt="drawing" width="750">
+</p>
+
+This example shows the imputation accuracy of some matrix and tensor models. To draw this example, we can follow these steps:
+
+<br>
+- **Request**:
+  - [RM_Gdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Gdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Gdata.tex))
+  - [RM_Bdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Bdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Bdata.tex))
+  - [RM_Hdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Hdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Hdata.tex))
+  - [RM_Sdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Sdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Sdata.tex))
+  - [NM_Gdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Gdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Gdata.tex))
+  - [NM_Bdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Bdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Bdata.tex))
+  - [NM_Hdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Hdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Hdata.tex))
+  - [NM_Sdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Sdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Sdata.tex))
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use the package `tikz`.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\draw` command to define nodes,
+  3. use `\pgfuseimage` command to import images.
+
+<br>
 
 Related Projects
 --------------
@@ -675,6 +668,8 @@ Related Projects
 - [tikz-bayesnet](https://github.com/jluttine/tikz-bayesnet)
 - [awesome-tikz](https://github.com/xiaohanyu/awesome-tikz)
 - [transdim](https://github.com/xinychen/transdim)
+
+<br>
 
 Publications
 --------------
