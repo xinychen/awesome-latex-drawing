@@ -322,7 +322,7 @@ This example gives a graphical illustration of the Laplacian convolutional model
 <img align="middle" src="pgfplots-function/erlang_pdf.png" alt="drawing" width="350"  hspace="50">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_cdf.tex">
-<img align="middle" src="pgfplots-function/erlang_cdf.png" alt="drawing" width="350">
+<img align="middle" src="pgfplots-function/erlang_cdf.png" alt="drawing" width="350" hspace="50">
 </a>
 </p>
 
@@ -374,7 +374,7 @@ This example shows the PDF of normal distribution with different means and varia
 <img align="middle" src="pgfplots-function/lognormal_pdf.png" alt="drawing" height="270" hspace="20">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/bilognormal_pdf.tex">
-<img align="middle" src="pgfplots-function/bilognormal_pdf.png" alt="drawing" height="270">
+<img align="middle" src="pgfplots-function/bilognormal_pdf.png" alt="drawing" height="270" hspace="20">
 </a>
 </p>
 
@@ -393,11 +393,24 @@ These two examples show the PDF and joint PDF of Lognormal distributions, respec
 ##### [Example 12]
 
 <p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/conj_grad_example_1.tex">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/conj_grad_example_1.png" alt="drawing" width="320" hspace="30">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/conj_grad_example_2.tex">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/conj_grad_example_2.png" alt="drawing" width="320" hspace="30">
+</a>
+</p>
+
+<br>
+
+##### [Example 13]
+
+<p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.tex">
 <img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.png" alt="drawing" width="320" hspace="50">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.tex">
-<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.png" alt="drawing" width="320">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.png" alt="drawing" width="320" hspace="50">
 </a>
 </p>
 
