@@ -269,10 +269,10 @@ These two examples show the time series prediction in the presence of missing va
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/circulant_graph_degree_2.tex">
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/circulant_graph_degree_2.png" alt="drawing" width="320" align="middle" hspace="60">
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/circulant_graph_degree_2.png" alt="drawing" width="300" align="middle" hspace="50">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/circulant_graph_degree_4.tex">
-<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/circulant_graph_degree_4.png" alt="drawing" width="320" align="middle">
+<img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/circulant_graph_degree_4.png" alt="drawing" width="300" align="middle" hspace="50">
 </a>
 </p>
 
@@ -319,10 +319,10 @@ This example gives a graphical illustration of the Laplacian convolutional model
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_pdf.tex">
-<img align="middle" src="pgfplots-function/erlang_pdf.png" alt="drawing" width="350"  hspace="50">
+<img align="middle" src="pgfplots-function/erlang_pdf.png" alt="drawing" width="350"  hspace="30">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_cdf.tex">
-<img align="middle" src="pgfplots-function/erlang_cdf.png" alt="drawing" width="350" hspace="50">
+<img align="middle" src="pgfplots-function/erlang_cdf.png" alt="drawing" width="350" hspace="30">
 </a>
 </p>
 
@@ -394,10 +394,10 @@ These two examples show the PDF and joint PDF of Lognormal distributions, respec
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/conj_grad_example_1.tex">
-<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/conj_grad_example_1.png" alt="drawing" width="320" hspace="30">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/conj_grad_example_1.png" alt="drawing" width="320" hspace="20">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/conj_grad_example_2.tex">
-<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/conj_grad_example_2.png" alt="drawing" width="320" hspace="30">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/conj_grad_example_2.png" alt="drawing" width="320" hspace="20">
 </a>
 </p>
 
@@ -407,10 +407,10 @@ These two examples show the PDF and joint PDF of Lognormal distributions, respec
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.tex">
-<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.png" alt="drawing" width="320" hspace="50">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.png" alt="drawing" width="320" hspace="20">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.tex">
-<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.png" alt="drawing" width="320" hspace="50">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.png" alt="drawing" width="320" hspace="20">
 </a>
 </p>
 
