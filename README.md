@@ -344,7 +344,7 @@ This example shows the PDF of normal distribution with different means and varia
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/lognormal_pdf.tex">
-<img align="middle" src="pgfplots-function/lognormal_pdf.png" alt="drawing" height="270" hspace="50">
+<img align="middle" src="pgfplots-function/lognormal_pdf.png" alt="drawing" height="270" hspace="20">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/bilognormal_pdf.tex">
 <img align="middle" src="pgfplots-function/bilognormal_pdf.png" alt="drawing" height="270">
