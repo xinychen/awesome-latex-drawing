@@ -26,29 +26,30 @@ LaTeX is a high-quality typesetting system, and it is available as a free softwa
 - **Graphical models**
   - [x] [Partially observed time series matrix and tensor](https://github.com/xinychen/awesome-latex-drawing#example-5)
   - [x] [Matrix and tensor time series prediction in the presence of missing values](https://github.com/xinychen/awesome-latex-drawing#example-6)
+  - [x] [Laplacian convolutional time series modeling](https://github.com/xinychen/awesome-latex-drawing#example-7)
   <br>
 - **`pgfplots` function plotting**
-  - [x] [PDF and CDF functions of Erlang distribution](https://github.com/xinychen/awesome-latex-drawing#example-7)
-  - [x] [PDF of normal distribution with different means and variances](https://github.com/xinychen/awesome-latex-drawing#example-8)
-  - [x] [(Joint) PDF functions of Lognormal distributions](https://github.com/xinychen/awesome-latex-drawing#example-9)
-  - [x] [Random and non-random missing patterns](https://github.com/xinychen/awesome-latex-drawing#example-10)
-  - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-11)
-  - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-12)
+  - [x] [PDF and CDF functions of Erlang distribution](https://github.com/xinychen/awesome-latex-drawing#example-8)
+  - [x] [PDF of normal distribution with different means and variances](https://github.com/xinychen/awesome-latex-drawing#example-9)
+  - [x] [(Joint) PDF functions of Lognormal distributions](https://github.com/xinychen/awesome-latex-drawing#example-10)
+  - [x] [Random and non-random missing patterns](https://github.com/xinychen/awesome-latex-drawing#example-11)
+  - [x] [Sine and Cosine functions](https://github.com/xinychen/awesome-latex-drawing#example-12)
+  - [x] [Mechanism of time series forecasting](https://github.com/xinychen/awesome-latex-drawing#example-13)
   <br>
 - **`tikz` for matrix structure**
-  - [x] [Graphical illustration of the multivariate time series forecasting problem](https://github.com/xinychen/awesome-latex-drawing#example-13)
-  - [x] [Graphical illustration of the temporal matrix factorization](https://github.com/xinychen/awesome-latex-drawing#example-14)
-  - [x] [Graphical illustration of the rolling time series forecasting with temporal matrix factorization](https://github.com/xinychen/awesome-latex-drawing#example-15)
+  - [x] [Graphical illustration of the multivariate time series forecasting problem](https://github.com/xinychen/awesome-latex-drawing#example-14)
+  - [x] [Graphical illustration of the temporal matrix factorization](https://github.com/xinychen/awesome-latex-drawing#example-15)
+  - [x] [Graphical illustration of the rolling time series forecasting with temporal matrix factorization](https://github.com/xinychen/awesome-latex-drawing#example-16)
   <br>
 - **`tikz-3dplot` for tensor structure**
-  - [x] [Graphical illustration for the (origin, destination, time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-16)
-  - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-17)
-  - [x] [Graphical illustration of augmented tensor factorization (AuTF) model](https://github.com/xinychen/awesome-latex-drawing#example-18)
-  - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-19)
-  - [x] [Graphical illustration of low-rank autoregressive tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-20)
-  - [x] [Graphical illustration of singular value thresholding process of the tensor data with unitary transform](https://github.com/xinychen/awesome-latex-drawing#example-21)
-  - [x] [Graphical illustration of low-rank tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-22)
-  - [x] [Graphical illustration of low-rank tensor regression model](https://github.com/xinychen/awesome-latex-drawing#example-23)
+  - [x] [Graphical illustration for the (origin, destination, time slot) tensor](https://github.com/xinychen/awesome-latex-drawing#example-17)
+  - [x] [Graphical illustration of the classical CP tensor factorization on a third-order tensor](https://github.com/xinychen/awesome-latex-drawing#example-18)
+  - [x] [Graphical illustration of augmented tensor factorization (AuTF) model](https://github.com/xinychen/awesome-latex-drawing#example-19)
+  - [x] [Graphical illustration of tensor completion task and its framework including data organization and tensor completion](https://github.com/xinychen/awesome-latex-drawing#example-20)
+  - [x] [Graphical illustration of low-rank autoregressive tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-21)
+  - [x] [Graphical illustration of singular value thresholding process of the tensor data with unitary transform](https://github.com/xinychen/awesome-latex-drawing#example-22)
+  - [x] [Graphical illustration of low-rank tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-23)
+  - [x] [Graphical illustration of low-rank tensor regression model](https://github.com/xinychen/awesome-latex-drawing#example-24)
 
 <br>
 
@@ -263,13 +264,35 @@ These two examples show the time series prediction in the presence of missing va
 
 <br>
 
-### `pgfplots` Function Plotting
-
 ##### [Example 7]
 
 <p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/Laplacian_convolutional_time_series.tex">
+<img src="Framework/Laplacian_convolutional_time_series.png" alt="drawing" width="550" align="middle"/>
+</a>
+</p>
+
+This example gives a graphical illustration of the Laplacian convolutional model for time series imputation. To draw the example, we can follow these steps:
+
+<br>
+
+- **`preamble` codes**:
+  1. define the `documentclass` as `standalone`,
+  2. use the package `tikz`.
+- **`body` codes**:
+  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
+  2. use `\begin{axis} \end{axis}` and `\addplot` to draw coordinates,
+  3. use `\node` and `\path` to draw nodes and arrows.
+
+<br>
+
+### `pgfplots` Function Plotting
+
+##### [Example 8]
+
+<p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_pdf.tex">
-<img align="middle" src="pgfplots-function/erlang_pdf.png" alt="drawing" width="350">
+<img align="middle" src="pgfplots-function/erlang_pdf.png" alt="drawing" width="350"  hspace="50">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/erlang_cdf.tex">
 <img align="middle" src="pgfplots-function/erlang_cdf.png" alt="drawing" width="350">
@@ -291,7 +314,7 @@ These two examples show the probability density function (PDF) and cumulative de
 
 <br>
 
-##### [Example 8]
+##### [Example 9]
 
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/normal_pdf.tex">
 <img src="pgfplots-function/normal_pdf.png" alt="drawing" width="350" align="right"/>
@@ -317,11 +340,11 @@ This example shows the PDF of normal distribution with different means and varia
 
 <br>
 
-##### [Example 9]
+##### [Example 10]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/lognormal_pdf.tex">
-<img align="middle" src="pgfplots-function/lognormal_pdf.png" alt="drawing" height="270">
+<img align="middle" src="pgfplots-function/lognormal_pdf.png" alt="drawing" height="270" hspace="20">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/bilognormal_pdf.tex">
 <img align="middle" src="pgfplots-function/bilognormal_pdf.png" alt="drawing" height="270">
@@ -340,11 +363,11 @@ These two examples show the PDF and joint PDF of Lognormal distributions, respec
 
 <br>
 
-##### [Example 10]
+##### [Example 11]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.tex">
-<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.png" alt="drawing" width="320">
+<img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RMseries.png" alt="drawing" width="320" hspace="50">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.tex">
 <img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NMseries.png" alt="drawing" width="320">
@@ -366,7 +389,7 @@ These two examples show the random and non-random missing patterns. To draw both
 
 <br>
 
-##### [Example 11]
+##### [Example 12]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/sin_cos_functions.tex">
@@ -390,7 +413,7 @@ This example shows four sequences consisting of Sine and Cosine functions. When 
 
 <br>
 
-##### [Example 12]
+##### [Example 13]
 
 This example illustrates the mechanism of time series forecasting on streaming data in our [tracebase](https://github.com/xinychen/tracebase) project. To draw this example, we can follow these steps:
 
@@ -413,7 +436,7 @@ This example illustrates the mechanism of time series forecasting on streaming d
 
 ### `tikz` for Matrix Structure
 
-##### [Example 13]
+##### [Example 14]
 
 <a href="https://github.com/xinychen/tracebase/blob/main/graphics/prob.tex">
 <img src="https://github.com/xinychen/tracebase/blob/main/graphics/prob.png" alt="drawing" width="300", align="right"/>
@@ -433,7 +456,7 @@ This example gives a graphical illustration of the multivariate time series fore
 
 <br>
 
-##### [Example 14]
+##### [Example 15]
 
 <p align="center">
 <a href="https://github.com/xinychen/tracebase/blob/main/graphics/tmf.tex"><img align="middle" src="https://github.com/xinychen/tracebase/blob/main/graphics/tmf.png" alt="drawing" width="700">
@@ -453,7 +476,7 @@ This example gives a graphical illustration of the temporal matrix factorization
 
 <br>
 
-##### [Example 15]
+##### [Example 16]
 
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.tex">
 <img src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/rolling_prediction.png" alt="drawing" width="420" align="right"/>
@@ -474,7 +497,7 @@ This example gives a graphical illustration of the rolling time series forecasti
 
 ### `tikz-3dplot` for Tensor Structure
 
-##### [Example 16]
+##### [Example 17]
 
 This example gives a graphical illustration of a third-order tensor. To draw this example, we can follow these steps:
 
@@ -495,7 +518,7 @@ This example gives a graphical illustration of a third-order tensor. To draw thi
 
 <br>
 
-##### [Example 17]
+##### [Example 18]
 
 This example gives a graphical illustration of classical CP tensor factorization on a third-order tensor. To draw this example, we can follow these steps:
 
@@ -516,7 +539,7 @@ This example gives a graphical illustration of classical CP tensor factorization
 
 <br>
 
-##### [Example 18]
+##### [Example 19]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/AuTF.tex"><img align="middle" src="TensorFactorization/AuTF.png" alt="drawing" width="650">
@@ -538,7 +561,7 @@ This example gives a graphical illustration of augmented tensor factorization mo
 
 <br>
 
-##### [Example 19]
+##### [Example 20]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/tc_framework.png" alt="drawing" width="800">
@@ -563,7 +586,7 @@ This example gives a graphical illustration of tensor completion task and its fr
 
 <br>
 
-##### [Example 20]
+##### [Example 21]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/latc_framework.png" alt="drawing" width="700">
@@ -586,7 +609,7 @@ This example gives a graphical illustration of low-rank autoregressive tensor co
 
 <br>
 
-##### [Example 21]
+##### [Example 22]
 
 This example gives a graphical illustration of singular value thresholding process of the tensor data with unitary transform. To draw this example, we can follow these steps:
 
@@ -608,7 +631,7 @@ This example gives a graphical illustration of singular value thresholding proce
 
 <br>
 
-##### [Example 22]
+##### [Example 23]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/LRTC-flow.png" alt="drawing" width="650">
@@ -634,7 +657,7 @@ This example gives a graphical illustration of low-rank tensor completion model.
 
 <br>
 
-##### [Example 23]
+##### [Example 24]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.tex"><img align="middle" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/TVART.png" alt="drawing" width="650">
@@ -657,7 +680,7 @@ This example gives a graphical illustration of low-rank tensor regression model.
 
 ### Data Visualization
 
-##### [Example 24]
+##### [Example 25]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/performance_bar.tex"><img align="middle" src="data-visualization/performance_bar.png" alt="drawing" width="750">
