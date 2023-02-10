@@ -643,15 +643,7 @@ This example gives a graphical illustration of low-rank tensor regression model.
 This example shows the imputation accuracy of some matrix and tensor models. To draw this example, we can follow these steps:
 
 <br>
-- **Request**:
-  - [RM_Gdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Gdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Gdata.tex))
-  - [RM_Bdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Bdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Bdata.tex))
-  - [RM_Hdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Hdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Hdata.tex))
-  - [RM_Sdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Sdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/RM_Sdata.tex))
-  - [NM_Gdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Gdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Gdata.tex))
-  - [NM_Bdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Bdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Bdata.tex))
-  - [NM_Hdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Hdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Hdata.tex))
-  - [NM_Sdata.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Sdata.pdf) ([.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/data-visualization/NM_Sdata.tex))
+
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
   2. use the package `tikz`.
