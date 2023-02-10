@@ -123,7 +123,6 @@ This example is from the following paper:
 </a>
 which shows the Bayesian network of Bayesian Gaussian CP factorization (BGCP) model. To draw this Bayesian network example, there are some preliminaries to follow:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
@@ -151,7 +150,6 @@ This example is from the following paper:
 </a>
 which shows the Bayesian network of Bayesian augmented tensor factorization (BATF) model. To draw this Bayesian network example, there are some preliminaries to follow:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
@@ -189,7 +187,6 @@ This example is from the following paper:
 </a>
 which shows the Bayesian network of Bayesian temporal matrix factorization (BTMF) model. To draw this Bayesian network example, there are some preliminaries to follow:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
@@ -224,7 +221,6 @@ which shows the Bayesian network of Bayesian temporal matrix factorization (BTMF
 
 These two examples show the partially observed time series matrix and tensor, respectively. To draw both two examples, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -253,7 +249,6 @@ These two examples show the partially observed time series matrix and tensor, re
 
 These two examples show the time series prediction in the presence of missing values. To draw both two examples, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -279,7 +274,6 @@ These two examples show the time series prediction in the presence of missing va
 
 These two examples show the undirected and circulant graphs on the relational data samples with certain degrees. To draw both two examples, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -302,7 +296,6 @@ These two examples show the undirected and circulant graphs on the relational da
 
 This example gives a graphical illustration of the Laplacian convolutional model for time series imputation. To draw the example, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -329,7 +322,6 @@ This example gives a graphical illustration of the Laplacian convolutional model
 
 These two examples show the probability density function (PDF) and cumulative density function (CDF) of Erlang distribution, respectively. To draw the example, there are few steps to follow:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -350,7 +342,6 @@ These two examples show the probability density function (PDF) and cumulative de
 
 This example shows the PDF of normal distribution with different means and variances. To draw this example, there are few step to follow:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -381,7 +372,6 @@ This example shows the PDF of normal distribution with different means and varia
 
 These two examples show the PDF and joint PDF of Lognormal distributions, respectively. There are some recommended material to follow the examples:
 
-<br>
 
 - **More posts**:
   1. [Draw a bivariate normal distribution in TikZ](https://tex.stackexchange.com/questions/31708)
@@ -419,7 +409,6 @@ These two examples show the iterative process of conjugate gradient for solving 
 
 These two examples show the random and non-random missing patterns. To draw both two examples, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -442,7 +431,6 @@ These two examples show the random and non-random missing patterns. To draw both
 
 This example shows four sequences consisting of Sine and Cosine functions. When regarding these sequences as time series, then we can see two kinds of temporal dynamics, that is, one is from Sine function, while another is from Cosine function. To draw this example, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -464,7 +452,6 @@ This example illustrates the mechanism of time series forecasting on streaming d
 <img src="pgfplots-function/forecasting.png" alt="drawing" width="400", align="right"/>
 </a>
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -487,7 +474,6 @@ This example illustrates the mechanism of time series forecasting on streaming d
 
 This example gives a graphical illustration of the multivariate time series forecasting problem with missing values. To draw this example, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -508,7 +494,6 @@ This example gives a graphical illustration of the multivariate time series fore
 
 This example gives a graphical illustration of the temporal matrix factorization. To draw this example, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -527,7 +512,6 @@ This example gives a graphical illustration of the temporal matrix factorization
 
 This example gives a graphical illustration of the rolling time series forecasting with temporal matrix factorization. To draw this example, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -548,7 +532,6 @@ This example gives a graphical illustration of a third-order tensor. To draw thi
 <img src="TensorFactorization/tensor.png" alt="drawing" width="400", align="right"/>
 </a>
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -569,7 +552,6 @@ This example gives a graphical illustration of classical CP tensor factorization
 <img src="TensorFactorization/CP_factorization.png" alt="drawing" width="450", align="right"/>
 </a>
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -591,7 +573,6 @@ This example gives a graphical illustration of classical CP tensor factorization
 
 This example gives a graphical illustration of augmented tensor factorization model. To draw this example, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -613,7 +594,6 @@ This example gives a graphical illustration of augmented tensor factorization mo
 
 This example gives a graphical illustration of tensor completion task and its framework including data organization and tensor completion, in which traffic measurements are partially observed. To draw this example, we can follow these steps:
 
-<br>
 
 - **Request**:
   1. upload [curve1.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/curve1.pdf),
@@ -638,7 +618,6 @@ This example gives a graphical illustration of tensor completion task and its fr
 
 This example gives a graphical illustration of low-rank autoregressive tensor completion model. To draw this example, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -659,7 +638,6 @@ This example gives a graphical illustration of singular value thresholding proce
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.tex"><img align="right" src="https://github.com/xinychen/awesome-latex-drawing/blob/master/TensorFactorization/tensor_svt.png" alt="drawing" width="500">
 </a>
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -683,7 +661,6 @@ This example gives a graphical illustration of singular value thresholding proce
 
 This example gives a graphical illustration of low-rank tensor completion model. To draw this example, we can follow these steps:
 
-<br>
 
 - **Request**:
   1. upload [input_tensor.pdf](https://github.com/xinychen/awesome-latex-drawing/blob/master/Framework/input_tensor.pdf),
@@ -709,7 +686,6 @@ This example gives a graphical illustration of low-rank tensor completion model.
 
 This example gives a graphical illustration of low-rank tensor regression model. To draw this example, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
@@ -731,7 +707,6 @@ This example gives a graphical illustration of low-rank tensor regression model.
 
 This example shows the imputation accuracy of some matrix and tensor models. To draw this example, we can follow these steps:
 
-<br>
 
 - **`preamble` codes**:
   1. define the `documentclass` as `standalone`,
