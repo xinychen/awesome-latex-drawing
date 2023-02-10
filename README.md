@@ -263,7 +263,7 @@ These two examples show the time series prediction in the presence of missing va
 
 <br>
 
-### `pgfplots` function plotting
+### `pgfplots` Function Plotting
 
 ##### [Example 7]
 
