@@ -66,7 +66,7 @@ Open [**overleaf.com**](https://www.overleaf.com/) in your Chrome.
 
 ## Gallery
 
-Looking for some good LaTeX drawing examples? Here is a few (20+) to peruse.
+Looking for some good LaTeX drawing examples? Here are 30+ graphics for showing how to draw in LaTaX.
 
 <br>
 
