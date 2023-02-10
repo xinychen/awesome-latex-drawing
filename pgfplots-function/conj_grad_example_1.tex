@@ -1,0 +1,16 @@
+\documentclass[border = 0.2cm, 12pt]{standalone}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{color}
+\usepackage{tikz, pgfplots}
+\pgfplotsset{compat=newest}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle, line width=0.7, enlargelimits=upper, domain=-2:3, ymin=-1.5, ymax=3, xlabel=$x_1$, ylabel=$x_2$, legend entries={{$4x_1+x_2=1$}, {$x_1+3x_2=2$}}]
+\addplot [smooth, color=blue, line width = 2] {1-4*x};
+\addplot [smooth, color=red, line width = 2] {(2-x)/3};
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
