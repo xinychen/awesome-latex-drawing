@@ -74,6 +74,8 @@ Looking for some good LaTeX drawing examples? Here are 30+ graphics for showing 
 
 LaTeX provides some powerful domain-specific packages and tools like `tikz` to enable flexible graphical models. Bayesian networks represent a family of graphical models consisting of variables (usually denoted by nodes) and dependency relationships (usually denoted by arrows). Fortunately, `tikz` has a specific library for drawing Bayesian networks and directed factor graphs.
 
+> Another toolbox in Python: [https://docs.daft-pgm.org/en/latest/](https://docs.daft-pgm.org/en/latest/)
+
 #### Bayesian Tensor Factorization
 
 ##### [Example 1]
