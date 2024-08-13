@@ -738,7 +738,7 @@ Publications
  
  Most of these examples are from our papers:
  
-- Xinyu Chen, Zhanhong Cheng, Nicolas Saunier, Lijun Sun (2022). **Laplacian convolutional representation for traffic time series imputation**. arXiv preprint arXiv: 2212.01529. [[Preprint](https://arxiv.org/abs/2212.01529)] [[Python code (univariate imputation)](https://github.com/xinychen/transdim/tree/master/univariate-models)] [[Python code (multivariate imputation)](https://github.com/xinychen/transdim/tree/master/multiviarate-models)]
+- Xinyu Chen, Zhanhong Cheng, HanQin Cai, Nicolas Saunier, Lijun Sun (2024). **Laplacian convolutional representation for traffic time series imputation**. IEEE Transactions on Knowledge and Data Engineering. Early access. [[Preprint](https://arxiv.org/abs/2212.01529)] [[Slides](https://xinychen.github.io/slides/LCR24.pdf)] [[Data & Python code](https://github.com/xinychen/LCR)]
 
 - Xinyu Chen, Lijun Sun (2022). **Bayesian temporal factorization for multidimensional time series prediction**. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44 (9): 4659-4673. [[Preprint](https://arxiv.org/abs/1910.06366v2)] [[DOI](https://doi.org/10.1109/TPAMI.2021.3066551)] [[Slides](https://doi.org/10.5281/zenodo.4693404)] [[Data & Python code](https://github.com/xinychen/transdim)]
 
