@@ -9,9 +9,15 @@ Awesome LaTeX drawing
 
 **awesome-latex-drawing** is a collection of **20+** academic drawing examples for using LaTeX, including Bayesian networks, function plotting, graphical models, tensor structure, and technical frameworks. [[**Blog post** on Medium](https://medium.com/p/e07916b2c860)]
 
+<br>
+
 ## Description
 
-LaTeX is a high-quality typesetting system, and it is available as a free software. In recent years, it is very popular for creating and drawing academic graphics via LaTeX. This is because that LaTeX is able to draw many complicated graphics containing special symbols and math equations. It is really good for using LaTeX to draw certain graphics in your research.This project introduces some graphics that created by using LaTeX. It would be easy to follow the examples with a popular online LaTeX system - Overleaf. If you are interested, welcome to use Overleaf and reproduce our examples. The Overleaf is available at [overleaf.com](https://www.overleaf.com/), please feel free to try it.
+LaTeX is a high-quality typesetting system available as free software, widely used in recent years for creating academic graphics. Its popularity stems from its ability to handle complex illustrations with special symbols and mathematical equations, making it ideal for drawing detailed graphics in research.
+
+This project introduces several graphics created using LaTeX, with examples that are easy to follow on Overleaf, a popular online LaTeX platform. If you're interested, feel free to explore and reproduce our examples on Overleaf at [overleaf.com](https://www.overleaf.com/).
+
+<br>
 
 ## Contents
 
@@ -738,7 +744,7 @@ Publications
  
  Most of these examples are from our papers:
  
-- Xinyu Chen, Zhanhong Cheng, HanQin Cai, Nicolas Saunier, Lijun Sun (2024). **Laplacian convolutional representation for traffic time series imputation**. IEEE Transactions on Knowledge and Data Engineering. Early access. [[Preprint](https://arxiv.org/abs/2212.01529)] [[Slides](https://xinychen.github.io/slides/LCR24.pdf)] [[Data & Python code](https://github.com/xinychen/LCR)]
+- Xinyu Chen, Zhanhong Cheng, HanQin Cai, Nicolas Saunier, Lijun Sun (2024). **Laplacian convolutional representation for traffic time series imputation**. IEEE Transactions on Knowledge and Data Engineering, 36 (11): 6490-6502. [[Preprint](https://arxiv.org/abs/2212.01529)] [[DOI](https://doi.org/10.1109/TKDE.2024.3419698)] [[Slides](https://xinychen.github.io/slides/LCR24.pdf)] [[Data & Python code](https://github.com/xinychen/LCR)]
 
 - Xinyu Chen, Lijun Sun (2022). **Bayesian temporal factorization for multidimensional time series prediction**. IEEE Transactions on Pattern Analysis and Machine Intelligence, 44 (9): 4659-4673. [[Preprint](https://arxiv.org/abs/1910.06366v2)] [[DOI](https://doi.org/10.1109/TPAMI.2021.3066551)] [[Slides](https://doi.org/10.5281/zenodo.4693404)] [[Data & Python code](https://github.com/xinychen/transdim)]
 
