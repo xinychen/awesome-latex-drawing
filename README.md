@@ -7,7 +7,7 @@ Awesome LaTeX drawing
 
 <h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://xinychen.github.io">https://xinychen.github.io</a></h6>
 
-**awesome-latex-drawing** is a collection of **20+** academic drawing examples for using LaTeX, including Bayesian networks, function plotting, graphical models, tensor structure, and technical frameworks. [[**Blog post** on Medium](https://medium.com/p/e07916b2c860)]
+**awesome-latex-drawing** is a collection of **30+** academic drawing examples for using LaTeX, including Bayesian networks, function plotting, graphical models, tensor structure, and technical frameworks. [[**Blog post** on Medium](https://medium.com/p/e07916b2c860)]
 
 <br>
 
@@ -61,20 +61,9 @@ This project introduces several graphics created using LaTeX, with examples that
 
 <br>
 
-Usage
---------------
-
-Open [**overleaf.com**](https://www.overleaf.com/) in your Chrome.
-
-> It is not necessary to open each file in this repository because you can just follow this readme document.
-
-<br>
-
 ## Gallery
 
 Looking for some good LaTeX drawing examples? Here are 30+ graphics for showing how to draw in LaTaX.
-
-<br>
 
 ### Bayesian Networks
 
