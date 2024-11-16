@@ -7,7 +7,7 @@ Awesome LaTeX drawing
 
 <h6 align="center">Made by Xinyu Chen • :globe_with_meridians: <a href="https://xinychen.github.io">https://xinychen.github.io</a></h6>
 
-**awesome-latex-drawing** is a collection of **30+** academic drawing examples for using LaTeX, including Bayesian networks, function plotting, graphical models, tensor structure, and technical frameworks. [[**Blog post** on Medium](https://medium.com/p/e07916b2c860)]
+**awesome-latex-drawing** is a collection of **30+** academic drawing examples for using LaTeX, including Bayesian networks, function plotting, graphical models, tensor structure, and technical frameworks.
 
 <br>
 
