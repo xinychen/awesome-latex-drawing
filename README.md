@@ -719,14 +719,6 @@ This example shows the imputation accuracy of some matrix and tensor models. To 
 
 <br>
 
-Related Projects
---------------
-
-- [tikz-bayesnet](https://github.com/jluttine/tikz-bayesnet)
-- [awesome-tikz](https://github.com/xiaohanyu/awesome-tikz)
-- [transdim](https://github.com/xinychen/transdim)
-
-<br>
 
 Publications
 --------------
