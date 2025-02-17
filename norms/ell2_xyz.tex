@@ -1,0 +1,45 @@
+\documentclass[border = 0.2cm, 12pt]{standalone}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{color}
+\usepackage{tikz, pgfplots, tikz-3dplot}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{shapes,snakes}
+\tikzset{>=latex}
+\usetikzlibrary{angles,quotes}
+\usepackage{tkz-euclide}
+
+\begin{document}
+
+\tdplotsetmaincoords{60}{120}
+\begin{tikzpicture}
+	[scale=3,tdplot_main_coords, axis/.style={->,black,line width=0.7}, vector/.style={-stealth,black,line width=1.2}, vector guide/.style={dashed,gray,thin}]
+
+	%standard tikz coordinate definition using x, y, z coords
+	\coordinate (O) at (0,0,0);
+	
+	%tikz-3dplot coordinate definition using r, theta, phi coords
+	\tdplotsetcoord{P}{.8}{55}{60}
+	
+	%draw axes
+	\draw[axis] (0,0,0) -- (1,0,0) node[anchor=north east]{$x$};
+	\draw[axis] (0,0,0) -- (0,1,0) node[anchor=north west]{$y$};
+	\draw[axis] (0,0,0) -- (0,0,1) node[anchor=south]{$z$};
+	
+	%draw a vector from O to P
+	\draw[vector] (O) -- (P);
+	
+	%draw guide lines to components
+	\draw[vector guide] (O) -- (Pxy);
+	\draw[vector guide] (Pxy) -- (P);
+	\draw[vector guide] (0,0,0.45) -- (P);
+	\draw[vector guide] (Pxy) -- (0.25,0,0);
+	\draw[vector guide] (Pxy) -- (0,0.5,0);
+
+\node[text width=3.5cm] at (0,0.95,0.55) {\footnotesize $\|\boldsymbol{x}\|_2=\sqrt{x_1^2+x_2^2+x_3^2}$};
+\node at (0.2,-0.1,0) {$x_1$};
+\node at (-0.1,0.5,0) {$x_2$};
+\node at (-0.05,-0.12,0.4) {$x_3$};
+
+\end{tikzpicture}
+
+\end{document}
