@@ -721,22 +721,62 @@ This example shows the imputation accuracy of some matrix and tensor models. To 
 
 ### Vector Norms in Machine Learning
 
-#### Vector Norms
+#### Manhattan Distance & L1 Norm
+
+##### [Example 28]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/manhattan_distance.tex"><img align="middle" src="norms/manhattan_distance.png" alt="drawing" width="350">
+</p>
+
+<br>
+
+#### L2 Norm
+
+##### [Example 29]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/ell2_xy.tex">
+<img align="middle" src="norms/ell2_xy.png" alt="drawing" width="220" hspace="20">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/ell2_xyz.tex">
+<img align="middle" src="norms/ell2_xyz.png" alt="drawing" width="350" hspace="20">
+</a>
+</p>
+
+<br>
 
 #### Unit Vectors
 
-##### [Example 28]
+##### [Example 30]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/ell1_norm.tex">
+<img align="middle" src="norms/ell1_norm.png" alt="drawing" width="250" hspace="20">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/ell2_norm.tex">
+<img align="middle" src="norms/ell2_norm.png" alt="drawing" width="250" hspace="20">
+</a>
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/ell_infty_norm.tex">
+<img align="middle" src="norms/ell_infty_norm.png" alt="drawing" width="250" hspace="20">
+</a>
+</p>
+
+<br>
+
+##### [Example 31]
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/unit_vector_black.tex">
 <img align="middle" src="norms/unit_vector_black.png" alt="drawing" width="300" hspace="20">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/unit_vector_white.tex">
-<img align="middle" src="norms/unite_vector_white.png" alt="drawing" width="300" hspace="20">
+<img align="middle" src="norms/unit_vector_white.png" alt="drawing" width="300" hspace="20">
 </a>
 </p>
 
-
+<br>
 
 
 Publications
