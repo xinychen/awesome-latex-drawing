@@ -719,6 +719,25 @@ This example shows the imputation accuracy of some matrix and tensor models. To 
 
 <br>
 
+### Vector Norms in Machine Learning
+
+#### Vector Norms
+
+#### Unit Vectors
+
+##### [Example 28]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/unit_vector_black.tex">
+<img align="middle" src="norms/unit_vector_black.png" alt="drawing" width="300" hspace="20">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/unit_vector_white.tex">
+<img align="middle" src="norms/unite_vector_white.png" alt="drawing" width="300" hspace="20">
+</a>
+</p>
+
+
+
 
 Publications
 --------------
