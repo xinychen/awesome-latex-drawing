@@ -752,14 +752,14 @@ This example shows the imputation accuracy of some matrix and tensor models. To 
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/ell1_norm.tex">
-<img align="middle" src="norms/ell1_norm.png" alt="drawing" width="250" hspace="20">
+<img align="middle" src="norms/ell1_norm.png" alt="drawing" width="220" hspace="20">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/ell2_norm.tex">
-<img align="middle" src="norms/ell2_norm.png" alt="drawing" width="250" hspace="20">
+<img align="middle" src="norms/ell2_norm.png" alt="drawing" width="220" hspace="20">
 </a>
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/norms/ell_infty_norm.tex">
-<img align="middle" src="norms/ell_infty_norm.png" alt="drawing" width="250" hspace="20">
+<img align="middle" src="norms/ell_infty_norm.png" alt="drawing" width="220" hspace="20">
 </a>
 </p>
 
