@@ -814,10 +814,10 @@ This example shows the imputation accuracy of some matrix and tensor models. To 
 
 <p align="center">
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/matrix/sparse_reg.tex">
-<img align="middle" src="matrix/sparse_reg.png" alt="drawing" width="330" hspace="20">
+<img align="middle" src="matrix/sparse_reg.png" alt="drawing" width="340" hspace="20">
 </a>
 <a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/matrix/sparse_reg_time_series.tex">
-<img align="middle" src="matrix/sparse_reg_time_series.png" alt="drawing" width="330" hspace="20">
+<img align="middle" src="matrix/sparse_reg_time_series.png" alt="drawing" width="340" hspace="20">
 </a>
 </p>
 
