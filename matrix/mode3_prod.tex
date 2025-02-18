@@ -1,0 +1,155 @@
+\documentclass[tikz,border=0.05cm]{standalone}
+\usepackage{tikz,tikz-3dplot}
+\usepackage{amsmath,amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{xcolor}
+
+\begin{document}
+\newcommand{\Depth}{2}
+\newcommand{\Height}{2}
+\newcommand{\Width}{2}
+\newcommand{\WidthL}{2}
+\newcommand{\xx}{1}
+\newcommand{\yy}{0.1}
+\newcommand{\zz}{1}
+\newcommand{\yyy}{1}
+\newcommand{\zzz}{0}
+
+\begin{tikzpicture}
+
+\newcommand{\tempy}{4.6}
+\newcommand{\temp}{0.5}
+
+\coordinate (O) at (0-\tempy,0-\temp+0.5,0);
+\coordinate (A) at (0-\tempy,\WidthL-\temp+0.5,0);
+\coordinate (B) at (0-\tempy,\WidthL-\temp+0.5,\Height);
+\coordinate (C) at (0-\tempy,0-\temp+0.5,\Height);
+\coordinate (D) at (\Depth-\tempy,0-\temp+0.5,0);
+\coordinate (E) at (\Depth-\tempy,\WidthL-\temp+0.5,0);
+\coordinate (F) at (\Depth-\tempy,\WidthL-\temp+0.5,\Height);
+\coordinate (G) at (\Depth-\tempy,0-\temp+0.5,\Height);
+\draw[gray,very thin,fill=green!5] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[gray,very thin,fill=green!5] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[gray,very thin,fill=green!5] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[fill=cyan!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[fill=cyan!10,opacity=0.8] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[fill=cyan!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+% \draw[white, very thick] (0-\tempy,0.5-\temp,2) -- (2-\tempy,0.5-\temp,2) -- (2-\tempy,0.5-\temp,0);
+% \draw[white, very thick] (0-\tempy,1-\temp,2) -- (2-\tempy,1-\temp,2) -- (2-\tempy,1-\temp,0);
+% \draw[white, very thick] (0-\tempy,1.5-\temp,2) -- (2-\tempy,1.5-\temp,2) -- (2-\tempy,1.5-\temp,0);
+% \draw[white, very thick] (0-\tempy,2-\temp,2) -- (2-\tempy,2-\temp,2) -- (2-\tempy,2-\temp,0);
+% \draw[white, very thick] (0-\tempy,2.5-\temp,2) -- (2-\tempy,2.5-\temp,2) -- (2-\tempy,2.5-\temp,0);
+
+% \draw[white, very thick] (0.5-\tempy,0-\temp,2) -- (0.5-\tempy,3-\temp,2) -- (0.5-\tempy,3-\temp,0);
+% \draw[white, very thick] (1-\tempy,0-\temp,2) -- (1-\tempy,3-\temp,2) -- (1-\tempy,3-\temp,0);
+% \draw[white, very thick] (1.5-\tempy,0-\temp,2) -- (1.5-\tempy,3-\temp,2) -- (1.5-\tempy,3-\temp,0);
+
+% \draw[white, very thick] (2-\tempy,0-\temp,1.5) -- (2-\tempy,3-\temp,1.5) -- (0-\tempy,3-\temp,1.5);
+% \draw[white, very thick] (2-\tempy,0-\temp,1) -- (2-\tempy,3-\temp,1) -- (0-\tempy,3-\temp,1);
+% \draw[white, very thick] (2-\tempy,0-\temp,0.5) -- (2-\tempy,3-\temp,0.5) -- (0-\tempy,3-\temp,0.5);
+
+\draw[cyan!60!black] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[cyan!60!black] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[cyan!60!black] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\node at (0.7-\tempy,3-\temp) {\color{black}$\boldsymbol{\mathcal{X}}\in\mathbb{R}^{n_1\times n_2\times m}$};
+\node at (0.7,3-\temp) {\color{black}$\boldsymbol{\mathcal{A}}\in\mathbb{R}^{n_1\times n_2\times n_3}$};
+\node at (5,3-\temp) {\color{black}$\boldsymbol{W}\in\mathbb{R}^{m\times n_3}$};
+
+\draw (0.2-\tempy,-1.2+0.5-\temp,0) node {{\color{black!80}$n_2$}};
+\draw (0.2-\tempy,-0.95+0.5-\temp,0) node[rotate = 0] {{\color{black!35}$\underbrace{\hspace{2cm}}$}};
+\draw (-0.6-\tempy,1-\temp+0.25+0.25,2) node[rotate = 90] {{\color{black!80}$n_1$}};
+\draw (-0.3-\tempy,1-\temp+0.25+0.25,2) node[rotate = 270] {{\color{black!35}$\underbrace{\hspace{2cm}}$}};
+\draw (2.5-\tempy,0-\temp+0.5,1.6) node[rotate = 45] {{\color{black!80}$m$}};
+\draw (2.2-\tempy,0-\temp+0.5,1.2) node[rotate = 45] {{\color{black!35}$\underbrace{\hspace{1.1cm}}$}};
+
+\newcommand{\posy}{0.9}
+
+\coordinate (O) at (0+\xx-\tempy,0+\yy+\posy,0+\zz);
+\coordinate (A) at (0+\xx-\tempy,0.25\Width+\yy+\posy,0+\zz);
+\coordinate (B) at (0+\xx-\tempy,0.25\Width+\yy+\posy,0.25\Height+\zz);
+\coordinate (C) at (0+\xx-\tempy,0+\yy+\posy,0.25\Height+\zz);
+\coordinate (D) at (0.25\Depth+\xx-\tempy,0+\yy+\posy,0+\zz);
+\coordinate (E) at (0.25\Depth+\xx-\tempy,0.25\Width+\yy+\posy,0+\zz);
+\coordinate (F) at (0.25\Depth+\xx-\tempy,0.25\Width+\yy+\posy,0.25\Height+\zz);
+\coordinate (G) at (0.25\Depth+\xx-\tempy,0+\yy+\posy,0.25\Height+\zz);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+\draw (1.7-\tempy,1,0.5) node [below] {{\color{black}$y_{{\color{red}i_1},{\color{cyan}i_2},{\color{orange}j}}$}};
+\draw [draw=red, ->, ultra thick] (0-\tempy,2,2) -- (0-\tempy,1.1,2);
+\draw (-0.15-\tempy,1.55,2) node {{\color{red}$i_1$}};
+\draw [draw=cyan, ->, ultra thick] (0-\tempy,1.1,2) -- (1-\tempy,1.1,2);
+\draw (0.5-\tempy,0.9,2) node {{\color{cyan}$i_2$}};
+\draw [draw=orange, ->, ultra thick] (1-\tempy,1.1,2) -- (1-\tempy,1.1,1);
+\draw (1.1-\tempy,0.9,1.5) node {{\color{orange}$j$}};
+
+\draw (-2+0.1,0.5) node[rotate = 0] {{\color{black!60}\Large{$=$}}};
+
+\coordinate (O) at (0,0,0);
+\coordinate (A) at (0,\Width,0);
+\coordinate (B) at (0,\Width,\Height);
+\coordinate (C) at (0,0,\Height);
+\coordinate (D) at (\Depth,0,0);
+\coordinate (E) at (\Depth,\Width,0);
+\coordinate (F) at (\Depth,\Width,\Height);
+\coordinate (G) at (\Depth,0,\Height);
+\draw[red!60!black,fill=red!5] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[red!60!black,fill=red!5] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[red!60!black,fill=red!5] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[red!60!black,fill=red!5,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[red!60!black,fill=red!5,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[red!60!black,fill=red!5,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+
+\coordinate (O) at (0+\xx,0+\yyy,0+\zzz);
+\coordinate (A) at (0+\xx,0.25\Width+\yyy,0+\zzz);
+\coordinate (B) at (0+\xx,0.25\Width+\yyy,\Height+\zzz);
+\coordinate (C) at (0+\xx,0+\yyy,\Height+\zzz);
+\coordinate (D) at (0.25\Depth+\xx,0+\yyy,0+\zzz);
+\coordinate (E) at (0.25\Depth+\xx,0.25\Width+\yyy,0+\zzz);
+\coordinate (F) at (0.25\Depth+\xx,0.25\Width+\yyy,\Height+\zzz);
+\coordinate (G) at (0.25\Depth+\xx,0+\yyy,\Height+\zzz);
+\draw[green!80!black,fill=green!10] (O) -- (C) -- (G) -- (D) -- cycle;% Bottom Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (E) -- (D) -- cycle;% Back Face
+\draw[green!80!black,fill=green!10] (O) -- (A) -- (B) -- (C) -- cycle;% Left Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (D) -- (E) -- (F) -- (G) -- cycle;% Right Face
+\draw[green!40!black,fill=green!10,opacity=0.6] (C) -- (B) -- (F) -- (G) -- cycle;% Front Face
+\draw[green!40!black,fill=green!10,opacity=0.8] (A) -- (B) -- (F) -- (E) -- cycle;% Top Face
+\draw (0.2,-1.2,0) node {{\color{black!80}$n_2$}};
+\draw (0.2,-0.95,0) node[rotate = 0] {{\color{black!35}$\underbrace{\hspace{2cm}}$}};
+\draw (-0.6,1,2) node[rotate = 90] {{\color{black!80}$n_1$}};
+\draw (-0.3,1,2) node[rotate = 270] {{\color{black!35}$\underbrace{\hspace{2cm}}$}};
+\draw (2.5,0,1.5) node[rotate = 45] {{\color{black!80}$n_3$}};
+\draw (2.2,0,1.2) node[rotate = 45] {{\color{black!35}$\underbrace{\hspace{1.1cm}}$}};
+\draw (1.5,0.8,0.5) node [below] {\large{$\boldsymbol{\mathcal{A}}_{{\color{red}i_1},{\color{cyan}i_2},{\color{green!60!black}:}}$}};
+\draw [draw=red!60!black, -] (0,2,2) -- (2,2,2);
+\draw [draw=red!60!black, -] (2,2,2) -- (2,0,2);
+\draw [draw=red, ->, ultra thick] (0,2,2) -- (0,1.1,2);
+\draw (-0.15,1.55,2) node {{\color{red}$i_1$}};
+\draw [draw=cyan, ->, ultra thick] (0,1.1,2) -- (1.1,1.1,2);
+\draw (0.5,0.9,2) node {{\color{cyan}$i_2$}};
+
+\draw (2.7,0.5) node[rotate = 0] {{\color{black!60}\Large{$\times_3$}}};
+
+\newcommand{\posa}{3.8}
+\newcommand{\downa}{0.5}
+
+\filldraw [fill=orange!15, draw=orange!60!black] (0+\posa, 0.5-\downa) rectangle (2+\posa, 2.5-\downa);
+\filldraw [fill=green!15, draw=green!40!black] (0+\posa, 1.4-\downa) rectangle (2+\posa, 1.7-\downa);
+\draw [red!60!black] (0+\posa, 0.5-\downa) rectangle (2+\posa, 2.5-\downa);
+
+\draw (1+\posa, -0.5+0.5-\downa) node {{\color{black!80}$n_3$}};
+\draw (1+\posa, -0.2+0.5-\downa) node[rotate = 0] {{\color{black!35}$\underbrace{\hspace{2cm}}$}};
+\draw (-0.5+\posa, 1+0.5-\downa) node[rotate = 90] {{\color{black!80}$m$}};
+\draw (-0.2+\posa, 1+0.5-\downa) node[rotate = 270] {{\color{black!35}$\underbrace{\hspace{2cm}}$}};
+\draw (1+\posa, 1.8-\downa) node [below] {{\color{black}$\boldsymbol{w}_{{\color{red}j}}$}};
+\draw [draw=red, ->, ultra thick] (0+\posa, 2+0.5-\downa) -- (0+\posa, 1+0.5-\downa);
+\draw (-0.1+\posa, 1.5+0.5-\downa) node {{\color{red}$j$}};
+
+\end{tikzpicture}
+\end{document}
