@@ -778,6 +778,50 @@ This example shows the imputation accuracy of some matrix and tensor models. To 
 
 <br>
 
+### Sparse Linear Regression
+
+#### Circular Convolution, Convolution Matrix, and Circulant Matrix
+
+##### [Example 32]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/matrix/linear_conv_mat.tex">
+<img align="middle" src="matrix/linear_conv_mat.png" alt="drawing" width="300" hspace="20">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/matrix/linear_circ_mat.tex">
+<img align="middle" src="matrix/linear_circ_mat.png" alt="drawing" width="300" hspace="20">
+</a>
+</p>
+
+<br>
+
+##### [Example 33]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/matrix/linear_regression_circ.tex">
+<img align="middle" src="matrix/linear_regression_circ.png" alt="drawing" width="320" hspace="20">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/matrix/linear_regression_w_conv.tex">
+<img align="middle" src="matrix/linear_regression_w_conv.png" alt="drawing" width="320" hspace="20">
+</a>
+</p>
+
+<br>
+
+#### Sparse Linear Regression on Time Series
+
+##### [Example 34]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/matrix/sparse_reg.tex">
+<img align="middle" src="matrix/sparse_reg.png" alt="drawing" width="330" hspace="20">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/matrix/sparse_reg_time_series.tex">
+<img align="middle" src="matrix/sparse_reg_time_series.png" alt="drawing" width="330" hspace="20">
+</a>
+</p>
+
+<br>
 
 Publications
 --------------
