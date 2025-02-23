@@ -823,7 +823,7 @@ This example shows the imputation accuracy of some matrix and tensor models. To 
 
 <br>
 
-### t-Statistics
+### Hypothesis Test
 
 #### Normal Distribution & Hypothesis Test
 
