@@ -823,6 +823,38 @@ This example shows the imputation accuracy of some matrix and tensor models. To 
 
 <br>
 
+### t-Statistics
+
+#### Normal Distribution & Hypothesis Test
+
+##### [Example 35]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/normal_pdf_2.tex">
+<img align="middle" src="pgfplots-function/normal_pdf_2.png" alt="drawing" width="350" hspace="20">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/normal_pdf_3.tex">
+<img align="middle" src="pgfplots-function/normal_pdf_3.png" alt="drawing" width="350" hspace="20">
+</a>
+</p>
+
+<br>
+
+#### Student t-Distribution & Hypothesis Test
+
+##### [Example 36]
+
+<p align="center">
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/student_pdf_1.tex">
+<img align="middle" src="pgfplots-function/student_pdf_1.png" alt="drawing" width="350" hspace="20">
+</a>
+<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/pgfplots-function/student_pdf_1.tex">
+<img align="middle" src="pgfplots-function/student_pdf_2.png" alt="drawing" width="350" hspace="20">
+</a>
+</p>
+
+<br>
+
 Publications
 --------------
  
