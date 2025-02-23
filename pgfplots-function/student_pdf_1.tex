@@ -1,0 +1,66 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{pgfplots}
+\usepackage{amsmath}
+\usepackage[scaled]{helvet}
+\usepackage[T1]{fontenc}
+\renewcommand\familydefault{\sfdefault}
+\usepackage[eulergreek]{sansmath}
+\pgfplotsset{
+tick label style = {font=\sansmath\sffamily}}
+
+\pgfkeys{/pgf/number format/fixed, /pgf/number format/precision=5, /pgf/number format/.cd, 1000 sep = {}}
+\pgfplotsset{compat=newest}
+
+\begin{document}
+
+\pgfmathdeclarefunction{gauss}{2}{\pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
+}
+
+\begin{tikzpicture}[
+    declare function={gamma(\z)=
+    2.506628274631*sqrt(1/\z)+ 0.20888568*(1/\z)^(1.5)+ 0.00870357*(1/\z)^(2.5)- (174.2106599*(1/\z)^(3.5))/25920- (715.6423511*(1/\z)^(4.5))/1244160)*exp((-ln(1/\z)-1)*\z;},
+    declare function={student(\x,\n)= gamma((\n+1)/2.)/(sqrt(\n*pi) *gamma(\n/2.)) *((1+(\x*\x)/\n)^(-(\n+1)/2.));}
+]
+\begin{axis}[
+    width=10cm, % Set the width of the axis
+    height=6cm, % Set the height of the axis
+    scaled ticks=false,
+    axis lines=center,
+    enlargelimits=upper,
+    line width=0.8,
+    xlabel = {$x$},
+    ylabel = {$f(x)$}, 
+    yticklabel = \empty,
+    xmin = -5, xmax = 4.5,
+    ymin = -0.05, ymax = 0.45,
+    every axis x label/.style={at={(ticklabel* cs:1.02)}, anchor=west,}, every axis y label/.style={at={(ticklabel* cs:1.02)}, anchor=south}
+]
+\addplot + [smooth, mark=none, domain=-4:4, samples=100, color=red, line width=1.5] {gauss(0,1)};
+
+\pgfplotsinvokeforeach{1}{
+    \addplot [thick, smooth, domain=-5:5, samples=100, color=blue, line width=1.2] {student(x,#1)};
+}
+\node at (2.5,0.2) {\color{blue}$\nu=1$};
+\pgfplotsinvokeforeach{5}{
+    \addplot [thick, smooth, domain=-5:5, samples=100, color=cyan, line width=1.2] {student(x,#1)};
+}
+\node at (2.5,0.25) {\color{cyan}$\nu=5$};
+\pgfplotsinvokeforeach{10}{
+    \addplot [thick, smooth, domain=-5:5, samples=100, color=orange, line width=1.2] {student(x,#1)};
+}
+\node at (2.5,0.3) {\color{orange}$\nu=10$};
+\node at (2.5,0.35) {\color{red}$\nu\to+\infty$};
+\node at (2.5,0.4) {\footnotesize\color{gray}Normal distribution};
+
+\draw[arrows=->, thick, color=blue!20] (-1,0.41)--(-0.1,0.32);
+\node at (-1.5,0.44) {\footnotesize\color{blue!70!black}Lower peaks};
+
+\draw[arrows=<-, thick, color=blue!20] (3,0.04)--(3.65,0.10);
+\node at (3.9,0.13) {\footnotesize\color{blue!70!black}More areas in tails};
+
+\node at (-0.5,0.4) {0.4};
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
