@@ -19,7 +19,7 @@ This project provides several LaTeX graphics, with examples that are easy to fol
 
 <br>
 
-## Contents
+<!-- ## Contents
 
 ### Table of Examples
 
@@ -59,7 +59,7 @@ This project provides several LaTeX graphics, with examples that are easy to fol
   - [x] [Graphical illustration of low-rank tensor completion model](https://github.com/xinychen/awesome-latex-drawing#example-25)
   - [x] [Graphical illustration of low-rank tensor regression model](https://github.com/xinychen/awesome-latex-drawing#example-26)
 
-<br>
+<br> -->
 
 ## Gallery
 
