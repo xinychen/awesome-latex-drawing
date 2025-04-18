@@ -15,7 +15,7 @@ Awesome LaTeX drawing
 
 LaTeX is a high-quality typesetting system for creating academic graphics. Its popularity stems from its ability to handle complex illustrations with special symbols and mathematical equations, making it ideal for drawing detailed graphics in several scientific areas such as mathematics, physics, and computer science.
 
-This project provides several LaTeX graphics, with examples that are easy to follow on Overleaf. If you're interested, feel free to explore and reproduce our examples on Overleaf at [overleaf.com](https://www.overleaf.com/).
+This project provides several LaTeX graphics, with examples that are easy to follow on Overleaf. If you are interested, feel free to explore and reproduce our examples on Overleaf at [overleaf.com](https://www.overleaf.com/).
 
 <br>
 
