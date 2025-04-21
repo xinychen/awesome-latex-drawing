@@ -1,62 +1,64 @@
-\documentclass[border = 0.2cm, 12pt]{standalone}
-\usepackage{amsmath, amssymb, amsfonts}
-\usepackage{color}
+\documentclass[border=0.2cm, 10pt]{standalone}
+\usepackage{amsmath, amssymb}
 \usepackage{tikz, pgfplots}
 \pgfplotsset{compat=newest}
-\usetikzlibrary{shapes,snakes}
-\tikzset{>=latex}
-\usetikzlibrary{angles,quotes}
-\usepackage{tkz-euclide}
+\usetikzlibrary{shapes, snakes, angles, quotes, arrows.meta}
 
 \begin{document}
 
-\begin{tikzpicture}[scale=1]
+\begin{tikzpicture}[
+    scale=1,
+    line/.style={draw=gray!30, fill=gray!30},
+    point/.style={fill=black, circle, inner sep=1.5pt},
+    arrow/.style={-{Latex[length=3mm]}, line width=1.2pt, black},
+    bluearrow/.style={-{Latex[length=3mm]}, line width=1.4pt, blue!50},
+    endpoint/.style={fill=gray, circle, inner sep=2.5pt}
+]
 
-\draw[draw=gray!30, fill=gray!30] (0,0) rectangle ++ (8,0.2);
+% Draw horizontal lines using a loop
+\foreach \y in {0,0.6,1.2,1.8,2.4} {
+    \draw[line] (0,\y) rectangle ++(8,0.2);
+}
 
-\draw[draw=gray!30, fill=gray!30] (0,0.6) rectangle ++ (8,0.2);
+% Draw vertical lines using a loop
+\foreach \x in {0.2,1.4,2.6,3.8,5,6.2,7.4} {
+    \draw[line] (\x,-0.2) rectangle ++(0.2,3);
+}
 
-\draw[draw=gray!30, fill=gray!30] (0,1.2) rectangle ++ (8,0.2);
+% Define coordinates for the path points
+\coordinate (A) at (1.5,0.1);
+\coordinate (B) at (2.7,0.1);
+\coordinate (C) at (2.7,0.7);
+\coordinate (D) at (3.9,0.7);
+\coordinate (E) at (3.9,1.3);
+\coordinate (F) at (3.9,1.9);
+\coordinate (G) at (5.1,1.9);
+\coordinate (H) at (5.1,2.5);
 
-\draw[draw=gray!30, fill=gray!30] (0,1.8) rectangle ++ (8,0.2);
+% Draw the black path with arrows
+\draw[arrow] (A) -- node[below, sloped] {$x_1$} (B);
+\draw[arrow] (B) -- node[left] {$x_2$} (C);
+\draw[arrow] (C) -- node[below, sloped] {$x_3$} (D);
+\draw[arrow] (D) -- node[left] {$x_4$} (E);
+\draw[arrow] (E) -- node[left] {$x_5$} (F);
+\draw[arrow] (F) -- node[below, sloped] {$x_6$} (G);
+\draw[arrow] (G) -- node[left] {$x_7$} (H);
 
-\draw[draw=gray!30, fill=gray!30] (0,2.4) rectangle ++ (8,0.2);
+% Draw the blue path
+\draw[bluearrow] (A) -- node[below, sloped, blue] {$x_1+x_3+x_6$} (5.1,0.06);
+\draw[bluearrow] (5.1,0.06) -- node[right, pos=0.5, blue] {$x_2+x_4+x_5+x_7$} (H);
 
-\draw[draw=gray!30, fill=gray!30] (0.2,-0.2) rectangle ++ (0.2,3);
+% Add points at each turn
+\foreach \p in {B,C,D,E,F,G} {
+    \node[point] at (\p) {};
+}
 
-\draw[draw=gray!30, fill=gray!30] (1.4,-0.2) rectangle ++ (0.2,3);
+% Add endpoints
+\node[endpoint, label=below:{$A$}] at (A) {};
+\node[endpoint, label=above:{$B$}] at (H) {};
 
-\draw[draw=gray!30, fill=gray!30] (2.6,-0.2) rectangle ++ (0.2,3);
-
-\draw[draw=gray!30, fill=gray!30] (3.8,-0.2) rectangle ++ (0.2,3);
-
-\draw[draw=gray!30, fill=gray!30] (5,-0.2) rectangle ++ (0.2,3);
-
-\draw[draw=gray!30, fill=gray!30] (6.2,-0.2) rectangle ++ (0.2,3);
-
-\draw[draw=gray!30, fill=gray!30] (7.4,-0.2) rectangle ++ (0.2,3);
-
-\draw[arrows=-, line width=1.2, color=black] (1.5,0.1)--(2.7,0.1) node [midway, below, sloped] (TextNode) {$x_1$};
-\fill[black] (2.7,0.1) circle[radius=0.05cm];
-\draw[arrows=-, line width=1.2, color=black] (2.7,0.1)--(2.7,0.7) node [midway, left] (TextNode) {$x_2$};
-\fill[black] (2.7,0.7) circle[radius=0.05cm];
-\draw[arrows=-, line width=1.2, color=black] (2.7,0.7)--(3.9,0.7) node [midway, below, sloped] (TextNode) {$x_3$};
-\fill[black] (3.9,0.7) circle[radius=0.05cm];
-\draw[arrows=-, line width=1.2, color=black] (3.9,0.7)--(3.9,1.3) node [midway, left] (TextNode) {$x_4$};
-\fill[black] (3.9,1.3) circle[radius=0.05cm];
-\draw[arrows=-, line width=1.2, color=black] (3.9,1.3)--(3.9,1.9) node [midway, left] (TextNode) {$x_5$};
-\fill[black] (3.9,1.9) circle[radius=0.05cm];
-\draw[arrows=-, line width=1.2, color=black] (3.9,1.9)--(5.1,1.9) node [midway, below, sloped] (TextNode) {$x_6$};
-\fill[black] (5.1,1.9) circle[radius=0.05cm];
-\draw[arrows=-, line width=1.2, color=black] (5.1,1.9)--(5.1,2.5) node [midway, left] (TextNode) {$x_7$};
-
-\draw[arrows=-, line width=1.4, color=blue!50] (1.5,0.06)--(5.1,0.06) node [midway, below, sloped] (TextNode) {\color{blue}$\quad x_1+x_3+x_6$};
-\fill[blue!50] (5.13,0.06) circle[radius=0.06cm];
-\draw[arrows=-, line width=1.4, color=blue!50] (5.14,0.06)--(5.14,2.5) node [midway, below, sloped] (TextNode) {\color{blue}$x_2+x_4+x_5+x_7$};
-
-\fill[gray] (1.5,0.1) circle[radius=0.1cm] node [below] {\color{black}$A$};
-
-\fill[gray] (5.1,2.5) circle[radius=0.1cm] node [above] {\color{black}$B$};
+% Add blue endpoint
+\node[blue!50, circle, fill, inner sep=2pt] at (5.1,0.06) {};
 
 \end{tikzpicture}
 
