@@ -860,7 +860,7 @@ Publications
  
  Most of these examples are from our papers:
  
-- Xinyu Chen, HanQin Cai, Fuqiang Liu, Jinhua Zhao (2025). **Correlating time series with interpretable convolutional kernels**. IEEE Transactions on Knowledge and Data Engineering. Early access. [[PDF](https://xinychen.github.io/papers/conv_kernel.pdf)] [[DOI](https://doi.org/10.1109/TKDE.2025.3550877)] [[Blog post](https://spatiotemporal-data.github.io/posts/ts_conv)] [[Data & Python code](https://github.com/xinychen/ts-conv)]
+- Xinyu Chen, HanQin Cai, Fuqiang Liu, Jinhua Zhao (2025). **Correlating time series with interpretable convolutional kernels**. IEEE Transactions on Knowledge and Data Engineering. 37 (6): 3272-3283. [[PDF](https://xinychen.github.io/papers/conv_kernel.pdf)] [[DOI](https://doi.org/10.1109/TKDE.2025.3550877)] [[Blog post](https://spatiotemporal-data.github.io/posts/ts_conv)] [[Data & Python code](https://github.com/xinychen/ts-conv)]
 
 - Xinyu Chen, Zhanhong Cheng, HanQin Cai, Nicolas Saunier, Lijun Sun (2024). **Laplacian convolutional representation for traffic time series imputation**. IEEE Transactions on Knowledge and Data Engineering. 36 (11): 6490-6502. [[PDF](https://xinychen.github.io/papers/Laplacian_convolution.pdf)] [[DOI](https://doi.org/10.1109/TKDE.2024.3419698)] [[Slides](https://xinychen.github.io/slides/LCR24.pdf)] [[Blog post](https://spatiotemporal-data.github.io/posts/ts_conv/)] [[Data & Python code](https://github.com/xinychen/LCR)]
 
